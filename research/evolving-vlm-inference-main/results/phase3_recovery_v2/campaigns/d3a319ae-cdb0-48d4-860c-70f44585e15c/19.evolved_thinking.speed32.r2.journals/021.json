@@ -1,0 +1,55 @@
+{
+  "attempt_id": "bb772e27-90b6-436f-a482-9e1b408ed451",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "correct": true,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 7.459338312968612,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 76,
+    "generation_seconds": 7.442833464592695,
+    "input_token_count": 385,
+    "peak_memory_bytes": 4366098432,
+    "preprocessing_seconds": 0.014810408465564251,
+    "termination_reason": "stop_text",
+    "total_seconds": 7.458020327612758
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "2",
+  "prediction_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+  "program": "evolved_thinking",
+  "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "198",
+    "image_sha256": "e50df40c75ab6b9dc368f06698ebb0c11669356393bae7a98c1cb20ecc701959",
+    "index": 21,
+    "qid": "10",
+    "query_key": "198_2",
+    "question": "For the subplot at row 1 and column 1, how many lines are there?\n    * Your final answer should be the number of lines in the plot. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines.\n    * If the plot does not contain any lines or is not considered a line plot, answer \"Not Applicable\".",
+    "subq_idx": 2
+  },
+  "run_id": "715ba3c1-4a39-416a-bc9d-1118a7547067",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  }
+}

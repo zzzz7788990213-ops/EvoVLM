@@ -1,0 +1,55 @@
+{
+  "attempt_id": "a3449400-e01c-43d2-9790-c441e86f27e7",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 7.743043093942106,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 10,
+    "generation_seconds": 7.723608998581767,
+    "input_token_count": 500,
+    "peak_memory_bytes": 4390864384,
+    "preprocessing_seconds": 0.018381576985120773,
+    "termination_reason": "stop_text",
+    "total_seconds": 7.742188218981028
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "1000",
+  "prediction_sha256": "40510175845988f13f6162ed8526f0b09f73384467fa855e1e79b44a56562a58",
+  "program": "manual_instruct",
+  "program_source_sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1590",
+    "image_sha256": "c7ccdd3d33fbc1c71ded29fcf6e805cd5bab21afad759a4f317666bff6e34c3f",
+    "index": 27,
+    "qid": "7",
+    "query_key": "1590_0",
+    "question": "For the subplot at row 1 and column 2, what is the spatially highest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+    "subq_idx": 0
+  },
+  "run_id": "84ee09a0-9b70-41e5-87e6-a6e9957d1585",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  }
+}

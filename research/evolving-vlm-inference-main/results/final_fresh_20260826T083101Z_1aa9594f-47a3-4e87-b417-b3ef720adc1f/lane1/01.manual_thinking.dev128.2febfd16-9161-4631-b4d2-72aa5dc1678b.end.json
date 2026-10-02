@@ -1,0 +1,22 @@
+{
+  "attempt_id": "2febfd16-9161-4631-b4d2-72aa5dc1678b",
+  "completed_at_utc": "2026-08-26T09:20:47.107160Z",
+  "console": {
+    "path": "lane1/01.manual_thinking.dev128.2febfd16-9161-4631-b4d2-72aa5dc1678b.console.log",
+    "sha256": "1471c017d5de0df59a20dec188756ecf8d4621060b470d1cb658a27becbad420",
+    "size_bytes": 1370
+  },
+  "elapsed_seconds": 2957.316426515579,
+  "event": "attempt_ended",
+  "outcome": "COMPLETED",
+  "physical_gpu_index": 1,
+  "program": "manual_thinking",
+  "result": {
+    "path": "lane1/01.manual_thinking.dev128.2febfd16-9161-4631-b4d2-72aa5dc1678b.result.json",
+    "sha256": "d3201d62a5f5218ec0ef0fc3453f78d654976ecaaa51aad27b2eb0d247b4c769",
+    "size_bytes": 244340
+  },
+  "returncode": 0,
+  "role": "dev128",
+  "run_id": "1aa9594f-47a3-4e87-b417-b3ef720adc1f"
+}

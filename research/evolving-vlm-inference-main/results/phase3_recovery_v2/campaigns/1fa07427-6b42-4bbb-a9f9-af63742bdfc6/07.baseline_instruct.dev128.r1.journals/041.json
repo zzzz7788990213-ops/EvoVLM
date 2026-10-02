@@ -1,0 +1,55 @@
+{
+  "attempt_id": "00d288b2-8435-41ea-83f2-4cce57724709",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 15.851840918883681,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 128,
+    "generation_seconds": 15.830078768078238,
+    "input_token_count": 731,
+    "peak_memory_bytes": 4454374912,
+    "preprocessing_seconds": 0.02126625692471862,
+    "termination_reason": "length",
+    "total_seconds": 15.851618931163102
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "To determine the total number of explicitly labeled ticks across all axes in the given plot, we need to examine each axis and count the number of labels.\n\nThe plot has two axes:\n- The **x-axis** (horizontal axis): \"Degree\"\n- The **y-axis** (vertical axis): \"Proportion of papers\"\n\nWe will count the number of explicitly labeled ticks on each axis.\n\n---\n\n### 1. X-axis (Degree)\nThe x-axis is labeled \"Degree\" and has the following explicitly labeled ticks:\n- 0\n- 50\n- 100\n- 150\n- 2",
+  "prediction_sha256": "3e0b5cc7861e108a6187257845e3f34dacc179785efb214b6765042d91b938fb",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "20",
+    "image_sha256": "76fb16284c1bb2e211e9a6c3050e2758da29ff858dcb8e90400cfec284be7052",
+    "index": 41,
+    "qid": "17",
+    "query_key": "20_1",
+    "question": "For the current plot, What is the total number of explicitly labeled ticks across all axes?\n    * Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots.",
+    "subq_idx": 1
+  },
+  "run_id": "266ce156-3b66-4c6c-96c8-93968a883c01",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

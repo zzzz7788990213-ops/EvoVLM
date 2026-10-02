@@ -1,0 +1,23 @@
+{
+  "campaign_id": "campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860",
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase2-generation2-journal-v1",
+  "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+  "parent_ids": [
+    "7469c0da5f67ab48936488c8",
+    "d5ad5f210c4143cda0bf7d4e"
+  ],
+  "request_ids": [
+    "g2_child0",
+    "g2_child1",
+    "g2_child2",
+    "g2_child3"
+  ],
+  "run_manifest_sha256": "32323fa96dfbf50a6370fd870a78c4a677231f104ad0ee45d37a9e8497247aa3",
+  "state": "planned_before_gpu"
+}

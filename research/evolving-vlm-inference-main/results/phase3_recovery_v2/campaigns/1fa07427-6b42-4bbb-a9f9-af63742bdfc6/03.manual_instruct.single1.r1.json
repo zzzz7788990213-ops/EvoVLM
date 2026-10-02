@@ -1,0 +1,137 @@
+{
+  "attempt_id": "3b1c569f-ce47-411c-b917-e5afd5948f95",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "evaluation": {
+    "accuracy": 1.0,
+    "correct_count": 1,
+    "error_count": 0,
+    "generated_token_total": 3,
+    "journal_commit_outside_latency": true,
+    "latency": {
+      "max_seconds": 10.998504742980003,
+      "mean_seconds": 10.998504742980003,
+      "measured_seconds": 10.998504742980003,
+      "median_seconds": 10.998504742980003,
+      "min_seconds": 10.998504742980003,
+      "throughput_qps": 0.09092145008513709,
+      "type7_p95_seconds": 10.998504742980003
+    },
+    "load_and_warmup_excluded": true,
+    "manifest": "single1",
+    "peak_memory_bytes": 4426174464,
+    "program": "manual_instruct",
+    "records": [
+      {
+        "correct": true,
+        "error_message": null,
+        "error_type": null,
+        "figure_id": "0",
+        "image_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/workspace/evolving-vlm-inference-main/charxiv/images/0.jpg",
+        "image_sha256": "d597cdcfdf350fbaebcabcff19099ed7a56b5a400ccb0292ae5cee630dbf5db6",
+        "latency_seconds": 10.998504742980003,
+        "measurement": {
+          "generated_token_count": 3,
+          "generation_seconds": 10.967951657716185,
+          "input_token_count": 660,
+          "peak_memory_bytes": 4426174464,
+          "preprocessing_seconds": 0.027243775315582752,
+          "termination_reason": "eos",
+          "total_seconds": 10.995342845097184
+        },
+        "prediction": "60",
+        "prediction_sha256": "39fa9ec190eee7b6f4dff1100d6343e10918d044c75eac8f9e9a2596173f80c9",
+        "qid": "7",
+        "query_key": "0_0",
+        "question": "For the subplot at row 1 and column 2, what is the spatially highest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+        "subq_idx": 0
+      }
+    ],
+    "sample_count": 1,
+    "termination_counts": {
+      "eos": 1,
+      "length": 0,
+      "other": 0,
+      "stop_text": 0
+    },
+    "warmup_metadata": {
+      "generated_token_count": 5,
+      "generation_seconds": 22.566874559037387,
+      "input_token_count": 1148,
+      "peak_memory_bytes": 4527081984,
+      "preprocessing_seconds": 0.06750809494405985,
+      "termination_reason": "eos",
+      "total_seconds": 22.634699853137136
+    },
+    "warmup_seconds": 29.854722263291478
+  },
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "greedy": {
+    "do_sample": false,
+    "max_new_tokens": 48,
+    "num_beams": 1
+  },
+  "journal_directory": "results/phase3_recovery_v2/campaigns/1fa07427-6b42-4bbb-a9f9-af63742bdfc6/03.manual_instruct.single1.r1.journals",
+  "journal_sha256": {
+    "000.json": "0363d45b4b788562f0d6d4345e7b5664ca79be953a7ecacef92218708cfb61da"
+  },
+  "manifest_sha256": "87c2a5d1c6e96888deb99e4c35b78cdaf56ec46054eeb00c3ec1959492812da3",
+  "preregistration": {
+    "protocol_id": "phase3-recovery-v2",
+    "sha256": {
+      "candidate_manifest.json": "7e1f0416cc327d6257e1d235a31f7b48e384b44a8e28eed9a75245d1bbe238f9",
+      "data_manifest.json": "d9beee3fa956313c9c7d0691c03fdadeba031937b1fc8b25eaf5a29b4bb03cbd",
+      "protocol.json": "a251e703c94167df9ff19dd4ff21f9c66297e1caa80d1519a0e0721e711b79dd",
+      "recovery_authorization.json": "c787e2077f54b421e65211871c54e9bdd2d2bc724451b4566f4465731281871c",
+      "selection_rules.json": "fb3a634fa042f3e473053cfa03463b045aaec8a96989627ffebf9d9b55bc52d7"
+    }
+  },
+  "program_record": {
+    "attention": "sdpa",
+    "batch_size": 1,
+    "dependencies": [
+      {
+        "path": "manual_common.py",
+        "sha256": "c2690d470b5cc04583f0995cc72630540d485541d3fff5571e0ad99a1eb597b6",
+        "size_bytes": 11608
+      }
+    ],
+    "dtype": "bfloat16",
+    "effective_generation": {
+      "do_sample": false,
+      "max_new_tokens": 48,
+      "num_beams": 1,
+      "num_return_sequences": 1
+    },
+    "family": "instruct",
+    "kind": "manual",
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "optimized": true,
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "program": "manual_instruct",
+    "quantization": "none",
+    "source": {
+      "path": "manual_instruct.py",
+      "sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+      "size_bytes": 487
+    },
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "protocol_id": "phase3-recovery-v2",
+  "repeat": 1,
+  "result_version": "phase3-recovery-program-result-v2",
+  "run_id": "af54cd53-0078-4b1b-9229-86f0aeedab84",
+  "runtime_event_id": "aae85db6-ba3a-4710-863f-1393318f0508",
+  "runtime_event_path": "results/phase3/runtime_events/af54cd53-0078-4b1b-9229-86f0aeedab84/runtime_event.aae85db6-ba3a-4710-863f-1393318f0508.json",
+  "runtime_event_sha256": "c499fade6cefb0970d3e4326a5e76d6645cc2116de9e9da5eeaa495dc2020b39",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

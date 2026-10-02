@@ -1,0 +1,55 @@
+{
+  "attempt_id": "0ce683d1-43aa-45c9-bf9f-3fae2753c8b7",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 19.275955940131098,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 19.248281674925238,
+    "input_token_count": 765,
+    "peak_memory_bytes": 4462071296,
+    "preprocessing_seconds": 0.026412212755531073,
+    "termination_reason": "length",
+    "total_seconds": 19.27498928271234
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "Got it, let's try to figure out this problem. First, the question is about the subplot at row 1 and column 2. Wait, the chart has two subplots: one labeled \"bn\" (which is probably Bengali, since \"bn\" is a common abbreviation for Bengali) and \"en-de\" (English-Deutsch, maybe? Wait, no, \"en-de\" might be English-Deutsch, but the question says \"row 1 and column 2\". Wait, the chart is split into two main parts: left is \"bn\" and right is \"en-de\". So the subplot at row 1 and column 2 would be the \"en-de\" subplot. Wait, the problem says \"subplot at row 1 and column 2\"—but in the chart, the two subplots are side by side. Let's check the labels: the left one is \"bn\" (which is the first subplot), the right one is \"en-de\" (second subplot). So row 1 and column 2 would be the \"en-de\" subplot.\n\nNow, the question is about the continuous legend (colorbar) for the \"en-de\" subplot. The \"en-de\" subplot has a legend with the following: the first part is \"Overall Accuracy\" with three lines: Proposed Model (multilingual), Joint LXMERT (multilingual), LXMERT (monolingual). Then the second part is \"% of questions for which responses remain same when evaluated on\" with three lines: Proposed Model, Joint LXMERT, LXMERT. Wait, no, the legend for the \"en-de\" subplot is the right side. Let's look at the right subplot (en-de) which has a colorbar on the right. The colorbar for the \"en-de\" subplot is labeled \"% of questions for which responses remain same",
+  "prediction_sha256": "0d32e1bb9cfe9ed373d64ea345718fc43b6f01e61df9619f0dc17eef0524dd5a",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "87",
+    "image_sha256": "f122a441c87e5be5d5d593484816502fe1301ceaf91f8911169b720845edc9b0",
+    "index": 28,
+    "qid": "14",
+    "query_key": "87_3",
+    "question": "For the subplot at row 1 and column 2, what is the difference between the maximum and minimum values of the tick labels on the continuous legend (i.e., colorbar)?\n    * You should remove the percentage sign (if any) in your answer.\n    * If the plot does not have an explicit colorbar-based continuous legend or the legend is not considered relevant to this subplot, answer \"Not Applicable\".",
+    "subq_idx": 3
+  },
+  "run_id": "1fe684d1-0771-4746-8075-2fbf6c69b39c",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

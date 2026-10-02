@@ -1,0 +1,21 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "completed_unix": 1787635308.3954523,
+  "cuda_visible_devices": "0",
+  "event_version": "phase3-recovery-runtime-event-v2",
+  "logical_device": "cuda:0",
+  "manifest": "dev128",
+  "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+  "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+  "model_weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+  "physical_gpu_index": 0,
+  "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+  "program": "manual_thinking",
+  "protocol_id": "phase3-recovery-v2",
+  "repeat": 1,
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "runtime_event_id": "20d37fba-bfc6-40bb-ad13-8f0d99ac3bf8",
+  "started_unix": 1787632879.4668694,
+  "torch_cuda_device_count": 1
+}

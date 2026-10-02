@@ -1,0 +1,55 @@
+{
+  "accuracy": 1.0,
+  "avg_time_per_query": 27.758427063934505,
+  "correct": 1,
+  "exact_match": "prediction.strip().casefold() == expected.strip().casefold()",
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "cuda_visible_devices_original": "0",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "selection_mode": "explicit_single",
+    "visible_device_count": 1
+  },
+  "greedy_decoding": {
+    "do_sample": false,
+    "max_new_tokens": 64,
+    "num_beams": 1
+  },
+  "num_errors": 0,
+  "num_evaluated": 1,
+  "program": "best_accuracy",
+  "program_identity": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd"
+  },
+  "records": [
+    {
+      "correct": true,
+      "error": null,
+      "expected_answer": "60",
+      "figure_id": 0,
+      "generation_metadata": {
+        "generated_token_count": 3,
+        "generation_seconds": 11.622823359444737,
+        "input_token_count": 660,
+        "peak_memory_bytes": 4426035200,
+        "prediction": "60",
+        "preprocessing_seconds": 0.16447595227509737,
+        "raw_text": "60",
+        "termination_reason": "eos",
+        "total_seconds": 11.787822996266186
+      },
+      "image_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/data/final_fresh/images/000.0_0.jpg",
+      "latency_seconds": 27.758405906148255,
+      "query_key": "0_0",
+      "question": "For the subplot at row 1 and column 2, what is the spatially highest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+      "response": "60",
+      "subq_idx": 0
+    }
+  ],
+  "timing_scope": "vlm_inference calls only; program/model import excluded",
+  "total_time": 27.758427063934505
+}

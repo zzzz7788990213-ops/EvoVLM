@@ -1,0 +1,41 @@
+{
+  "accuracy_uses_integer_correct_count": true,
+  "best_accuracy": [
+    "highest Dev128 correct_count",
+    "fewest errors",
+    "lowest speed32 per-query-median aggregate median",
+    "fewest generated tokens",
+    "lexicographic source SHA256"
+  ],
+  "best_overall": {
+    "A": "accuracy/max_eligible_accuracy",
+    "S": "min_eligible_speed_median/program_speed_median",
+    "eligibility": "Dev128 errors==0 and accuracy>=baseline_instruct",
+    "metric_status": "author-defined",
+    "score": "harmonic_mean(A,S)",
+    "ties": [
+      "higher accuracy",
+      "lower latency",
+      "fewer tokens",
+      "source SHA256"
+    ]
+  },
+  "best_speed": {
+    "accuracy_floor": "max(baseline_instruct Dev128 accuracy, best_accuracy-1/32)",
+    "eligibility": "Dev128 errors==0 and accuracy>=floor",
+    "ties": [
+      "lowest speed median",
+      "lowest type7 p95",
+      "fewest tokens",
+      "highest accuracy",
+      "source SHA256"
+    ]
+  },
+  "optimized_programs": [
+    "manual_instruct",
+    "manual_thinking",
+    "evolved_instruct",
+    "evolved_thinking"
+  ],
+  "rules_version": "phase3-best-selection-v1"
+}

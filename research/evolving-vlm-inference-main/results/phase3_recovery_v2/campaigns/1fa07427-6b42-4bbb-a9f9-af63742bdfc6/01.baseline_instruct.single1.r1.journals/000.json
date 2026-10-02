@@ -1,0 +1,55 @@
+{
+  "attempt_id": "7fb58e4d-10bc-4369-82fe-50f374c0ab4a",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 12.133109570946544,
+  "manifest": {
+    "name": "single1",
+    "query_key_order_sha256": "87194e11340606118b69fc87e10a5d80edfeec6ece04969366bc291262706c97",
+    "sha256": "87c2a5d1c6e96888deb99e4c35b78cdaf56ec46054eeb00c3ec1959492812da3"
+  },
+  "measurement": {
+    "generated_token_count": 88,
+    "generation_seconds": 12.107068246696144,
+    "input_token_count": 631,
+    "peak_memory_bytes": 4421142016,
+    "preprocessing_seconds": 0.025611935183405876,
+    "termination_reason": "eos",
+    "total_seconds": 12.132912613917142
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "The y-axis label is \"Overall Acc. (%)\", and the tick marks are labeled with values. The highest tick value on the y-axis, as shown in the left subplot (a), is 60. This is the topmost tick on the y-axis, which is the highest value shown.\n\nThe spatially highest labeled tick on the y-axis in the subplot at row 1 and column 2 is 60.",
+  "prediction_sha256": "6a77e29930e59d38da4df82e753d81b966090da343257f6c4ee425160d76b5e6",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "0",
+    "image_sha256": "d597cdcfdf350fbaebcabcff19099ed7a56b5a400ccb0292ae5cee630dbf5db6",
+    "index": 0,
+    "qid": "7",
+    "query_key": "0_0",
+    "question": "For the subplot at row 1 and column 2, what is the spatially highest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+    "subq_idx": 0
+  },
+  "run_id": "bdcae667-8cb1-4cb2-839f-878442b2938f",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

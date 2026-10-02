@@ -1,0 +1,16 @@
+{
+  "campaign_plan_sha256": "3af5a4a0de3651f5be758baeb9954ae22aa89e416c03a11b2b3b6b62b6975605",
+  "completed_at_utc": "2026-08-25T12:18:46.542138Z",
+  "completed_version": "phase3-speed32-replacement-completed-v1",
+  "contamination_audit_sha256": "2f97fbe9539fa1371fe17f43f6d55d9610af1f051037071967885e258daf3c27",
+  "old_speed32_entire_set_qualifying": false,
+  "protocol_id": "phase3-recovery-v2",
+  "replacement_campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "replacement_speed_result_count": 15,
+  "replacement_summary_sha256": "fdead42e781094afbe4f3800126839e2c896ec2dc1697cb38c1f7dea1022703d",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  },
+  "speed_measurement_completion_sha256": "cb3d6cc66e861f7549a2e0ec8f33680439c1b0ef9792132003d08abe6947fb57"
+}

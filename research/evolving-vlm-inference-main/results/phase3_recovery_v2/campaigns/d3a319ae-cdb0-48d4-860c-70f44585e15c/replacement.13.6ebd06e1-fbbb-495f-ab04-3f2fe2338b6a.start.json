@@ -1,0 +1,24 @@
+{
+  "attempt_id": "a3449400-e01c-43d2-9790-c441e86f27e7",
+  "attempt_version": "phase3-speed32-replacement-attempt-v1",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "child_pid": 3665027,
+  "command": [
+    "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.venv/bin/python",
+    "-m",
+    "evaluation.phase3_recovery",
+    "run-one",
+    "--campaign-id",
+    "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+    "--index",
+    "13",
+    "--attempt-id",
+    "a3449400-e01c-43d2-9790-c441e86f27e7"
+  ],
+  "index": 13,
+  "pre_launch_gpu0_processes": [],
+  "program": "manual_instruct",
+  "repeat": 1,
+  "started_at_utc": "2026-08-25T10:05:00.869193Z",
+  "telemetry_session_id": "6ebd06e1-fbbb-495f-ab04-3f2fe2338b6a"
+}

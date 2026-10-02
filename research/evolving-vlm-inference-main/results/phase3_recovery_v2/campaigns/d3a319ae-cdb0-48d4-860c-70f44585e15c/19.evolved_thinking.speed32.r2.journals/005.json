@@ -1,0 +1,55 @@
+{
+  "attempt_id": "bb772e27-90b6-436f-a482-9e1b408ed451",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 22.43234993238002,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 22.36586464662105,
+    "input_token_count": 781,
+    "peak_memory_bytes": 4452941824,
+    "preprocessing_seconds": 0.0639352947473526,
+    "termination_reason": "length",
+    "total_seconds": 22.430315827950835
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the figure. The title is usually at the top, but in this case, the plot has a label \"Sequence Length interval\" on the x-axis. Wait, the question is about the title. Let me check the figure again. The y-axis on the left is \"Perplexity\" and the right is \"Accuracy\". The x-axis is \"Sequence Length interval\". But the title of the plot—do we see any explicit title? Wait, the problem says \"use only evidence visible in the scientific figure\". Let's check the figure. The plot's title isn't written explicitly. Wait, no, the x-axis is labeled \"Sequence Length interval\", but the title of the plot is probably the one that's not there. Wait, maybe the title is \"Perplexity vs Accuracy\" but no, the figure has two y-axes. Wait, the problem says \"the title of the plot\". Let me check again. The figure has two y-axes: left is Perplexity (blue line), right is Accuracy (orange line). The x-axis is Sequence Length interval. But the title of the plot—do we see any text that's the title? Let's look at the image. The top part: the x-axis is labeled \"Sequence Length interval\", the y-axis on the left is \"Perplexity\", right is \"Accuracy\". There's no explicit title like \"Perplexity vs Accuracy\" or something. Wait, maybe the title is \"Perplexity and Accuracy vs Sequence Length Interval\"? But the problem says \"explicitly written\". Wait, the figure doesn't have a title written. Wait, the question says \"what is its title?\" and if it's not explicit, answer 'Not Applicable'. Let me check again. The plot's title—no, the figure doesn't have a title. The x-axis is \"",
+  "prediction_sha256": "e20b58a0f51444f52dad4edaadff23e91ecaf509794e5b62c79acb58f831a3d2",
+  "program": "evolved_thinking",
+  "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1520",
+    "image_sha256": "c4b70c0a15df0fac90c66fcac9e2e8aab5831b31881fdaff826c1d3b65e07e6e",
+    "index": 5,
+    "qid": "1",
+    "query_key": "1520_3",
+    "question": "For the current plot, what is its title?\n    * Your final answer should be the most relevant title of the plot that is explicitly written.\n    * If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n    ",
+    "subq_idx": 3
+  },
+  "run_id": "715ba3c1-4a39-416a-bc9d-1118a7547067",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  }
+}

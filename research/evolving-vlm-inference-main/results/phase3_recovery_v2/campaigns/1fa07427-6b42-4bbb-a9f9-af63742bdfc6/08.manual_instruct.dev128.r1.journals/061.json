@@ -1,0 +1,55 @@
+{
+  "attempt_id": "06e0d053-5a16-4e90-a359-2de2e577d4a0",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": true,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 13.036771724931896,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 2,
+    "generation_seconds": 13.002206535078585,
+    "input_token_count": 793,
+    "peak_memory_bytes": 4451543552,
+    "preprocessing_seconds": 0.033225796185433865,
+    "termination_reason": "eos",
+    "total_seconds": 13.035619553178549
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "1",
+  "prediction_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+  "program": "manual_instruct",
+  "program_source_sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "30",
+    "image_sha256": "14dcbaa9c694796c3b99552388a6495efaeb0c5d8a9f7c12fd9f3e0e7750ecb2",
+    "index": 61,
+    "qid": "9",
+    "query_key": "30_1",
+    "question": "For the current plot, what is difference between consecutive numerical tick values on the y-axis?\n    * Your final answer should be the difference between consecutive numerical tick values of the y-axis, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.\n    * If the plot does not have an explicit y-axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer \"Not Applicable\".",
+    "subq_idx": 1
+  },
+  "run_id": "7f5e0a8c-328b-42f8-b673-7b6db477ea1b",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

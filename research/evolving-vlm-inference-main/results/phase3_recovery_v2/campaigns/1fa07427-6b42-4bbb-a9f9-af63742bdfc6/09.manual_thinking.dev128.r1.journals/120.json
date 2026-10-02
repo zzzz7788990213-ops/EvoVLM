@@ -1,0 +1,55 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 17.251572392880917,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 72,
+    "generation_seconds": 17.216608536895365,
+    "input_token_count": 900,
+    "peak_memory_bytes": 4479461376,
+    "preprocessing_seconds": 0.03368159104138613,
+    "termination_reason": "eos",
+    "total_seconds": 17.250586479902267
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the chart. The x-axis is labeled \"Source Port\" as seen in the bottom of the plot. The question asks for the label of the x-axis, which is explicitly written. So I need to check if there's an explicit label. Yes, the x-axis has the label \"Source Port\".\n</think>\n\nSource Port",
+  "prediction_sha256": "2d830b042bdb51ea9c836846e39a5e02215bcc55295e6d38beb0668b27ef5e0c",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "65",
+    "image_sha256": "c88943c706e2d0a37f45a2ff01e47ca4574e79df0a46f351c1ddc7c984f125e4",
+    "index": 120,
+    "qid": "2",
+    "query_key": "65_0",
+    "question": "For the current plot, what is the label of the x-axis?\n    * Your final answer should be the label of the x-axis that is explicitly written, including the case when x-axis is shared across multiple subplots. When the x-axis is present on both the top and bottom of the plot, answer the label of the x-axis at the bottom.\n    * If the plot does not have an explicit x-axis label, answer 'Not Applicable'.\n    ",
+    "subq_idx": 0
+  },
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

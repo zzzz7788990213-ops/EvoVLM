@@ -1,0 +1,68 @@
+{
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "completed_at_utc": "2026-08-25T09:57:00.533761Z",
+  "cuda_visible_devices": "0",
+  "gate_id": "da940c38-cb46-47e0-9b68-a04eedc3003a",
+  "gate_version": "phase3-speed32-gpu0-idle-gate-v1",
+  "gpu1_queried": false,
+  "passed": true,
+  "physical_gpu_index": 0,
+  "poll_seconds": 15,
+  "records": [
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:55:00.117700Z",
+      "observed_monotonic": 7201986.256344985,
+      "processes": []
+    },
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:55:15.176565Z",
+      "observed_monotonic": 7202001.319301889,
+      "processes": []
+    },
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:55:30.223452Z",
+      "observed_monotonic": 7202016.378159424,
+      "processes": []
+    },
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:55:45.283392Z",
+      "observed_monotonic": 7202031.425043665,
+      "processes": []
+    },
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:56:00.331326Z",
+      "observed_monotonic": 7202046.484985767,
+      "processes": []
+    },
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:56:15.390671Z",
+      "observed_monotonic": 7202061.53291811,
+      "processes": []
+    },
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:56:30.449646Z",
+      "observed_monotonic": 7202076.592262741,
+      "processes": []
+    },
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:56:45.498160Z",
+      "observed_monotonic": 7202091.651236389,
+      "processes": []
+    },
+    {
+      "clean": true,
+      "observed_at_utc": "2026-08-25T09:57:00.533729Z",
+      "observed_monotonic": 7202106.699752669,
+      "processes": []
+    }
+  ],
+  "required_continuous_idle_seconds": 120
+}

@@ -1,0 +1,8450 @@
+{
+    "1": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1
+    },
+    "4": {
+        "chart_types": [
+            "Scatter Plot",
+            "Histogram"
+        ],
+        "figure_id": 4
+    },
+    "6": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 6
+    },
+    "10": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 10
+    },
+    "11": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 11
+    },
+    "15": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 15
+    },
+    "16": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 16
+    },
+    "18": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 18
+    },
+    "19": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 19
+    },
+    "22": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 22
+    },
+    "23": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 23
+    },
+    "24": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 24
+    },
+    "25": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 25
+    },
+    "28": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 28
+    },
+    "31": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 31
+    },
+    "32": {
+        "chart_types": [
+            "Bubble Chart"
+        ],
+        "figure_id": 32
+    },
+    "33": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 33
+    },
+    "34": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 34
+    },
+    "35": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 35
+    },
+    "37": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 37
+    },
+    "38": {
+        "chart_types": [
+            "Other (Word Cloud)"
+        ],
+        "figure_id": 38
+    },
+    "43": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 43
+    },
+    "44": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 44
+    },
+    "45": {
+        "chart_types": [
+            "Gantt Chart"
+        ],
+        "figure_id": 45
+    },
+    "46": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 46
+    },
+    "47": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 47
+    },
+    "50": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 50
+    },
+    "52": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 52
+    },
+    "54": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 54
+    },
+    "55": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 55
+    },
+    "59": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 59
+    },
+    "63": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 63
+    },
+    "64": {
+        "chart_types": [
+            "Violin Plot",
+            "Box Plot"
+        ],
+        "figure_id": 64
+    },
+    "66": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 66
+    },
+    "67": {
+        "chart_types": [
+            "Parallel Coordinates Plot"
+        ],
+        "figure_id": 67
+    },
+    "69": {
+        "chart_types": [
+            "Violin Plot"
+        ],
+        "figure_id": 69
+    },
+    "70": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 70
+    },
+    "71": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 71
+    },
+    "72": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 72
+    },
+    "73": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 73
+    },
+    "74": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 74
+    },
+    "76": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 76
+    },
+    "77": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 77
+    },
+    "78": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 78
+    },
+    "79": {
+        "chart_types": [
+            "Line Chart",
+            "Box Plot",
+            "Area Chart"
+        ],
+        "figure_id": 79
+    },
+    "82": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 82
+    },
+    "85": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 85
+    },
+    "89": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 89
+    },
+    "90": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 90
+    },
+    "91": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 91
+    },
+    "93": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 93
+    },
+    "94": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 94
+    },
+    "97": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 97
+    },
+    "98": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 98
+    },
+    "99": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 99
+    },
+    "100": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 100
+    },
+    "101": {
+        "chart_types": [
+            "Contour Plot",
+            "Line Chart"
+        ],
+        "figure_id": 101
+    },
+    "102": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 102
+    },
+    "103": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 103
+    },
+    "105": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 105
+    },
+    "109": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 109
+    },
+    "112": {
+        "chart_types": [
+            "Radar Chart"
+        ],
+        "figure_id": 112
+    },
+    "114": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 114
+    },
+    "115": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 115
+    },
+    "116": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 116
+    },
+    "117": {
+        "chart_types": [
+            "Box Plot",
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 117
+    },
+    "118": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 118
+    },
+    "119": {
+        "chart_types": [
+            "Correlation Matrix"
+        ],
+        "figure_id": 119
+    },
+    "120": {
+        "chart_types": [
+            "Line Chart",
+            "Bar Chart"
+        ],
+        "figure_id": 120
+    },
+    "121": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 121
+    },
+    "122": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 122
+    },
+    "123": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 123
+    },
+    "127": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 127
+    },
+    "128": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 128
+    },
+    "129": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 129
+    },
+    "133": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 133
+    },
+    "136": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 136
+    },
+    "138": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 138
+    },
+    "139": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 139
+    },
+    "140": {
+        "chart_types": [
+            "Histogram",
+            "Scatter Plot"
+        ],
+        "figure_id": 140
+    },
+    "141": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 141
+    },
+    "142": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 142
+    },
+    "143": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 143
+    },
+    "148": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 148
+    },
+    "150": {
+        "chart_types": [
+            "Histogram",
+            "Bar Chart"
+        ],
+        "figure_id": 150
+    },
+    "151": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 151
+    },
+    "152": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 152
+    },
+    "156": {
+        "chart_types": [
+            "Bubble Chart"
+        ],
+        "figure_id": 156
+    },
+    "161": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 161
+    },
+    "162": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 162
+    },
+    "164": {
+        "chart_types": [
+            "Line Chart",
+            "Bar Chart"
+        ],
+        "figure_id": 164
+    },
+    "165": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 165
+    },
+    "166": {
+        "chart_types": [
+            "Stacked Bar Chart",
+            "Violin Plot"
+        ],
+        "figure_id": 166
+    },
+    "169": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 169
+    },
+    "170": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 170
+    },
+    "174": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 174
+    },
+    "175": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 175
+    },
+    "176": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 176
+    },
+    "178": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 178
+    },
+    "182": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 182
+    },
+    "184": {
+        "chart_types": [
+            "Other (Flowchart)",
+            "Density Plot"
+        ],
+        "figure_id": 184
+    },
+    "185": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 185
+    },
+    "186": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 186
+    },
+    "187": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 187
+    },
+    "188": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 188
+    },
+    "189": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 189
+    },
+    "190": {
+        "chart_types": [
+            "Other (Comparison Plot)",
+            "Heatmap"
+        ],
+        "figure_id": 190
+    },
+    "191": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 191
+    },
+    "192": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 192
+    },
+    "194": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 194
+    },
+    "199": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 199
+    },
+    "200": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 200
+    },
+    "201": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 201
+    },
+    "202": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 202
+    },
+    "203": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 203
+    },
+    "204": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 204
+    },
+    "205": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 205
+    },
+    "207": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 207
+    },
+    "208": {
+        "chart_types": [
+            "Scatter Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 208
+    },
+    "209": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 209
+    },
+    "213": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 213
+    },
+    "216": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 216
+    },
+    "218": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 218
+    },
+    "220": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 220
+    },
+    "221": {
+        "chart_types": [
+            "Node-Link Diagram"
+        ],
+        "figure_id": 221
+    },
+    "222": {
+        "chart_types": [
+            "3D Scatter Plot",
+            "Other (Voxel Map)"
+        ],
+        "figure_id": 222
+    },
+    "224": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 224
+    },
+    "227": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 227
+    },
+    "230": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 230
+    },
+    "231": {
+        "chart_types": [
+            "3D Scatter Plot"
+        ],
+        "figure_id": 231
+    },
+    "232": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 232
+    },
+    "233": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 233
+    },
+    "234": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 234
+    },
+    "235": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap",
+            "Other (Trajectory Plot)"
+        ],
+        "figure_id": 235
+    },
+    "237": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 237
+    },
+    "238": {
+        "chart_types": [
+            "Contour Plot",
+            "Line Chart"
+        ],
+        "figure_id": 238
+    },
+    "242": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 242
+    },
+    "245": {
+        "chart_types": [
+            "Heatmap",
+            "Correlation Matrix"
+        ],
+        "figure_id": 245
+    },
+    "251": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 251
+    },
+    "253": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 253
+    },
+    "254": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 254
+    },
+    "258": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 258
+    },
+    "259": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 259
+    },
+    "260": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 260
+    },
+    "261": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 261
+    },
+    "262": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 262
+    },
+    "264": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 264
+    },
+    "265": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 265
+    },
+    "271": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 271
+    },
+    "272": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 272
+    },
+    "273": {
+        "chart_types": [
+            "Violin Plot",
+            "Box Plot"
+        ],
+        "figure_id": 273
+    },
+    "274": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 274
+    },
+    "276": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 276
+    },
+    "277": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 277
+    },
+    "278": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 278
+    },
+    "280": {
+        "chart_types": [
+            "Bubble Chart"
+        ],
+        "figure_id": 280
+    },
+    "282": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 282
+    },
+    "287": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 287
+    },
+    "289": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 289
+    },
+    "290": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 290
+    },
+    "293": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 293
+    },
+    "294": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 294
+    },
+    "295": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 295
+    },
+    "296": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 296
+    },
+    "297": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 297
+    },
+    "299": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 299
+    },
+    "301": {
+        "chart_types": [
+            "Bar Chart",
+            "Box Plot"
+        ],
+        "figure_id": 301
+    },
+    "302": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 302
+    },
+    "303": {
+        "chart_types": [
+            "Other (Decision Region Plot)"
+        ],
+        "figure_id": 303
+    },
+    "305": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 305
+    },
+    "307": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 307
+    },
+    "308": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 308
+    },
+    "309": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 309
+    },
+    "313": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 313
+    },
+    "315": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 315
+    },
+    "316": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 316
+    },
+    "318": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 318
+    },
+    "320": {
+        "chart_types": [
+            "Violin Plot"
+        ],
+        "figure_id": 320
+    },
+    "324": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 324
+    },
+    "325": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 325
+    },
+    "327": {
+        "chart_types": [
+            "Error Bar Plot"
+        ],
+        "figure_id": 327
+    },
+    "329": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 329
+    },
+    "335": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 335
+    },
+    "338": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 338
+    },
+    "340": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 340
+    },
+    "342": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 342
+    },
+    "344": {
+        "chart_types": [
+            "Area Chart"
+        ],
+        "figure_id": 344
+    },
+    "345": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 345
+    },
+    "347": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 347
+    },
+    "348": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 348
+    },
+    "350": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 350
+    },
+    "351": {
+        "chart_types": [
+            "Box Plot",
+            "Violin Plot",
+            "Line Chart"
+        ],
+        "figure_id": 351
+    },
+    "352": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 352
+    },
+    "353": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 353
+    },
+    "355": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 355
+    },
+    "356": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 356
+    },
+    "357": {
+        "chart_types": [
+            "Radar Chart"
+        ],
+        "figure_id": 357
+    },
+    "359": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 359
+    },
+    "361": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 361
+    },
+    "363": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 363
+    },
+    "364": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 364
+    },
+    "365": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 365
+    },
+    "366": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 366
+    },
+    "369": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 369
+    },
+    "370": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 370
+    },
+    "371": {
+        "chart_types": [
+            "Area Chart"
+        ],
+        "figure_id": 371
+    },
+    "373": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 373
+    },
+    "375": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 375
+    },
+    "376": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 376
+    },
+    "378": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 378
+    },
+    "380": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 380
+    },
+    "381": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 381
+    },
+    "382": {
+        "chart_types": [
+            "Box Plot",
+            "Bar Chart"
+        ],
+        "figure_id": 382
+    },
+    "383": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 383
+    },
+    "385": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 385
+    },
+    "386": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 386
+    },
+    "387": {
+        "chart_types": [
+            "Bar Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 387
+    },
+    "388": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 388
+    },
+    "390": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 390
+    },
+    "392": {
+        "chart_types": [
+            "Pie Chart",
+            "Line Chart"
+        ],
+        "figure_id": 392
+    },
+    "393": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 393
+    },
+    "397": {
+        "chart_types": [
+            "Bubble Chart"
+        ],
+        "figure_id": 397
+    },
+    "398": {
+        "chart_types": [
+            "Scatter Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 398
+    },
+    "400": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 400
+    },
+    "401": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 401
+    },
+    "403": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 403
+    },
+    "408": {
+        "chart_types": [
+            "Area Chart",
+            "Line Chart"
+        ],
+        "figure_id": 408
+    },
+    "414": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 414
+    },
+    "415": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 415
+    },
+    "417": {
+        "chart_types": [
+            "Other (Filled Area Plot)"
+        ],
+        "figure_id": 417
+    },
+    "419": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 419
+    },
+    "420": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 420
+    },
+    "424": {
+        "chart_types": [
+            "Choropleth Map"
+        ],
+        "figure_id": 424
+    },
+    "425": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 425
+    },
+    "426": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 426
+    },
+    "427": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 427
+    },
+    "429": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 429
+    },
+    "430": {
+        "chart_types": [
+            "Density Plot",
+            "3D Surface Plot",
+            "Heatmap",
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 430
+    },
+    "432": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 432
+    },
+    "435": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 435
+    },
+    "436": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 436
+    },
+    "437": {
+        "chart_types": [
+            "Bar Chart",
+            "Scatter Plot",
+            "Histogram",
+            "Error Bar Plot"
+        ],
+        "figure_id": 437
+    },
+    "439": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 439
+    },
+    "441": {
+        "chart_types": [
+            "Scattergeo Plot"
+        ],
+        "figure_id": 441
+    },
+    "442": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 442
+    },
+    "443": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 443
+    },
+    "444": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 444
+    },
+    "454": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 454
+    },
+    "455": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 455
+    },
+    "456": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 456
+    },
+    "457": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 457
+    },
+    "459": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 459
+    },
+    "460": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 460
+    },
+    "465": {
+        "chart_types": [
+            "Density Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 465
+    },
+    "467": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 467
+    },
+    "469": {
+        "chart_types": [
+            "Chord Diagram"
+        ],
+        "figure_id": 469
+    },
+    "472": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 472
+    },
+    "476": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 476
+    },
+    "478": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 478
+    },
+    "479": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 479
+    },
+    "482": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 482
+    },
+    "483": {
+        "chart_types": [
+            "Dot Distribution Map"
+        ],
+        "figure_id": 483
+    },
+    "485": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 485
+    },
+    "486": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 486
+    },
+    "490": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 490
+    },
+    "491": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 491
+    },
+    "492": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 492
+    },
+    "494": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 494
+    },
+    "497": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 497
+    },
+    "498": {
+        "chart_types": [
+            "Choropleth Map"
+        ],
+        "figure_id": 498
+    },
+    "500": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 500
+    },
+    "501": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 501
+    },
+    "502": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 502
+    },
+    "505": {
+        "chart_types": [
+            "Bubble Chart",
+            "Contour Plot"
+        ],
+        "figure_id": 505
+    },
+    "508": {
+        "chart_types": [
+            "QQ Plot"
+        ],
+        "figure_id": 508
+    },
+    "511": {
+        "chart_types": [
+            "Bar Chart",
+            "Waterfall Chart"
+        ],
+        "figure_id": 511
+    },
+    "518": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 518
+    },
+    "519": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 519
+    },
+    "520": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 520
+    },
+    "522": {
+        "chart_types": [
+            "Other (Region Plot)"
+        ],
+        "figure_id": 522
+    },
+    "524": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 524
+    },
+    "528": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 528
+    },
+    "529": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 529
+    },
+    "534": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 534
+    },
+    "535": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 535
+    },
+    "536": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 536
+    },
+    "538": {
+        "chart_types": [
+            "Choropleth Map"
+        ],
+        "figure_id": 538
+    },
+    "540": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 540
+    },
+    "544": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 544
+    },
+    "545": {
+        "chart_types": [
+            "Line Chart",
+            "Histogram",
+            "Scatter Plot"
+        ],
+        "figure_id": 545
+    },
+    "546": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 546
+    },
+    "549": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 549
+    },
+    "551": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 551
+    },
+    "554": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 554
+    },
+    "556": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 556
+    },
+    "557": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 557
+    },
+    "558": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 558
+    },
+    "561": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 561
+    },
+    "563": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 563
+    },
+    "564": {
+        "chart_types": [
+            "Scatter Plot",
+            "Bar Chart"
+        ],
+        "figure_id": 564
+    },
+    "566": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 566
+    },
+    "567": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 567
+    },
+    "569": {
+        "chart_types": [
+            "Choropleth Map"
+        ],
+        "figure_id": 569
+    },
+    "570": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 570
+    },
+    "571": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 571
+    },
+    "574": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 574
+    },
+    "578": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 578
+    },
+    "579": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 579
+    },
+    "583": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 583
+    },
+    "584": {
+        "chart_types": [
+            "Contour Plot",
+            "Heatmap"
+        ],
+        "figure_id": 584
+    },
+    "589": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 589
+    },
+    "594": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 594
+    },
+    "596": {
+        "chart_types": [
+            "Line Chart",
+            "Histogram",
+            "Area Chart"
+        ],
+        "figure_id": 596
+    },
+    "597": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 597
+    },
+    "599": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 599
+    },
+    "601": {
+        "chart_types": [
+            "Violin Plot",
+            "Line Chart"
+        ],
+        "figure_id": 601
+    },
+    "605": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 605
+    },
+    "607": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 607
+    },
+    "609": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 609
+    },
+    "610": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 610
+    },
+    "612": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 612
+    },
+    "613": {
+        "chart_types": [
+            "Other (Image Comparison)"
+        ],
+        "figure_id": 613
+    },
+    "614": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 614
+    },
+    "615": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 615
+    },
+    "616": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 616
+    },
+    "619": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 619
+    },
+    "622": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 622
+    },
+    "623": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 623
+    },
+    "624": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 624
+    },
+    "626": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 626
+    },
+    "627": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 627
+    },
+    "630": {
+        "chart_types": [
+            "Area Chart",
+            "Line Chart"
+        ],
+        "figure_id": 630
+    },
+    "632": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 632
+    },
+    "633": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 633
+    },
+    "635": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 635
+    },
+    "637": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 637
+    },
+    "641": {
+        "chart_types": [
+            "3D Scatter Plot"
+        ],
+        "figure_id": 641
+    },
+    "643": {
+        "chart_types": [
+            "Other (Overlay Plot)"
+        ],
+        "figure_id": 643
+    },
+    "645": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 645
+    },
+    "647": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 647
+    },
+    "648": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 648
+    },
+    "652": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 652
+    },
+    "653": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 653
+    },
+    "654": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 654
+    },
+    "656": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 656
+    },
+    "663": {
+        "chart_types": [
+            "Other (ROC Curve)"
+        ],
+        "figure_id": 663
+    },
+    "664": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 664
+    },
+    "665": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 665
+    },
+    "667": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 667
+    },
+    "669": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 669
+    },
+    "672": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 672
+    },
+    "674": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 674
+    },
+    "675": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 675
+    },
+    "676": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 676
+    },
+    "680": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 680
+    },
+    "681": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 681
+    },
+    "682": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 682
+    },
+    "687": {
+        "chart_types": [
+            "Line Chart",
+            "Other (Image with annotations)"
+        ],
+        "figure_id": 687
+    },
+    "688": {
+        "chart_types": [
+            "Line Chart",
+            "Histogram"
+        ],
+        "figure_id": 688
+    },
+    "689": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 689
+    },
+    "692": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 692
+    },
+    "696": {
+        "chart_types": [
+            "Other (Tradeoff Plot)"
+        ],
+        "figure_id": 696
+    },
+    "698": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 698
+    },
+    "700": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 700
+    },
+    "704": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 704
+    },
+    "707": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 707
+    },
+    "709": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 709
+    },
+    "710": {
+        "chart_types": [
+            "Violin Plot"
+        ],
+        "figure_id": 710
+    },
+    "714": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 714
+    },
+    "715": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 715
+    },
+    "717": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 717
+    },
+    "718": {
+        "chart_types": [
+            "Heatmap",
+            "Histogram"
+        ],
+        "figure_id": 718
+    },
+    "719": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 719
+    },
+    "720": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 720
+    },
+    "721": {
+        "chart_types": [
+            "Contour Plot",
+            "Line Chart"
+        ],
+        "figure_id": 721
+    },
+    "724": {
+        "chart_types": [
+            "3D Scatter Plot",
+            "3D Line Plot"
+        ],
+        "figure_id": 724
+    },
+    "726": {
+        "chart_types": [
+            "3D Surface Plot",
+            "3D Scatter Plot"
+        ],
+        "figure_id": 726
+    },
+    "728": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 728
+    },
+    "730": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 730
+    },
+    "731": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 731
+    },
+    "733": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 733
+    },
+    "734": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 734
+    },
+    "735": {
+        "chart_types": [
+            "Other (Phase Plot)"
+        ],
+        "figure_id": 735
+    },
+    "737": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 737
+    },
+    "738": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 738
+    },
+    "740": {
+        "chart_types": [
+            "Line Chart",
+            "Other (Gantt-like Chart)"
+        ],
+        "figure_id": 740
+    },
+    "742": {
+        "chart_types": [
+            "Box Plot",
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 742
+    },
+    "743": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 743
+    },
+    "746": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 746
+    },
+    "747": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 747
+    },
+    "748": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 748
+    },
+    "750": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 750
+    },
+    "752": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 752
+    },
+    "753": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 753
+    },
+    "754": {
+        "chart_types": [
+            "Violin Plot"
+        ],
+        "figure_id": 754
+    },
+    "755": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 755
+    },
+    "758": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 758
+    },
+    "759": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 759
+    },
+    "760": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 760
+    },
+    "761": {
+        "chart_types": [
+            "Radar Chart"
+        ],
+        "figure_id": 761
+    },
+    "762": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 762
+    },
+    "763": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 763
+    },
+    "765": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 765
+    },
+    "767": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 767
+    },
+    "768": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 768
+    },
+    "769": {
+        "chart_types": [
+            "Bubble Chart"
+        ],
+        "figure_id": 769
+    },
+    "772": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 772
+    },
+    "773": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 773
+    },
+    "775": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 775
+    },
+    "776": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 776
+    },
+    "778": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 778
+    },
+    "779": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 779
+    },
+    "780": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 780
+    },
+    "783": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 783
+    },
+    "785": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 785
+    },
+    "786": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 786
+    },
+    "788": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 788
+    },
+    "789": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 789
+    },
+    "790": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 790
+    },
+    "791": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 791
+    },
+    "792": {
+        "chart_types": [
+            "Other (Zonotope Plot)"
+        ],
+        "figure_id": 792
+    },
+    "793": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 793
+    },
+    "795": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 795
+    },
+    "796": {
+        "chart_types": [
+            "Line Chart",
+            "Other"
+        ],
+        "figure_id": 796
+    },
+    "797": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 797
+    },
+    "798": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 798
+    },
+    "799": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 799
+    },
+    "800": {
+        "chart_types": [
+            "Contour Plot",
+            "Scatter Plot"
+        ],
+        "figure_id": 800
+    },
+    "801": {
+        "chart_types": [
+            "Density Plot",
+            "Histogram"
+        ],
+        "figure_id": 801
+    },
+    "804": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 804
+    },
+    "806": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 806
+    },
+    "807": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 807
+    },
+    "808": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 808
+    },
+    "811": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 811
+    },
+    "815": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 815
+    },
+    "816": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 816
+    },
+    "817": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 817
+    },
+    "818": {
+        "chart_types": [
+            "Radar Chart"
+        ],
+        "figure_id": 818
+    },
+    "819": {
+        "chart_types": [
+            "Other (Microscopic Image)",
+            "Line Chart"
+        ],
+        "figure_id": 819
+    },
+    "820": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 820
+    },
+    "821": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 821
+    },
+    "825": {
+        "chart_types": [
+            "QQ Plot",
+            "Other (Return Level Plot)",
+            "Other (Return Period Plot)",
+            "Density Plot"
+        ],
+        "figure_id": 825
+    },
+    "826": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 826
+    },
+    "827": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 827
+    },
+    "828": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 828
+    },
+    "829": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 829
+    },
+    "831": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 831
+    },
+    "832": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 832
+    },
+    "835": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 835
+    },
+    "836": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 836
+    },
+    "837": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 837
+    },
+    "838": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 838
+    },
+    "839": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 839
+    },
+    "841": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 841
+    },
+    "843": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 843
+    },
+    "845": {
+        "chart_types": [
+            "Density Plot",
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 845
+    },
+    "847": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 847
+    },
+    "849": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 849
+    },
+    "850": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 850
+    },
+    "853": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 853
+    },
+    "854": {
+        "chart_types": [
+            "Line Chart",
+            "Bar Chart",
+            "Bubble Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 854
+    },
+    "855": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 855
+    },
+    "857": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 857
+    },
+    "859": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 859
+    },
+    "862": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 862
+    },
+    "864": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 864
+    },
+    "866": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 866
+    },
+    "867": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 867
+    },
+    "868": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 868
+    },
+    "869": {
+        "chart_types": [
+            "Violin Plot"
+        ],
+        "figure_id": 869
+    },
+    "870": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 870
+    },
+    "871": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 871
+    },
+    "874": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 874
+    },
+    "875": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 875
+    },
+    "876": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 876
+    },
+    "879": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 879
+    },
+    "883": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 883
+    },
+    "884": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 884
+    },
+    "885": {
+        "chart_types": [
+            "Other (ROC Curve)"
+        ],
+        "figure_id": 885
+    },
+    "886": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 886
+    },
+    "887": {
+        "chart_types": [
+            "Other (Matrix Plot)"
+        ],
+        "figure_id": 887
+    },
+    "889": {
+        "chart_types": [
+            "Box Plot",
+            "Scatter Plot"
+        ],
+        "figure_id": 889
+    },
+    "892": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap"
+        ],
+        "figure_id": 892
+    },
+    "895": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 895
+    },
+    "896": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 896
+    },
+    "898": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 898
+    },
+    "899": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 899
+    },
+    "902": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 902
+    },
+    "904": {
+        "chart_types": [
+            "3D Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 904
+    },
+    "906": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 906
+    },
+    "909": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 909
+    },
+    "912": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 912
+    },
+    "914": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 914
+    },
+    "915": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 915
+    },
+    "916": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 916
+    },
+    "919": {
+        "chart_types": [
+            "Contour Plot",
+            "Other (Vector Field Plot)"
+        ],
+        "figure_id": 919
+    },
+    "921": {
+        "chart_types": [
+            "Area Chart"
+        ],
+        "figure_id": 921
+    },
+    "926": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 926
+    },
+    "928": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 928
+    },
+    "933": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 933
+    },
+    "935": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 935
+    },
+    "939": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 939
+    },
+    "940": {
+        "chart_types": [
+            "Line Chart",
+            "Bar Chart"
+        ],
+        "figure_id": 940
+    },
+    "941": {
+        "chart_types": [
+            "Other (Phase Portrait)"
+        ],
+        "figure_id": 941
+    },
+    "942": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 942
+    },
+    "943": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 943
+    },
+    "944": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 944
+    },
+    "947": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 947
+    },
+    "948": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 948
+    },
+    "950": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 950
+    },
+    "951": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 951
+    },
+    "957": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 957
+    },
+    "958": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 958
+    },
+    "959": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 959
+    },
+    "960": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 960
+    },
+    "961": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 961
+    },
+    "963": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 963
+    },
+    "968": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 968
+    },
+    "969": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 969
+    },
+    "972": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 972
+    },
+    "973": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 973
+    },
+    "976": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 976
+    },
+    "977": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 977
+    },
+    "979": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 979
+    },
+    "980": {
+        "chart_types": [
+            "Heatmap",
+            "Other (Vector Field Plot)"
+        ],
+        "figure_id": 980
+    },
+    "982": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 982
+    },
+    "983": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 983
+    },
+    "984": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 984
+    },
+    "989": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 989
+    },
+    "990": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 990
+    },
+    "992": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 992
+    },
+    "993": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 993
+    },
+    "994": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 994
+    },
+    "998": {
+        "chart_types": [
+            "Area Chart",
+            "Line Chart",
+            "Bar Chart"
+        ],
+        "figure_id": 998
+    },
+    "999": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 999
+    },
+    "1000": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1000
+    },
+    "1001": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1001
+    },
+    "1004": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1004
+    },
+    "1005": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1005
+    },
+    "1013": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1013
+    },
+    "1016": {
+        "chart_types": [
+            "Scatter Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 1016
+    },
+    "1017": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1017
+    },
+    "1018": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1018
+    },
+    "1019": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1019
+    },
+    "1021": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1021
+    },
+    "1023": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 1023
+    },
+    "1024": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1024
+    },
+    "1025": {
+        "chart_types": [
+            "Bar Chart",
+            "Other (Upset Plot)"
+        ],
+        "figure_id": 1025
+    },
+    "1029": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1029
+    },
+    "1032": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1032
+    },
+    "1033": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1033
+    },
+    "1037": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1037
+    },
+    "1040": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1040
+    },
+    "1042": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1042
+    },
+    "1045": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1045
+    },
+    "1047": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1047
+    },
+    "1049": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 1049
+    },
+    "1050": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1050
+    },
+    "1052": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1052
+    },
+    "1053": {
+        "chart_types": [
+            "Contour Plot",
+            "3D Surface Plot"
+        ],
+        "figure_id": 1053
+    },
+    "1055": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1055
+    },
+    "1056": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1056
+    },
+    "1058": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1058
+    },
+    "1059": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1059
+    },
+    "1061": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1061
+    },
+    "1062": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1062
+    },
+    "1063": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1063
+    },
+    "1064": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1064
+    },
+    "1065": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1065
+    },
+    "1068": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1068
+    },
+    "1069": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1069
+    },
+    "1070": {
+        "chart_types": [
+            "Node-Link Diagram",
+            "Line Chart"
+        ],
+        "figure_id": 1070
+    },
+    "1072": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1072
+    },
+    "1075": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1075
+    },
+    "1077": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1077
+    },
+    "1078": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1078
+    },
+    "1079": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1079
+    },
+    "1080": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1080
+    },
+    "1082": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1082
+    },
+    "1083": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1083
+    },
+    "1086": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1086
+    },
+    "1087": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1087
+    },
+    "1088": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1088
+    },
+    "1089": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1089
+    },
+    "1090": {
+        "chart_types": [
+            "3D Scatter Plot",
+            "3D Surface Plot"
+        ],
+        "figure_id": 1090
+    },
+    "1091": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 1091
+    },
+    "1092": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1092
+    },
+    "1094": {
+        "chart_types": [
+            "QQ Plot"
+        ],
+        "figure_id": 1094
+    },
+    "1095": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1095
+    },
+    "1097": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1097
+    },
+    "1099": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1099
+    },
+    "1100": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1100
+    },
+    "1101": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1101
+    },
+    "1103": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1103
+    },
+    "1104": {
+        "chart_types": [
+            "Line Plot"
+        ],
+        "figure_id": 1104
+    },
+    "1107": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1107
+    },
+    "1109": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1109
+    },
+    "1110": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1110
+    },
+    "1111": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1111
+    },
+    "1113": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1113
+    },
+    "1116": {
+        "chart_types": [
+            "Scatter Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 1116
+    },
+    "1118": {
+        "chart_types": [
+            "Bubble Chart"
+        ],
+        "figure_id": 1118
+    },
+    "1119": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1119
+    },
+    "1120": {
+        "chart_types": [
+            "Choropleth Map"
+        ],
+        "figure_id": 1120
+    },
+    "1121": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1121
+    },
+    "1127": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1127
+    },
+    "1128": {
+        "chart_types": [
+            "Histogram",
+            "Density Plot"
+        ],
+        "figure_id": 1128
+    },
+    "1129": {
+        "chart_types": [
+            "Line Chart",
+            "3D Surface Plot"
+        ],
+        "figure_id": 1129
+    },
+    "1133": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1133
+    },
+    "1135": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1135
+    },
+    "1139": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1139
+    },
+    "1140": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1140
+    },
+    "1143": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1143
+    },
+    "1148": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1148
+    },
+    "1149": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1149
+    },
+    "1150": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Plot",
+            "Area Chart",
+            "Other (Step Plot)"
+        ],
+        "figure_id": 1150
+    },
+    "1151": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1151
+    },
+    "1154": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1154
+    },
+    "1155": {
+        "chart_types": [
+            "Other (3D Torus Plot)"
+        ],
+        "figure_id": 1155
+    },
+    "1157": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1157
+    },
+    "1158": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1158
+    },
+    "1161": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1161
+    },
+    "1162": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1162
+    },
+    "1163": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1163
+    },
+    "1165": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1165
+    },
+    "1166": {
+        "chart_types": [
+            "Pie Chart"
+        ],
+        "figure_id": 1166
+    },
+    "1167": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1167
+    },
+    "1171": {
+        "chart_types": [
+            "Contour Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1171
+    },
+    "1176": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1176
+    },
+    "1178": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1178
+    },
+    "1180": {
+        "chart_types": [
+            "Histogram",
+            "Density Plot"
+        ],
+        "figure_id": 1180
+    },
+    "1187": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1187
+    },
+    "1189": {
+        "chart_types": [
+            "Heatmap",
+            "Scatter Plot",
+            "Box Plot"
+        ],
+        "figure_id": 1189
+    },
+    "1191": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1191
+    },
+    "1193": {
+        "chart_types": [
+            "Line Chart",
+            "Time Series Heatmap"
+        ],
+        "figure_id": 1193
+    },
+    "1194": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1194
+    },
+    "1195": {
+        "chart_types": [
+            "3D Surface Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 1195
+    },
+    "1198": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1198
+    },
+    "1200": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1200
+    },
+    "1201": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1201
+    },
+    "1202": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1202
+    },
+    "1204": {
+        "chart_types": [
+            "Pair Plot",
+            "Density Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 1204
+    },
+    "1205": {
+        "chart_types": [
+            "Other (ROC Curve)"
+        ],
+        "figure_id": 1205
+    },
+    "1206": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1206
+    },
+    "1207": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1207
+    },
+    "1210": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1210
+    },
+    "1213": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1213
+    },
+    "1214": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 1214
+    },
+    "1215": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1215
+    },
+    "1216": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1216
+    },
+    "1217": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1217
+    },
+    "1218": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1218
+    },
+    "1220": {
+        "chart_types": [
+            "Pair Plot",
+            "Contour Plot",
+            "Histogram"
+        ],
+        "figure_id": 1220
+    },
+    "1221": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1221
+    },
+    "1226": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart",
+            "Other (Spectrogram)"
+        ],
+        "figure_id": 1226
+    },
+    "1227": {
+        "chart_types": [
+            "Bubble Chart"
+        ],
+        "figure_id": 1227
+    },
+    "1228": {
+        "chart_types": [
+            "Scatter Plot",
+            "Histogram"
+        ],
+        "figure_id": 1228
+    },
+    "1230": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1230
+    },
+    "1232": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1232
+    },
+    "1234": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1234
+    },
+    "1238": {
+        "chart_types": [
+            "Contour Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1238
+    },
+    "1239": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1239
+    },
+    "1240": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1240
+    },
+    "1242": {
+        "chart_types": [
+            "Heatmap",
+            "Contour Plot"
+        ],
+        "figure_id": 1242
+    },
+    "1243": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1243
+    },
+    "1244": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1244
+    },
+    "1247": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1247
+    },
+    "1249": {
+        "chart_types": [
+            "Other (Vector Field Plot)",
+            "Heatmap"
+        ],
+        "figure_id": 1249
+    },
+    "1250": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1250
+    },
+    "1252": {
+        "chart_types": [
+            "Line Chart",
+            "Histogram"
+        ],
+        "figure_id": 1252
+    },
+    "1254": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1254
+    },
+    "1255": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1255
+    },
+    "1256": {
+        "chart_types": [
+            "Scatter Plot",
+            "Histogram"
+        ],
+        "figure_id": 1256
+    },
+    "1257": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1257
+    },
+    "1260": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1260
+    },
+    "1263": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1263
+    },
+    "1264": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 1264
+    },
+    "1269": {
+        "chart_types": [
+            "Density Plot",
+            "Scatter Plot"
+        ],
+        "figure_id": 1269
+    },
+    "1270": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1270
+    },
+    "1271": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1271
+    },
+    "1272": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1272
+    },
+    "1273": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1273
+    },
+    "1276": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1276
+    },
+    "1277": {
+        "chart_types": [
+            "Pie Chart"
+        ],
+        "figure_id": 1277
+    },
+    "1278": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap"
+        ],
+        "figure_id": 1278
+    },
+    "1279": {
+        "chart_types": [
+            "Line Chart",
+            "Density Plot"
+        ],
+        "figure_id": 1279
+    },
+    "1280": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1280
+    },
+    "1282": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1282
+    },
+    "1283": {
+        "chart_types": [
+            "Error Bar Plot"
+        ],
+        "figure_id": 1283
+    },
+    "1285": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1285
+    },
+    "1290": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1290
+    },
+    "1291": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1291
+    },
+    "1292": {
+        "chart_types": [
+            "Contour Plot",
+            "Line Chart",
+            "Heatmap",
+            "3D Line Plot"
+        ],
+        "figure_id": 1292
+    },
+    "1293": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1293
+    },
+    "1296": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1296
+    },
+    "1299": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1299
+    },
+    "1301": {
+        "chart_types": [
+            "Contour Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1301
+    },
+    "1302": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1302
+    },
+    "1303": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1303
+    },
+    "1304": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 1304
+    },
+    "1308": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1308
+    },
+    "1309": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1309
+    },
+    "1310": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1310
+    },
+    "1311": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1311
+    },
+    "1313": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1313
+    },
+    "1315": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1315
+    },
+    "1316": {
+        "chart_types": [
+            "Contour Plot",
+            "Scatter Plot",
+            "Histogram"
+        ],
+        "figure_id": 1316
+    },
+    "1319": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1319
+    },
+    "1321": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1321
+    },
+    "1323": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1323
+    },
+    "1324": {
+        "chart_types": [
+            "Scatter Plot",
+            "Area Chart"
+        ],
+        "figure_id": 1324
+    },
+    "1325": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart",
+            "Scatter Plot",
+            "Histogram",
+            "Density Plot"
+        ],
+        "figure_id": 1325
+    },
+    "1328": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 1328
+    },
+    "1331": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1331
+    },
+    "1333": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1333
+    },
+    "1337": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1337
+    },
+    "1338": {
+        "chart_types": [
+            "Heatmap",
+            "Contour Plot"
+        ],
+        "figure_id": 1338
+    },
+    "1340": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1340
+    },
+    "1341": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1341
+    },
+    "1344": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1344
+    },
+    "1347": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1347
+    },
+    "1349": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1349
+    },
+    "1350": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap"
+        ],
+        "figure_id": 1350
+    },
+    "1354": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap"
+        ],
+        "figure_id": 1354
+    },
+    "1355": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1355
+    },
+    "1356": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1356
+    },
+    "1357": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1357
+    },
+    "1358": {
+        "chart_types": [
+            "Error Bar Plot"
+        ],
+        "figure_id": 1358
+    },
+    "1359": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1359
+    },
+    "1361": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1361
+    },
+    "1362": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1362
+    },
+    "1364": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1364
+    },
+    "1365": {
+        "chart_types": [
+            "Scatter Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1365
+    },
+    "1366": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1366
+    },
+    "1367": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1367
+    },
+    "1368": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1368
+    },
+    "1370": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1370
+    },
+    "1371": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1371
+    },
+    "1372": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1372
+    },
+    "1376": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1376
+    },
+    "1377": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1377
+    },
+    "1380": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 1380
+    },
+    "1382": {
+        "chart_types": [
+            "Other (Vector Field Plot)"
+        ],
+        "figure_id": 1382
+    },
+    "1383": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1383
+    },
+    "1384": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1384
+    },
+    "1385": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1385
+    },
+    "1388": {
+        "chart_types": [
+            "Other"
+        ],
+        "figure_id": 1388
+    },
+    "1389": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1389
+    },
+    "1392": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1392
+    },
+    "1394": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1394
+    },
+    "1395": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1395
+    },
+    "1396": {
+        "chart_types": [
+            "Contour Plot",
+            "Heatmap"
+        ],
+        "figure_id": 1396
+    },
+    "1398": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1398
+    },
+    "1400": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1400
+    },
+    "1403": {
+        "chart_types": [
+            "Pair Plot",
+            "Density Plot",
+            "Scatter Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 1403
+    },
+    "1404": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1404
+    },
+    "1410": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1410
+    },
+    "1411": {
+        "chart_types": [
+            "Area Chart",
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 1411
+    },
+    "1412": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1412
+    },
+    "1414": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1414
+    },
+    "1418": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1418
+    },
+    "1420": {
+        "chart_types": [
+            "Scatter Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1420
+    },
+    "1422": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1422
+    },
+    "1423": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1423
+    },
+    "1424": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1424
+    },
+    "1427": {
+        "chart_types": [
+            "Histogram",
+            "Line Chart",
+            "Scatter Plot",
+            "Density Plot"
+        ],
+        "figure_id": 1427
+    },
+    "1428": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1428
+    },
+    "1429": {
+        "chart_types": [
+            "Area Chart"
+        ],
+        "figure_id": 1429
+    },
+    "1430": {
+        "chart_types": [
+            "Pair Plot",
+            "Histogram",
+            "Density Plot"
+        ],
+        "figure_id": 1430
+    },
+    "1433": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1433
+    },
+    "1434": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 1434
+    },
+    "1436": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1436
+    },
+    "1440": {
+        "chart_types": [
+            "Contour Plot",
+            "Other (Vector Field Plot)"
+        ],
+        "figure_id": 1440
+    },
+    "1442": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1442
+    },
+    "1443": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1443
+    },
+    "1445": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1445
+    },
+    "1446": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1446
+    },
+    "1447": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1447
+    },
+    "1448": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1448
+    },
+    "1450": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1450
+    },
+    "1451": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 1451
+    },
+    "1452": {
+        "chart_types": [
+            "Choropleth Map",
+            "Heatmap"
+        ],
+        "figure_id": 1452
+    },
+    "1453": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1453
+    },
+    "1457": {
+        "chart_types": [
+            "Other (Exclusion Plot)",
+            "Area Chart"
+        ],
+        "figure_id": 1457
+    },
+    "1458": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1458
+    },
+    "1459": {
+        "chart_types": [
+            "Line Chart",
+            "Other (Annotated Diagram)",
+            "Other (Contour Plot)"
+        ],
+        "figure_id": 1459
+    },
+    "1460": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1460
+    },
+    "1465": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1465
+    },
+    "1466": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 1466
+    },
+    "1467": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1467
+    },
+    "1468": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1468
+    },
+    "1471": {
+        "chart_types": [
+            "Line Chart",
+            "Other (Image Plot)"
+        ],
+        "figure_id": 1471
+    },
+    "1476": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1476
+    },
+    "1478": {
+        "chart_types": [
+            "Histogram",
+            "Density Plot"
+        ],
+        "figure_id": 1478
+    },
+    "1479": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1479
+    },
+    "1480": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap"
+        ],
+        "figure_id": 1480
+    },
+    "1482": {
+        "chart_types": [
+            "Scatter Plot",
+            "Node-Link Diagram"
+        ],
+        "figure_id": 1482
+    },
+    "1483": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1483
+    },
+    "1484": {
+        "chart_types": [
+            "Radar Chart"
+        ],
+        "figure_id": 1484
+    },
+    "1486": {
+        "chart_types": [
+            "Histogram",
+            "Line Chart"
+        ],
+        "figure_id": 1486
+    },
+    "1487": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1487
+    },
+    "1491": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1491
+    },
+    "1492": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1492
+    },
+    "1497": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1497
+    },
+    "1499": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1499
+    },
+    "1500": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1500
+    },
+    "1502": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1502
+    },
+    "1504": {
+        "chart_types": [
+            "Line Chart",
+            "Density Plot",
+            "Scatter Plot",
+            "Area Chart"
+        ],
+        "figure_id": 1504
+    },
+    "1506": {
+        "chart_types": [
+            "Other (Diagram)",
+            "Line Chart",
+            "Scatter Plot",
+            "Heatmap"
+        ],
+        "figure_id": 1506
+    },
+    "1507": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1507
+    },
+    "1508": {
+        "chart_types": [
+            "Histogram",
+            "Venn Diagram",
+            "Bar Chart",
+            "Node-Link Diagram"
+        ],
+        "figure_id": 1508
+    },
+    "1509": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1509
+    },
+    "1510": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Density Plot"
+        ],
+        "figure_id": 1510
+    },
+    "1512": {
+        "chart_types": [
+            "Hexbin Chart"
+        ],
+        "figure_id": 1512
+    },
+    "1513": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1513
+    },
+    "1515": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1515
+    },
+    "1516": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1516
+    },
+    "1517": {
+        "chart_types": [
+            "Scatter Plot",
+            "Heatmap"
+        ],
+        "figure_id": 1517
+    },
+    "1518": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1518
+    },
+    "1522": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1522
+    },
+    "1525": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1525
+    },
+    "1526": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart",
+            "Histogram",
+            "Density"
+        ],
+        "figure_id": 1526
+    },
+    "1527": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1527
+    },
+    "1528": {
+        "chart_types": [
+            "Scatter Plot",
+            "Violin Plot"
+        ],
+        "figure_id": 1528
+    },
+    "1529": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1529
+    },
+    "1530": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1530
+    },
+    "1534": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1534
+    },
+    "1535": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1535
+    },
+    "1537": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1537
+    },
+    "1538": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1538
+    },
+    "1539": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1539
+    },
+    "1540": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1540
+    },
+    "1541": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1541
+    },
+    "1543": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1543
+    },
+    "1545": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1545
+    },
+    "1546": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1546
+    },
+    "1547": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart",
+            "Histogram"
+        ],
+        "figure_id": 1547
+    },
+    "1548": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1548
+    },
+    "1549": {
+        "chart_types": [
+            "Other (Diagram of a decision-making process)",
+            "Line Chart",
+            "Other (Diagram of a state-space model)"
+        ],
+        "figure_id": 1549
+    },
+    "1550": {
+        "chart_types": [
+            "Other (Waveform Chart)"
+        ],
+        "figure_id": 1550
+    },
+    "1551": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1551
+    },
+    "1552": {
+        "chart_types": [
+            "Other (ROC Curve)"
+        ],
+        "figure_id": 1552
+    },
+    "1553": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1553
+    },
+    "1556": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1556
+    },
+    "1560": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1560
+    },
+    "1561": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1561
+    },
+    "1562": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1562
+    },
+    "1564": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1564
+    },
+    "1565": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1565
+    },
+    "1567": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1567
+    },
+    "1571": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1571
+    },
+    "1572": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1572
+    },
+    "1574": {
+        "chart_types": [
+            "3D Surface Plot",
+            "Line Chart",
+            "Heatmap"
+        ],
+        "figure_id": 1574
+    },
+    "1576": {
+        "chart_types": [
+            "Histogram",
+            "Line Chart"
+        ],
+        "figure_id": 1576
+    },
+    "1577": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1577
+    },
+    "1578": {
+        "chart_types": [
+            "Density Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1578
+    },
+    "1586": {
+        "chart_types": [
+            "Violin Plot",
+            "Box Plot"
+        ],
+        "figure_id": 1586
+    },
+    "1587": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1587
+    },
+    "1592": {
+        "chart_types": [
+            "Heatmap",
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1592
+    },
+    "1593": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1593
+    },
+    "1596": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1596
+    },
+    "1598": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1598
+    },
+    "1599": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1599
+    },
+    "1602": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1602
+    },
+    "1604": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1604
+    },
+    "1606": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 1606
+    },
+    "1610": {
+        "chart_types": [
+            "Other (Brain Imaging Visualization)"
+        ],
+        "figure_id": 1610
+    },
+    "1612": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1612
+    },
+    "1615": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1615
+    },
+    "1616": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1616
+    },
+    "1617": {
+        "chart_types": [
+            "Pie Chart"
+        ],
+        "figure_id": 1617
+    },
+    "1620": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1620
+    },
+    "1621": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1621
+    },
+    "1622": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1622
+    },
+    "1623": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1623
+    },
+    "1625": {
+        "chart_types": [
+            "Bell Curve",
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1625
+    },
+    "1626": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1626
+    },
+    "1629": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1629
+    },
+    "1631": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1631
+    },
+    "1632": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1632
+    },
+    "1633": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1633
+    },
+    "1635": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Heatmap"
+        ],
+        "figure_id": 1635
+    },
+    "1636": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1636
+    },
+    "1637": {
+        "chart_types": [
+            "3D Surface Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 1637
+    },
+    "1638": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1638
+    },
+    "1640": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1640
+    },
+    "1641": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1641
+    },
+    "1642": {
+        "chart_types": [
+            "Scatter Plot",
+            "3D Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1642
+    },
+    "1644": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1644
+    },
+    "1648": {
+        "chart_types": [
+            "Pie Chart",
+            "Bar Chart",
+            "Other (Venn Diagram)"
+        ],
+        "figure_id": 1648
+    },
+    "1652": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1652
+    },
+    "1655": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1655
+    },
+    "1656": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1656
+    },
+    "1657": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1657
+    },
+    "1660": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Area Chart",
+            "Venn Diagram"
+        ],
+        "figure_id": 1660
+    },
+    "1663": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 1663
+    },
+    "1665": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1665
+    },
+    "1666": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1666
+    },
+    "1667": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 1667
+    },
+    "1669": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1669
+    },
+    "1670": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1670
+    },
+    "1674": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1674
+    },
+    "1676": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap",
+            "Area Chart"
+        ],
+        "figure_id": 1676
+    },
+    "1678": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1678
+    },
+    "1679": {
+        "chart_types": [
+            "Histogram",
+            "Area Chart",
+            "Line Chart"
+        ],
+        "figure_id": 1679
+    },
+    "1681": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1681
+    },
+    "1683": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Heatmap",
+            "Area Chart"
+        ],
+        "figure_id": 1683
+    },
+    "1685": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1685
+    },
+    "1688": {
+        "chart_types": [
+            "Hexbin Chart"
+        ],
+        "figure_id": 1688
+    },
+    "1691": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1691
+    },
+    "1697": {
+        "chart_types": [
+            "Line Chart",
+            "Bar Chart"
+        ],
+        "figure_id": 1697
+    },
+    "1698": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1698
+    },
+    "1700": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1700
+    },
+    "1703": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1703
+    },
+    "1708": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1708
+    },
+    "1709": {
+        "chart_types": [
+            "Step Chart",
+            "Line Chart",
+            "Density Plot"
+        ],
+        "figure_id": 1709
+    },
+    "1710": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Heatmap"
+        ],
+        "figure_id": 1710
+    },
+    "1711": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1711
+    },
+    "1712": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1712
+    },
+    "1714": {
+        "chart_types": [
+            "Pair Plot",
+            "Density Plot"
+        ],
+        "figure_id": 1714
+    },
+    "1715": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1715
+    },
+    "1716": {
+        "chart_types": [
+            "Violin Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1716
+    },
+    "1718": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1718
+    },
+    "1719": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1719
+    },
+    "1721": {
+        "chart_types": [
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 1721
+    },
+    "1723": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1723
+    },
+    "1724": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1724
+    },
+    "1727": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1727
+    },
+    "1728": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1728
+    },
+    "1730": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap",
+            "Scatter Plot"
+        ],
+        "figure_id": 1730
+    },
+    "1731": {
+        "chart_types": [
+            "3D Scatter Plot"
+        ],
+        "figure_id": 1731
+    },
+    "1732": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1732
+    },
+    "1734": {
+        "chart_types": [
+            "Density Plot",
+            "Heatmap"
+        ],
+        "figure_id": 1734
+    },
+    "1735": {
+        "chart_types": [
+            "Bubble Chart"
+        ],
+        "figure_id": 1735
+    },
+    "1737": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1737
+    },
+    "1740": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1740
+    },
+    "1741": {
+        "chart_types": [
+            "Violin Plot",
+            "Scatter Plot"
+        ],
+        "figure_id": 1741
+    },
+    "1742": {
+        "chart_types": [
+            "Flowchart",
+            "Heatmap"
+        ],
+        "figure_id": 1742
+    },
+    "1743": {
+        "chart_types": [
+            "Scatter Plot",
+            "Contour Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1743
+    },
+    "1745": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1745
+    },
+    "1746": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1746
+    },
+    "1747": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1747
+    },
+    "1748": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1748
+    },
+    "1749": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1749
+    },
+    "1750": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1750
+    },
+    "1751": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1751
+    },
+    "1752": {
+        "chart_types": [
+            "Line Chart",
+            "Histogram",
+            "Density Plot",
+            "Other (Component Amplitude Plot)",
+            "Other (Autocorrelation Plot)"
+        ],
+        "figure_id": 1752
+    },
+    "1755": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Other (Ridgeline Plot)"
+        ],
+        "figure_id": 1755
+    },
+    "1756": {
+        "chart_types": [
+            "Scatter Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 1756
+    },
+    "1758": {
+        "chart_types": [
+            "Line Chart",
+            "Contour Plot",
+            "Other (Vector Field Plot)"
+        ],
+        "figure_id": 1758
+    },
+    "1759": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 1759
+    },
+    "1761": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1761
+    },
+    "1764": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1764
+    },
+    "1766": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1766
+    },
+    "1767": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1767
+    },
+    "1768": {
+        "chart_types": [
+            "Other (schematic diagram)",
+            "Line Chart",
+            "Bar Chart"
+        ],
+        "figure_id": 1768
+    },
+    "1771": {
+        "chart_types": [
+            "Scatter Plot",
+            "Heatmap",
+            "Line Chart"
+        ],
+        "figure_id": 1771
+    },
+    "1772": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1772
+    },
+    "1775": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Area Chart"
+        ],
+        "figure_id": 1775
+    },
+    "1776": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1776
+    },
+    "1777": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1777
+    },
+    "1778": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1778
+    },
+    "1780": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1780
+    },
+    "1781": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1781
+    },
+    "1782": {
+        "chart_types": [
+            "Density Plot",
+            "Heatmap"
+        ],
+        "figure_id": 1782
+    },
+    "1783": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1783
+    },
+    "1787": {
+        "chart_types": [
+            "Violin Plot",
+            "Bar Chart"
+        ],
+        "figure_id": 1787
+    },
+    "1792": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1792
+    },
+    "1795": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1795
+    },
+    "1796": {
+        "chart_types": [
+            "Contour Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1796
+    },
+    "1798": {
+        "chart_types": [
+            "Density Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1798
+    },
+    "1799": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1799
+    },
+    "1800": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1800
+    },
+    "1801": {
+        "chart_types": [
+            "Line Chart",
+            "QQ Plot",
+            "Time Series Heatmap"
+        ],
+        "figure_id": 1801
+    },
+    "1802": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1802
+    },
+    "1804": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1804
+    },
+    "1805": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1805
+    },
+    "1806": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1806
+    },
+    "1807": {
+        "chart_types": [
+            "Histogram",
+            "Density Plot"
+        ],
+        "figure_id": 1807
+    },
+    "1808": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1808
+    },
+    "1809": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1809
+    },
+    "1810": {
+        "chart_types": [
+            "QQ Plot"
+        ],
+        "figure_id": 1810
+    },
+    "1812": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1812
+    },
+    "1813": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1813
+    },
+    "1814": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Chart"
+        ],
+        "figure_id": 1814
+    },
+    "1816": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1816
+    },
+    "1817": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1817
+    },
+    "1820": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1820
+    },
+    "1821": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1821
+    },
+    "1823": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1823
+    },
+    "1824": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1824
+    },
+    "1825": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1825
+    },
+    "1828": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1828
+    },
+    "1829": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1829
+    },
+    "1830": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1830
+    },
+    "1831": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1831
+    },
+    "1832": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1832
+    },
+    "1834": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1834
+    },
+    "1835": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1835
+    },
+    "1836": {
+        "chart_types": [
+            "Other (Autocorrelation Function Plot)"
+        ],
+        "figure_id": 1836
+    },
+    "1839": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1839
+    },
+    "1840": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 1840
+    },
+    "1846": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1846
+    },
+    "1847": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1847
+    },
+    "1849": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1849
+    },
+    "1850": {
+        "chart_types": [
+            "Scatter Plot",
+            "Density Plot"
+        ],
+        "figure_id": 1850
+    },
+    "1854": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1854
+    },
+    "1858": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1858
+    },
+    "1859": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1859
+    },
+    "1864": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 1864
+    },
+    "1867": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1867
+    },
+    "1869": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1869
+    },
+    "1870": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1870
+    },
+    "1871": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1871
+    },
+    "1872": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1872
+    },
+    "1874": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1874
+    },
+    "1875": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1875
+    },
+    "1876": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1876
+    },
+    "1877": {
+        "chart_types": [
+            "Scatter Plot",
+            "Histogram"
+        ],
+        "figure_id": 1877
+    },
+    "1878": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 1878
+    },
+    "1879": {
+        "chart_types": [
+            "Scatter Plot",
+            "Area Chart"
+        ],
+        "figure_id": 1879
+    },
+    "1881": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1881
+    },
+    "1882": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1882
+    },
+    "1883": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1883
+    },
+    "1885": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1885
+    },
+    "1888": {
+        "chart_types": [
+            "Area Chart"
+        ],
+        "figure_id": 1888
+    },
+    "1889": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1889
+    },
+    "1890": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 1890
+    },
+    "1891": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1891
+    },
+    "1892": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1892
+    },
+    "1893": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1893
+    },
+    "1894": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1894
+    },
+    "1896": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1896
+    },
+    "1904": {
+        "chart_types": [
+            "Box Plot",
+            "Scatter Plot"
+        ],
+        "figure_id": 1904
+    },
+    "1905": {
+        "chart_types": [
+            "Area Chart"
+        ],
+        "figure_id": 1905
+    },
+    "1906": {
+        "chart_types": [
+            "Heatmap",
+            "Correlation Matrix"
+        ],
+        "figure_id": 1906
+    },
+    "1907": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1907
+    },
+    "1909": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1909
+    },
+    "1911": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1911
+    },
+    "1912": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 1912
+    },
+    "1919": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1919
+    },
+    "1920": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1920
+    },
+    "1923": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1923
+    },
+    "1924": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1924
+    },
+    "1926": {
+        "chart_types": [
+            "Contour Plot",
+            "Other (Parametric Plot)"
+        ],
+        "figure_id": 1926
+    },
+    "1928": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1928
+    },
+    "1930": {
+        "chart_types": [
+            "Bubble Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 1930
+    },
+    "1931": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1931
+    },
+    "1933": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1933
+    },
+    "1934": {
+        "chart_types": [
+            "Histogram",
+            "Density Plot"
+        ],
+        "figure_id": 1934
+    },
+    "1935": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1935
+    },
+    "1936": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1936
+    },
+    "1938": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1938
+    },
+    "1943": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1943
+    },
+    "1944": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1944
+    },
+    "1945": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1945
+    },
+    "1947": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1947
+    },
+    "1949": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1949
+    },
+    "1950": {
+        "chart_types": [
+            "Histogram",
+            "Density Plot"
+        ],
+        "figure_id": 1950
+    },
+    "1951": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1951
+    },
+    "1952": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1952
+    },
+    "1956": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1956
+    },
+    "1957": {
+        "chart_types": [
+            "Sankey Diagram"
+        ],
+        "figure_id": 1957
+    },
+    "1960": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 1960
+    },
+    "1961": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 1961
+    },
+    "1964": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 1964
+    },
+    "1966": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1966
+    },
+    "1967": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1967
+    },
+    "1975": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1975
+    },
+    "1977": {
+        "chart_types": [
+            "Correlation Matrix",
+            "Heatmap"
+        ],
+        "figure_id": 1977
+    },
+    "1979": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 1979
+    },
+    "1981": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 1981
+    },
+    "1982": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1982
+    },
+    "1983": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1983
+    },
+    "1984": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1984
+    },
+    "1988": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 1988
+    },
+    "1989": {
+        "chart_types": [
+            "Violin Plot"
+        ],
+        "figure_id": 1989
+    },
+    "1990": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1990
+    },
+    "1991": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1991
+    },
+    "1992": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 1992
+    },
+    "1995": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 1995
+    },
+    "1997": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 1997
+    },
+    "2002": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2002
+    },
+    "2006": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2006
+    },
+    "2007": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2007
+    },
+    "2008": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2008
+    },
+    "2011": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 2011
+    },
+    "2012": {
+        "chart_types": [
+            "Correlation Matrix",
+            "Bubble Chart"
+        ],
+        "figure_id": 2012
+    },
+    "2013": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2013
+    },
+    "2014": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2014
+    },
+    "2015": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2015
+    },
+    "2017": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2017
+    },
+    "2019": {
+        "chart_types": [
+            "Area Chart",
+            "Line Chart"
+        ],
+        "figure_id": 2019
+    },
+    "2020": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2020
+    },
+    "2021": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2021
+    },
+    "2022": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2022
+    },
+    "2023": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2023
+    },
+    "2024": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Area Chart"
+        ],
+        "figure_id": 2024
+    },
+    "2025": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2025
+    },
+    "2026": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 2026
+    },
+    "2027": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2027
+    },
+    "2028": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2028
+    },
+    "2029": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2029
+    },
+    "2031": {
+        "chart_types": [
+            "Heatmap",
+            "Correlation Matrix"
+        ],
+        "figure_id": 2031
+    },
+    "2032": {
+        "chart_types": [
+            "Histogram",
+            "Line Chart"
+        ],
+        "figure_id": 2032
+    },
+    "2033": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2033
+    },
+    "2034": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 2034
+    },
+    "2036": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2036
+    },
+    "2037": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2037
+    },
+    "2038": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 2038
+    },
+    "2041": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 2041
+    },
+    "2042": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 2042
+    },
+    "2044": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2044
+    },
+    "2045": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2045
+    },
+    "2046": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2046
+    },
+    "2047": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2047
+    },
+    "2048": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2048
+    },
+    "2049": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 2049
+    },
+    "2052": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 2052
+    },
+    "2057": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2057
+    },
+    "2058": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2058
+    },
+    "2062": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2062
+    },
+    "2063": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 2063
+    },
+    "2064": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2064
+    },
+    "2065": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2065
+    },
+    "2066": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2066
+    },
+    "2069": {
+        "chart_types": [
+            "Force-Directed Graph"
+        ],
+        "figure_id": 2069
+    },
+    "2070": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2070
+    },
+    "2073": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2073
+    },
+    "2074": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2074
+    },
+    "2077": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2077
+    },
+    "2079": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2079
+    },
+    "2080": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2080
+    },
+    "2084": {
+        "chart_types": [
+            "Node-Link Diagram",
+            "Bar Chart"
+        ],
+        "figure_id": 2084
+    },
+    "2085": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2085
+    },
+    "2086": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2086
+    },
+    "2087": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2087
+    },
+    "2088": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2088
+    },
+    "2091": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 2091
+    },
+    "2092": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2092
+    },
+    "2094": {
+        "chart_types": [
+            "Contour Plot",
+            "Density Plot"
+        ],
+        "figure_id": 2094
+    },
+    "2095": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 2095
+    },
+    "2096": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2096
+    },
+    "2098": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2098
+    },
+    "2099": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 2099
+    },
+    "2101": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2101
+    },
+    "2102": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 2102
+    },
+    "2103": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2103
+    },
+    "2104": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2104
+    },
+    "2107": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 2107
+    },
+    "2109": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2109
+    },
+    "2110": {
+        "chart_types": [
+            "Line Chart",
+            "Other (Network Diagram)"
+        ],
+        "figure_id": 2110
+    },
+    "2111": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2111
+    },
+    "2113": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2113
+    },
+    "2115": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 2115
+    },
+    "2116": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2116
+    },
+    "2118": {
+        "chart_types": [
+            "Correlation Matrix",
+            "Bubble Chart"
+        ],
+        "figure_id": 2118
+    },
+    "2120": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2120
+    },
+    "2121": {
+        "chart_types": [
+            "Density Plot",
+            "Histogram"
+        ],
+        "figure_id": 2121
+    },
+    "2123": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2123
+    },
+    "2125": {
+        "chart_types": [
+            "Venn Diagram",
+            "Ternary Plot",
+            "Violin Plot"
+        ],
+        "figure_id": 2125
+    },
+    "2126": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2126
+    },
+    "2131": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2131
+    },
+    "2134": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 2134
+    },
+    "2135": {
+        "chart_types": [
+            "Dot Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 2135
+    },
+    "2137": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2137
+    },
+    "2139": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2139
+    },
+    "2141": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Area Chart"
+        ],
+        "figure_id": 2141
+    },
+    "2142": {
+        "chart_types": [
+            "Other (Forest Plot)"
+        ],
+        "figure_id": 2142
+    },
+    "2143": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2143
+    },
+    "2144": {
+        "chart_types": [
+            "Line Chart",
+            "Heatmap"
+        ],
+        "figure_id": 2144
+    },
+    "2146": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2146
+    },
+    "2151": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2151
+    },
+    "2153": {
+        "chart_types": [
+            "Scatter Plot",
+            "Density Plot"
+        ],
+        "figure_id": 2153
+    },
+    "2154": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2154
+    },
+    "2155": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2155
+    },
+    "2156": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2156
+    },
+    "2159": {
+        "chart_types": [
+            "Other (Kaplan-Meier Plot)"
+        ],
+        "figure_id": 2159
+    },
+    "2160": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2160
+    },
+    "2161": {
+        "chart_types": [
+            "Scatter Plot",
+            "Error Bar Plot"
+        ],
+        "figure_id": 2161
+    },
+    "2162": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2162
+    },
+    "2163": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot",
+            "Area Chart"
+        ],
+        "figure_id": 2163
+    },
+    "2164": {
+        "chart_types": [
+            "Line Chart",
+            "Contour Plot",
+            "Other (Arrow Plot)"
+        ],
+        "figure_id": 2164
+    },
+    "2165": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2165
+    },
+    "2168": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 2168
+    },
+    "2169": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2169
+    },
+    "2170": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2170
+    },
+    "2171": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2171
+    },
+    "2172": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2172
+    },
+    "2174": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2174
+    },
+    "2175": {
+        "chart_types": [
+            "Pair Plot",
+            "Scatter Plot"
+        ],
+        "figure_id": 2175
+    },
+    "2176": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2176
+    },
+    "2178": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2178
+    },
+    "2180": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2180
+    },
+    "2182": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2182
+    },
+    "2183": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2183
+    },
+    "2184": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2184
+    },
+    "2185": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2185
+    },
+    "2186": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 2186
+    },
+    "2189": {
+        "chart_types": [
+            "Density Plot",
+            "Histogram"
+        ],
+        "figure_id": 2189
+    },
+    "2190": {
+        "chart_types": [
+            "Hexbin Chart"
+        ],
+        "figure_id": 2190
+    },
+    "2192": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2192
+    },
+    "2196": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2196
+    },
+    "2197": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2197
+    },
+    "2200": {
+        "chart_types": [
+            "Error Bar Plot"
+        ],
+        "figure_id": 2200
+    },
+    "2202": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2202
+    },
+    "2204": {
+        "chart_types": [
+            "Radar Chart"
+        ],
+        "figure_id": 2204
+    },
+    "2205": {
+        "chart_types": [
+            "Error Bar Plot"
+        ],
+        "figure_id": 2205
+    },
+    "2206": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2206
+    },
+    "2207": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2207
+    },
+    "2210": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2210
+    },
+    "2212": {
+        "chart_types": [
+            "Contour Plot",
+            "Density Plot",
+            "Bubble Chart"
+        ],
+        "figure_id": 2212
+    },
+    "2213": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2213
+    },
+    "2215": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2215
+    },
+    "2216": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2216
+    },
+    "2217": {
+        "chart_types": [
+            "Contour Plot",
+            "Density Plot"
+        ],
+        "figure_id": 2217
+    },
+    "2218": {
+        "chart_types": [
+            "Contour Plot"
+        ],
+        "figure_id": 2218
+    },
+    "2219": {
+        "chart_types": [
+            "Line Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 2219
+    },
+    "2220": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2220
+    },
+    "2222": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2222
+    },
+    "2225": {
+        "chart_types": [
+            "Violin Plot"
+        ],
+        "figure_id": 2225
+    },
+    "2226": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 2226
+    },
+    "2227": {
+        "chart_types": [
+            "Bar Chart",
+            "Line Chart"
+        ],
+        "figure_id": 2227
+    },
+    "2228": {
+        "chart_types": [
+            "Line Chart",
+            "Bar Chart"
+        ],
+        "figure_id": 2228
+    },
+    "2229": {
+        "chart_types": [
+            "QQ Plot"
+        ],
+        "figure_id": 2229
+    },
+    "2230": {
+        "chart_types": [
+            "Ridgeline Plot"
+        ],
+        "figure_id": 2230
+    },
+    "2231": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 2231
+    },
+    "2232": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2232
+    },
+    "2233": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2233
+    },
+    "2235": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2235
+    },
+    "2237": {
+        "chart_types": [
+            "Error Bar Chart",
+            "Scatter Plot"
+        ],
+        "figure_id": 2237
+    },
+    "2239": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2239
+    },
+    "2241": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2241
+    },
+    "2244": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2244
+    },
+    "2247": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2247
+    },
+    "2248": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2248
+    },
+    "2249": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2249
+    },
+    "2250": {
+        "chart_types": [
+            "Density Plot"
+        ],
+        "figure_id": 2250
+    },
+    "2251": {
+        "chart_types": [
+            "3D Scatter Plot"
+        ],
+        "figure_id": 2251
+    },
+    "2254": {
+        "chart_types": [
+            "Line Chart",
+            "Contour Plot",
+            "Error Bar Plot",
+            "Heatmap",
+            "Area Chart"
+        ],
+        "figure_id": 2254
+    },
+    "2255": {
+        "chart_types": [
+            "Contour Plot",
+            "Surface Plot"
+        ],
+        "figure_id": 2255
+    },
+    "2256": {
+        "chart_types": [
+            "Choropleth Map"
+        ],
+        "figure_id": 2256
+    },
+    "2258": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2258
+    },
+    "2259": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2259
+    },
+    "2260": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 2260
+    },
+    "2262": {
+        "chart_types": [
+            "Scatter Plot",
+            "Histogram"
+        ],
+        "figure_id": 2262
+    },
+    "2264": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2264
+    },
+    "2265": {
+        "chart_types": [
+            "Pair Plot",
+            "Scatter Plot",
+            "Histogram"
+        ],
+        "figure_id": 2265
+    },
+    "2266": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2266
+    },
+    "2268": {
+        "chart_types": [
+            "3D Bar Chart"
+        ],
+        "figure_id": 2268
+    },
+    "2272": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2272
+    },
+    "2273": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2273
+    },
+    "2275": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2275
+    },
+    "2276": {
+        "chart_types": [
+            "Density Plot",
+            "Line Chart"
+        ],
+        "figure_id": 2276
+    },
+    "2277": {
+        "chart_types": [
+            "Line Chart",
+            "Bar Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2277
+    },
+    "2278": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2278
+    },
+    "2280": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2280
+    },
+    "2281": {
+        "chart_types": [
+            "Node-Link Diagram",
+            "Line Chart"
+        ],
+        "figure_id": 2281
+    },
+    "2283": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2283
+    },
+    "2284": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2284
+    },
+    "2285": {
+        "chart_types": [
+            "Choropleth Map"
+        ],
+        "figure_id": 2285
+    },
+    "2286": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2286
+    },
+    "2292": {
+        "chart_types": [
+            "Box Plot",
+            "Line Chart"
+        ],
+        "figure_id": 2292
+    },
+    "2295": {
+        "chart_types": [
+            "Scatter Plot",
+            "Area Chart"
+        ],
+        "figure_id": 2295
+    },
+    "2297": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 2297
+    },
+    "2298": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2298
+    },
+    "2300": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2300
+    },
+    "2301": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2301
+    },
+    "2302": {
+        "chart_types": [
+            "Contour Plot",
+            "Heatmap"
+        ],
+        "figure_id": 2302
+    },
+    "2303": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2303
+    },
+    "2304": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2304
+    },
+    "2305": {
+        "chart_types": [
+            "Line Chart",
+            "Histogram"
+        ],
+        "figure_id": 2305
+    },
+    "2306": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2306
+    },
+    "2311": {
+        "chart_types": [
+            "Heatmap",
+            "Histogram"
+        ],
+        "figure_id": 2311
+    },
+    "2312": {
+        "chart_types": [
+            "Box Plot",
+            "Line Chart"
+        ],
+        "figure_id": 2312
+    },
+    "2315": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2315
+    },
+    "2316": {
+        "chart_types": [
+            "Error Bar Plot"
+        ],
+        "figure_id": 2316
+    },
+    "2318": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2318
+    },
+    "2319": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2319
+    },
+    "2320": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2320
+    },
+    "2322": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2322
+    },
+    "2324": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2324
+    },
+    "2325": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2325
+    },
+    "2327": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2327
+    },
+    "2331": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2331
+    },
+    "2332": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2332
+    },
+    "2333": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2333
+    },
+    "2334": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2334
+    },
+    "2337": {
+        "chart_types": [
+            "Other (Forest Plot)"
+        ],
+        "figure_id": 2337
+    },
+    "2339": {
+        "chart_types": [
+            "Heatmap"
+        ],
+        "figure_id": 2339
+    },
+    "2340": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2340
+    },
+    "2341": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2341
+    },
+    "2344": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2344
+    },
+    "2345": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2345
+    },
+    "2348": {
+        "chart_types": [
+            "Density Plot",
+            "Line Chart"
+        ],
+        "figure_id": 2348
+    },
+    "2349": {
+        "chart_types": [
+            "Histogram"
+        ],
+        "figure_id": 2349
+    },
+    "2350": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2350
+    },
+    "2351": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2351
+    },
+    "2352": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2352
+    },
+    "2353": {
+        "chart_types": [
+            "Area Chart"
+        ],
+        "figure_id": 2353
+    },
+    "2354": {
+        "chart_types": [
+            "Choropleth Map"
+        ],
+        "figure_id": 2354
+    },
+    "2356": {
+        "chart_types": [
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2356
+    },
+    "2358": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2358
+    },
+    "2363": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2363
+    },
+    "2364": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2364
+    },
+    "2367": {
+        "chart_types": [
+            "Scatter Plot"
+        ],
+        "figure_id": 2367
+    },
+    "2368": {
+        "chart_types": [
+            "Scatter Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 2368
+    },
+    "2369": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2369
+    },
+    "2370": {
+        "chart_types": [
+            "Scatter Plot",
+            "Line Chart",
+            "Area Chart"
+        ],
+        "figure_id": 2370
+    },
+    "2374": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2374
+    },
+    "2376": {
+        "chart_types": [
+            "Contour Plot",
+            "Heatmap"
+        ],
+        "figure_id": 2376
+    },
+    "2377": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2377
+    },
+    "2382": {
+        "chart_types": [
+            "Pair Plot",
+            "Scatter Plot"
+        ],
+        "figure_id": 2382
+    },
+    "2383": {
+        "chart_types": [
+            "Bar Chart"
+        ],
+        "figure_id": 2383
+    },
+    "2384": {
+        "chart_types": [
+            "Box Plot"
+        ],
+        "figure_id": 2384
+    },
+    "2386": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2386
+    },
+    "2387": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2387
+    },
+    "2388": {
+        "chart_types": [
+            "Line Chart",
+            "Error Bar Plot"
+        ],
+        "figure_id": 2388
+    },
+    "2389": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2389
+    },
+    "2392": {
+        "chart_types": [
+            "Scatter Plot",
+            "Contour Plot"
+        ],
+        "figure_id": 2392
+    },
+    "2393": {
+        "chart_types": [
+            "Line Chart"
+        ],
+        "figure_id": 2393
+    },
+    "2395": {
+        "chart_types": [
+            "3D Surface Plot"
+        ],
+        "figure_id": 2395
+    },
+    "2397": {
+        "chart_types": [
+            "Density Plot",
+            "Scatter Plot",
+            "Line Chart"
+        ],
+        "figure_id": 2397
+    }
+}

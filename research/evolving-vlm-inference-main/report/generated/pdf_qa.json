@@ -1,0 +1,135 @@
+{
+  "compiler": "Tectonic 0.17.0",
+  "official_neurips_style_loaded": true,
+  "pages": [
+    {
+      "height_points": 792.0,
+      "page": 1,
+      "render_height": 1188,
+      "render_nonwhite_fraction": 0.08252917702808771,
+      "render_sha256": "ca705ed8e214fbc4ae6829246606b27e6696b0c028536bbc87b30e5520aa7540",
+      "render_size_bytes": 184749,
+      "render_width": 918,
+      "text_block_count": 8,
+      "text_characters": 2917,
+      "width_points": 612.0
+    },
+    {
+      "height_points": 792.0,
+      "page": 2,
+      "render_height": 1188,
+      "render_nonwhite_fraction": 0.09105029965596415,
+      "render_sha256": "5c3a8d5d0e74efa648611611f0ed157842be7d0f6a6c0c4ae06fcdda2d88af1a",
+      "render_size_bytes": 214702,
+      "render_width": 918,
+      "text_block_count": 11,
+      "text_characters": 3528,
+      "width_points": 612.0
+    },
+    {
+      "height_points": 792.0,
+      "page": 3,
+      "render_height": 1188,
+      "render_nonwhite_fraction": 0.09947514359279065,
+      "render_sha256": "2d148ceb48e73ee093de5d6b97881705a7241e11bb618126b076dcacea0ae5dc",
+      "render_size_bytes": 232112,
+      "render_width": 918,
+      "text_block_count": 13,
+      "text_characters": 3946,
+      "width_points": 612.0
+    },
+    {
+      "height_points": 792.0,
+      "page": 4,
+      "render_height": 1188,
+      "render_nonwhite_fraction": 0.09516002435392414,
+      "render_sha256": "6b3d7b2c45e7433b5122362237843339a6d4d8de08570bb91377706f4f58ae86",
+      "render_size_bytes": 222008,
+      "render_width": 918,
+      "text_block_count": 12,
+      "text_characters": 3722,
+      "width_points": 612.0
+    },
+    {
+      "height_points": 792.0,
+      "page": 5,
+      "render_height": 1188,
+      "render_nonwhite_fraction": 0.08937413349178056,
+      "render_sha256": "023a65b427863929b1614f5fb14cfe9fcab69ca92c9e34cb945f753de1fd3933",
+      "render_size_bytes": 210489,
+      "render_width": 918,
+      "text_block_count": 15,
+      "text_characters": 3424,
+      "width_points": 612.0
+    },
+    {
+      "height_points": 792.0,
+      "page": 6,
+      "render_height": 1188,
+      "render_nonwhite_fraction": 0.10487683663064927,
+      "render_sha256": "6e76481e6bebafb109bf94081a36831295821e3fbed7fbdb2a9121b1e53436e0",
+      "render_size_bytes": 241767,
+      "render_width": 918,
+      "text_block_count": 10,
+      "text_characters": 4048,
+      "width_points": 612.0
+    },
+    {
+      "height_points": 792.0,
+      "page": 7,
+      "render_height": 1188,
+      "render_nonwhite_fraction": 0.10841072306213918,
+      "render_sha256": "64b9566f794cfb40f6ef0d8eab72b7b9b0aa1cb7fee8f11d59c6214ea10d43cd",
+      "render_size_bytes": 247760,
+      "render_width": 918,
+      "text_block_count": 10,
+      "text_characters": 4197,
+      "width_points": 612.0
+    },
+    {
+      "height_points": 792.0,
+      "page": 8,
+      "render_height": 1188,
+      "render_nonwhite_fraction": 0.011895461514197897,
+      "render_sha256": "795cb6318c2dbbca6eaa91a97ac40ea79b71f768089801a63b5b554577105ea9",
+      "render_size_bytes": 36000,
+      "render_width": 918,
+      "text_block_count": 3,
+      "text_characters": 439,
+      "width_points": 612.0
+    }
+  ],
+  "pdf": {
+    "metadata": {
+      "author": "",
+      "creationDate": "D:20260827004545-00'00'",
+      "creator": "LaTeX with hyperref",
+      "encryption": null,
+      "format": "PDF 1.5",
+      "keywords": "",
+      "modDate": "",
+      "producer": "xdvipdfmx (0.1)",
+      "subject": "",
+      "title": "",
+      "trapped": ""
+    },
+    "page_count": 8,
+    "sha256": "7f26b031cecbdd735d850151918e43de17116c47410c425f30bad9cd383d9a9d",
+    "size_bytes": 68032
+  },
+  "required_text": {
+    "Formal Recovery-v2 Evaluation": true,
+    "Negative Results and Failure Analysis": true,
+    "Reproducibility and Artifact Traceability": true,
+    "Whole-set Speed32 replacement": true,
+    "evolved_instruct": true
+  },
+  "schema_version": 1,
+  "sources": {
+    "compiler_log_sha256": "5ec961800e526a7e022bb02a1996b6a03036207422de0c21c291aa6afdfa7784",
+    "main_tex_sha256": "8c6f4f897136ff931f80a08f2f19c35ca7bea8e4cb37d0371dd7dd73c92243c3",
+    "neurips_2025_style_sha256": "67a960f35da6fecb5a0ce0202fa400459f4c8bb6c294f1a3fdd82fbbd39244c2",
+    "tectonic_entry_sha256": "a8fdf121f722bbbc53d778d8c99507a01d2e6529585c64e8325b6b7d8e11a797"
+  },
+  "status": "PASS"
+}

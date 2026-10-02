@@ -1,0 +1,55 @@
+{
+  "attempt_id": "00d288b2-8435-41ea-83f2-4cce57724709",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 21.760069457814097,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 128,
+    "generation_seconds": 21.72593344328925,
+    "input_token_count": 1079,
+    "peak_memory_bytes": 4513592320,
+    "preprocessing_seconds": 0.033714891877025366,
+    "termination_reason": "length",
+    "total_seconds": 21.75986940599978
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "The subplot at row 4 and column 3 is labeled (3) Clean accuracy vs. LAGA (e = 1) (CelebA and LSUN; r = 0.32, ρ = 0.36). The y-axis is labeled \"LAGA (e = 1)\" and the tick marks are shown as 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45,",
+  "prediction_sha256": "4e91d748198c8797f106218123d3c9f9316b1cac6a9130a2fbd284e582c165a8",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "41",
+    "image_sha256": "9c764db9191549b6c36de2cece162d0d00a1b7e86bb3945edc9d1db39f95b126",
+    "index": 76,
+    "qid": "7",
+    "query_key": "41_0",
+    "question": "For the subplot at row 4 and column 3, what is the spatially highest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+    "subq_idx": 0
+  },
+  "run_id": "266ce156-3b66-4c6c-96c8-93968a883c01",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

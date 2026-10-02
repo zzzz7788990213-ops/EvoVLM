@@ -1,0 +1,55 @@
+{
+  "attempt_id": "bbed0d96-a5e1-4056-bf21-71feaae0917b",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 20.19180833408609,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 20.164952859748155,
+    "input_token_count": 768,
+    "peak_memory_bytes": 4464795136,
+    "preprocessing_seconds": 0.025478961877524853,
+    "termination_reason": "length",
+    "total_seconds": 20.190736457705498
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the image. The chart has multiple subplots arranged in a grid. Let's count the rows and columns. \n\nFirst, check the vertical arrangement. There are 6 rows (V0, ρ, σ, θ, K, and then the next one? Wait, let's list them:\n\n1. V0 (top left)\n2. ρ (top right)\n3. σ (middle left)\n4. θ (middle right)\n5. K (bottom left)\n6. Wait, no, let's count the number of rows. Each row is a different variable. Let's see:\n\nLooking at the image, there are 6 rows of subplots. Wait, no, let's count the number of vertical sections. Each variable (V0, ρ, σ, θ, K) has two subplots: one with SHAP value (left) and one with mean[SHAP value] (right). So for each variable, there are two subplots. Let's count how many variables there are. The variables are V0, ρ, σ, θ, K. That's 5 variables. Each variable has two subplots, so 5 variables * 2 subplots = 10 subplots. Wait, but the image shows 5 variables, each with two subplots, so 5 rows? Wait, no, the image has 5 variables (V0, ρ, σ, θ, K) and each variable has two subplots (left and right). So the layout is 5 rows (one for each variable) and 2 columns (left and right for each variable). Wait, no, let's check the structure.\n\nWait, the image shows:\n\n- First row: V0 (left subplot: SHAP value, right subplot: mean[SHAP value",
+  "prediction_sha256": "2b07a683dac663c1f46c11d58f6378703da3fd8ae0598d79995193b5642cf8d8",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1948",
+    "image_sha256": "d67e47c3e418ccfd476736c7933a2539ec2f3247f17530e7e6b11dd3568795fd",
+    "index": 25,
+    "qid": "18",
+    "query_key": "1948_2",
+    "question": "What is the layout of the subplots?\n    * Your final answer should follow \"n by m\" format, where n is the number of rows and m is the number of columns.\n    * If the plot does not contain subplots, answer \"1 by 1\".",
+    "subq_idx": 2
+  },
+  "run_id": "1799f06c-4d76-4006-b6c9-c4fe17679f8d",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

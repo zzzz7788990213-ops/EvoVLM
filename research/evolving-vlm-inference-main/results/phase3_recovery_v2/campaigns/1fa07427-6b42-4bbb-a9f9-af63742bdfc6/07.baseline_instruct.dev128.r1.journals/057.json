@@ -1,0 +1,55 @@
+{
+  "attempt_id": "00d288b2-8435-41ea-83f2-4cce57724709",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 21.82164442492649,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 128,
+    "generation_seconds": 21.790770574938506,
+    "input_token_count": 1048,
+    "peak_memory_bytes": 4508406272,
+    "preprocessing_seconds": 0.030498750042170286,
+    "termination_reason": "length",
+    "total_seconds": 21.821473794989288
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "The subplot at row 7 and column 2 is the one labeled \"easy point_mass:easy\". The legend is located on the right side of the plot, and it contains the following labels:\n\n- Single process\n- Distributed: 2 actors\n- Distributed: 8 actors\n- Distributed: 16 actors\n\nThe question asks for the number of discrete labels in the legend that are relevant to the plot. Since the plot is for \"easy point_mass:easy\", the relevant labels are those that describe the different configurations of the experiment. The legend has four distinct entries, each corresponding to a different number of actors.\n\nTherefore",
+  "prediction_sha256": "3157642714c07dd85e999367f308aea94942f99a2a2427f00985488ccd149ff6",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "29",
+    "image_sha256": "b94783c5f8a62b5588bd372aeba88826e6f7e000a00c07eccfb0fecdf92e94ce",
+    "index": 57,
+    "qid": "12",
+    "query_key": "29_1",
+    "question": "For the subplot at row 7 and column 2, how many discrete labels are there in the legend?\n    * Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. \n    * If the plot does not have a legend or no legend is not considered relevant to this plot, answer \"Not Applicable\".",
+    "subq_idx": 1
+  },
+  "run_id": "266ce156-3b66-4c6c-96c8-93968a883c01",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

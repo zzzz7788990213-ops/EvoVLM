@@ -1,0 +1,18 @@
+{
+  "attempt": 1,
+  "attempt_id": "8b9e89f8-6bfd-4cac-8180-89cb72578742",
+  "attempt_version": "phase3-recovery-attempt-v2",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "completed_unix": 1787646349.719747,
+  "console_path": "results/phase3_recovery_v2/campaigns/1fa07427-6b42-4bbb-a9f9-af63742bdfc6/24.manual_instruct.speed32.r3.attempt.1.console.log",
+  "console_sha256": "048d106512118b59f071fb02db4dc5cd8374fb1d1c8acd660164a1e658950fe3",
+  "elapsed_seconds": 456.9610903239809,
+  "entry_index": 24,
+  "journal_count_after": 32,
+  "manifest": "speed32",
+  "outcome": "COMPLETED",
+  "program": "manual_instruct",
+  "protocol_id": "phase3-recovery-v2",
+  "repeat": 3,
+  "returncode": 0
+}

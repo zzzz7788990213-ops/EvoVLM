@@ -1,0 +1,67 @@
+{
+  "authorization_path": "evaluation/recovery_v2/speed32_replacement_authorization.json",
+  "authorization_sha256": "70b67dbbcd3db6c6e7379fd308bb0fa314e907e3e20f8a0a05943e134ab3c841",
+  "authorized_replacement_indices": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "campaign_plan_sha256": "3af5a4a0de3651f5be758baeb9954ae22aa89e416c03a11b2b3b6b62b6975605",
+  "contamination_audit_path": "results/phase3_recovery_v2/incidents/1fa07427-6b42-4bbb-a9f9-af63742bdfc6.gpu0_external_contention.audit.json",
+  "contamination_audit_sha256": "2f97fbe9539fa1371fe17f43f6d55d9610af1f051037071967885e258daf3c27",
+  "frozen_hashes": {
+    "candidate_manifest": "7e1f0416cc327d6257e1d235a31f7b48e384b44a8e28eed9a75245d1bbe238f9",
+    "data_manifest": "d9beee3fa956313c9c7d0691c03fdadeba031937b1fc8b25eaf5a29b4bb03cbd",
+    "phase3_recovery": "5b13f1f6c8543b48192bd0210e8bb1e4446fec531e415707f46b4a7dd5d4afd8",
+    "protocol": "a251e703c94167df9ff19dd4ff21f9c66297e1caa80d1519a0e0721e711b79dd",
+    "recovery_authorization": "c787e2077f54b421e65211871c54e9bdd2d2bc724451b4566f4465731281871c",
+    "selection_rules": "fb3a634fa042f3e473053cfa03463b045aaec8a96989627ffebf9d9b55bc52d7",
+    "speed32_manifest": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87",
+    "warmup1_manifest": "201bd90ecd2478682e67a422c061c8137db9fff81d8514dc329b7450555307ea"
+  },
+  "gpu_policy": {
+    "cuda_visible_devices": "0",
+    "gpu1_queried_or_used": false,
+    "host": "hopper-25",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "strictly_serial": true,
+    "visible_device_count": 1
+  },
+  "marker_version": "phase3-speed32-replacement-marker-v1",
+  "old_new_speed_mixing_allowed": false,
+  "old_speed32_entire_set_qualifying": false,
+  "partial_replacement_allowed": false,
+  "protocol_id": "phase3-recovery-v2",
+  "retains_old_schedule_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  },
+  "supersedes_speed32_campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6"
+}

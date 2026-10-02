@@ -1,0 +1,56 @@
+{
+  "accuracy": 0.0,
+  "avg_time_per_query": 29.553259262815118,
+  "correct": 0,
+  "exact_match": "prediction.strip().casefold() == expected.strip().casefold()",
+  "gpu_scope": {
+    "cuda_visible_devices": "1",
+    "cuda_visible_devices_original": "1",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 1,
+    "selection_mode": "explicit_single",
+    "visible_device_count": 1
+  },
+  "greedy_decoding": {
+    "do_sample": false,
+    "max_new_tokens": 128,
+    "num_beams": 1
+  },
+  "num_errors": 0,
+  "num_evaluated": 1,
+  "program": "baseline_thinking",
+  "program_identity": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "model_weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3"
+  },
+  "records": [
+    {
+      "correct": false,
+      "error": null,
+      "expected_answer": "60",
+      "figure_id": 0,
+      "generation_metadata": {
+        "generated_token_count": 128,
+        "generation_seconds": 14.122344139963388,
+        "input_image_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/data/final_fresh/images/000.0_0.jpg",
+        "input_image_sha256": "d597cdcfdf350fbaebcabcff19099ed7a56b5a400ccb0292ae5cee630dbf5db6",
+        "input_image_size_bytes": 71761,
+        "input_token_count": 633,
+        "peak_memory_bytes": 4420966912,
+        "preprocessing_seconds": 0.18261471390724182,
+        "termination_reason": "length",
+        "total_seconds": 14.305248438380659
+      },
+      "image_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/data/final_fresh/images/000.0_0.jpg",
+      "latency_seconds": 29.553232925012708,
+      "query_key": "0_0",
+      "question": "For the subplot at row 1 and column 2, what is the spatially highest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+      "response": "Got it, let's look at the problem. The question is about the subplot at row 1 and column 2. First, I need to identify which subplot that is. The image has two subplots: (a) 5-way 10-shot and (b) 5-way full-shot. The row 1 and column 2 would be subplot (b), since the first row is (a) and (b) is the second row? Wait, no, the labels are (a) and (b) as the subplots. Wait, the problem says \"row 1 and column 2\". Let",
+      "subq_idx": 0
+    }
+  ],
+  "timing_scope": "vlm_inference calls only; program/model import excluded",
+  "total_time": 29.553259262815118
+}

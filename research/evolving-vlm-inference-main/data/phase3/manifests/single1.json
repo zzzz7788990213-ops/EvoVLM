@@ -1,0 +1,19 @@
+{
+  "figure_ids": [
+    "0"
+  ],
+  "figure_order_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "ground_truth_path": "charxiv/data/descriptive_val.json",
+  "ground_truth_sha256": "5dc144dd043b77b32feeae2875c6112b1d7cc45e05790cf025859c21e9b40a68",
+  "manifest_version": "phase3-fixed-evaluation-v1",
+  "name": "single1",
+  "phase2_manifest_version": "phase2-local-search-manifests-v2",
+  "query_key_order_sha256": "87194e11340606118b69fc87e10a5d80edfeec6ece04969366bc291262706c97",
+  "query_keys": [
+    "0_0"
+  ],
+  "sample_count": 1,
+  "selection": "first query of frozen Dev128",
+  "selection_salt_sha256": "df5189fd4631dea53827b717d0b6105651f2480ae33add3f4fd4ea06ac61f78b",
+  "source_query_count": 4000
+}

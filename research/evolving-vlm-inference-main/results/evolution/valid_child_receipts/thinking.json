@@ -1,0 +1,103 @@
+{
+  "artifacts": {
+    "provider": {
+      "path": "workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/mutation.json",
+      "sha256": "d468c797cbf3df039becbc8cc40b2228f593c9ea4f1f73de8287f346b7d073da",
+      "size_bytes": 30117
+    },
+    "run_manifest": {
+      "path": "workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/run_manifest.json",
+      "sha256": "d394395294fdbdd8fad539d3219fe522d91f40d3b794b8d9da0dd777b358218a",
+      "size_bytes": 29217
+    },
+    "smoke_summary": {
+      "path": "workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/smoke_summary.json",
+      "sha256": "e9bee82f89a6d19764f43ab4d018b1d862a5cf7f1febe54fe36b885cda35c82a",
+      "size_bytes": 5484
+    },
+    "target_single": {
+      "path": "workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/target_single.json",
+      "sha256": "b07c0a7c76f81554debec5e28c2cef9c36b6a96ba3d6300a163b2d49325dc94d",
+      "size_bytes": 6063
+    }
+  },
+  "campaign_id": "provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201",
+  "child_validation": {
+    "candidate_id": "21408a648a00e0736d7f4691",
+    "canonical_dsl_sha256": "71e58dab77fe1abc19df846fd07aa723707e35ce6ef1c2c17b503757692b288e",
+    "child_program_sha256": "3dbd70c2d0aa32996286d2c7b7f42d61ec73db77a14ac4d56e2dfa1795767d84",
+    "focus_field_differences": {
+      "prompt_template": {
+        "child": "Use only evidence visible in the scientific figure; do not invent missing or inapplicable chart elements. Use the model's native reasoning, then return only the concise final answer enclosed in <final> and </final>. Question: {question}",
+        "parent": "Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}"
+      }
+    },
+    "mutation_focus": "prompt_template",
+    "mutation_focus_fields": [
+      "prompt_template"
+    ],
+    "parent_child_diff_sha256": "d3135e9e630713c396bd7d9cd382da524c3cefb30a6c054270a0d303d579278f",
+    "parent_id": "seed-thinking",
+    "parent_program_sha256": "068921c91fa2e4454f5fb40a4cba05ec191850d927c9787f459f0b63e66e050d",
+    "provider_call_count": 1,
+    "request_id": "g1_child0",
+    "run_manifest_sha256": "d394395294fdbdd8fad539d3219fe522d91f40d3b794b8d9da0dd777b358218a",
+    "selected_choice_id": "T_PT_04",
+    "semantic_retry_calls": 0,
+    "single": {
+      "accuracy": 0.0,
+      "correct_count": 0,
+      "error_count": 0,
+      "sample_count": 1
+    },
+    "static_import_receipt": {
+      "interface": "vlm_inference(image_path, question)",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "program_sha256": "3dbd70c2d0aa32996286d2c7b7f42d61ec73db77a14ac4d56e2dfa1795767d84",
+      "renderer_version": "phase2-local-renderer-v2",
+      "torch_imported": false
+    },
+    "winning_attempt": "catalog_ranking"
+  },
+  "created_at_utc": "2026-08-24T17:56:19.152260+00:00",
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "mutation_model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "network_attempts": {
+    "provider": 0,
+    "target": 0
+  },
+  "provider_name": "CatalogConstrainedQwenMutationProvider/Qwen3-VL-2B-Instruct@78448d793a7eb2f7a987a1da76d464384aa1becd/single-token-argmax-bfloat16-sdpa-offline",
+  "receipt_id": "9c306607e822a0369db93ffc8260ecefd76785903e09ec2af679f9e66a243942",
+  "receipt_version": "phase2-valid-child-receipt-v3",
+  "run_manifest_sha256": "d394395294fdbdd8fad539d3219fe522d91f40d3b794b8d9da0dd777b358218a",
+  "source": {
+    "commit": "28293838a9431cb0badb02c75d1505addb970d76",
+    "project_relative_path": "workspace/evolving-vlm-inference-main",
+    "tree": "df5fda3944a73029df4d6ed55e55c92a905e1dd4"
+  },
+  "versions": {
+    "campaign": "phase2-catalog-qwen-two-generation-v4",
+    "candidate_runtime": "phase2-trusted-target-runtime-v2",
+    "catalog": "phase2-mutation-catalog-v1",
+    "dsl": "phase2-declarative-v2",
+    "provider": "phase2-local-qwen-mutation-v4",
+    "receipt": "phase2-valid-child-receipt-v3",
+    "renderer": "phase2-local-renderer-v2",
+    "run_manifest": "phase2-production-run-manifest-v1",
+    "target_worker": "phase2-restricted-target-v3"
+  }
+}

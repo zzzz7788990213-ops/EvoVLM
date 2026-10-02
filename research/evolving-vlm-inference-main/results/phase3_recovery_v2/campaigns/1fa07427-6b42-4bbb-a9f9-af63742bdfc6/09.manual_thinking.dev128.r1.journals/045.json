@@ -1,0 +1,55 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 26.42763388203457,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 26.38864941196516,
+    "input_token_count": 1094,
+    "peak_memory_bytes": 4517112320,
+    "preprocessing_seconds": 0.03764249524101615,
+    "termination_reason": "length",
+    "total_seconds": 26.42676497530192
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the legend in the image. The legend is on the right side, and we need to list the labels from top to bottom, then left to right. Let's check each entry:\n\nFirst, the topmost label in the legend is \"advmod\" (pink). Then \"amod\" (dark red), \"case\" (blue), \"cc\" (gray), \"conj\" (orange), \"det\" (green), \"mark\" (light green), \"nmod\" (light gray), \"nsubj\" (yellow), \"obj\" (teal), \"obl\" (purple). Wait, let's check the order in the legend. The legend is listed as:\n\n- advmod (pink)\n- amod (dark red)\n- case (blue)\n- cc (gray)\n- conj (orange)\n- det (green)\n- mark (light green)\n- nmod (light gray)\n- nsubj (yellow)\n- obj (teal)\n- obl (purple)\n\nWait, the user said \"from top to bottom, then from left to right\". So the order in the legend is:\n\n1. advmod\n2. amod\n3. case\n4. cc\n5. conj\n6. det\n7. mark\n8. nmod\n9. nsubj\n10. obj\n11. obl\n\nWait, let's check the image. The legend on the right:\n\n- advmod (pink)\n- amod (dark red)\n- case (blue)\n- cc (gray)\n- conj (orange)\n- det (green)\n- mark (light green)\n- nmod (light gray)\n- nsubj (yellow)\n- obj (teal)\n- obl (purple)\n\nYes, that's the order. So we need to list them in the order they appear in the legend. Let",
+  "prediction_sha256": "ccd2822b6c2c9d0ae05593813341cdd3f18c55007b0511d438533c69974b23c0",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "21",
+    "image_sha256": "e4ad4e12ff784f872d750327b75e53d3186ef55087aa5bbb27e86574730f8ae8",
+    "index": 45,
+    "qid": "13",
+    "query_key": "21_1",
+    "question": "For the current plot, what are the names of the labels in the legend?\n    * You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot.\n    * If the plot does not have a legend or no legend is not considered relevant to this plot, answer \"Not Applicable\".",
+    "subq_idx": 1
+  },
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

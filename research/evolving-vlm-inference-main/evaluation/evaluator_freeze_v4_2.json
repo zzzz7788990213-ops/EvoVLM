@@ -1,0 +1,100 @@
+{
+  "dataset": {
+    "ground_truth_path": "charxiv/data/descriptive_val.json",
+    "ground_truth_sha256": "5dc144dd043b77b32feeae2875c6112b1d7cc45e05790cf025859c21e9b40a68",
+    "image_count": 2323,
+    "image_manifest_path": "evaluation/provenance/charxiv_images_manifest_v4_2.json",
+    "image_manifest_sha256": "e5360ab3de32aa42c255cfe6d2f86268d0abeb47e0d10691bac2b7e340e1981f",
+    "image_zip_path_relative_to_evo": "data/charxiv/images.zip",
+    "image_zip_sha256": "c4b151cef2aba35523764dd1091d719d64acf81a16904d72f31da2723efbd855"
+  },
+  "evaluator_dependency_sha256": {
+    "charxiv/src/constants.py": "3858589acf65ec2f3f34db9b084563f52b3591ee778aa63066ee3893222e11fd",
+    "charxiv/src/descriptive_utils.py": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+    "evaluate.py": "9e7ab94eb902b4c4d82d702a9066512e4512078b6a72aadba6424ab480008c2e",
+    "evaluation/active_contract.py": "18fd93c492bbd4a10955b40d7bb38dddeb9b33f29905bad8e81578128a85cae6",
+    "evaluation/atomic_artifacts.py": "654c91c0315d833ed7a78e1835ff9e201ec0328c9ca1c156aaf692e939fbdcdf",
+    "evaluation/build_freeze_v4.py": "3e85a2af345e4381d058e54a3979d0d09851eb11b0020c3a9b942d0cb8f60f19",
+    "evaluation/check_existing_v4.py": "ca1316d2eaec160f1b6710e97ddb88c31507ae73e4aded0ba00d7c8c0cdecad0",
+    "evaluation/gpu_scope.py": "58cd59f300fd6f0067cf6fc4284047a8a956db42f7b9ddf762b494b666f10841",
+    "evaluation/metrics.py": "49dba40c6f06222c5ba6ef4863e194a322c16e5bec0b847c7724348d4ec00b20",
+    "evaluation/provenance.py": "39889b9a34627466ef03bcca4fd195788f2bd742321f3f96e26a8da492fa6431",
+    "evaluation/reproduce_v4.py": "760ef8eb05b127ddcf88ab6a72391a8dce09ce1d09ddc64c20f9a769d7057930",
+    "evaluation/schema_validator.py": "962f3a6e5d007548b96c67e727acee7ffdb76640405b5077c859700e80ce38dc",
+    "evaluation/verify_results.py": "5d65d91f2bb0136551ad5e2392ab27004e412d2dea301b9b580b0b4cf02bd5ce",
+    "reproduce.sh": "3a7818e608523e7a627a338effb596f152821db17ce5a1f2e88e1414457c1be8"
+  },
+  "freeze_id": "68920900b34a8ea3f1cf2d3fdd9e8147e84ff6eeb3ee3c65f80faeeb30e5b75c",
+  "manifests": {
+    "dev_128": {
+      "path": "evaluation/manifests/v4_2/dev_128.json",
+      "sha256": "a275f15faa7bc55d9ff2bc88092a1ebbc808deb21ca4fd5d66feaaad97c5d466"
+    },
+    "single_1": {
+      "path": "evaluation/manifests/v4_2/single_1.json",
+      "sha256": "3367fa10d70a822f21516ab8bfe1135b745d33ba8bad1514aa890e6c74ac1ec5"
+    },
+    "smoke_4": {
+      "path": "evaluation/manifests/v4_2/smoke_4.json",
+      "sha256": "85f581543347fa70ab1c918249c66f17ca1ca834029a6437a58d12b4f5f96143"
+    },
+    "warmup_1": {
+      "path": "evaluation/manifests/v4_2/warmup_1.json",
+      "sha256": "c638f79a7594395efa025e0cdda1bf16e95ced9412553f1a39a9b1bd79c36326"
+    }
+  },
+  "models": {
+    "Qwen/Qwen3-VL-2B-Instruct": {
+      "manifest_path": "evaluation/provenance/qwen3_vl_2b_instruct_manifest_v4_2.json",
+      "manifest_sha256": "eb26c807cd9cde10b00336a4a71b1a741a4a6cfafba7c4ecd7699306676feaa1",
+      "required_file_sha256": {
+        "chat_template.json": "6f8a6a55027e3da5160105556cda5dd69f6423f1c32645f6730d32de7773d0c4",
+        "config.json": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+        "generation_config.json": "1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4",
+        "model.safetensors": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+        "preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+        "tokenizer.json": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+        "tokenizer_config.json": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399"
+      },
+      "revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "snapshot_relative_to_evo": "models/Qwen3-VL-2B-Instruct"
+    },
+    "Qwen/Qwen3-VL-2B-Thinking": {
+      "manifest_path": "evaluation/provenance/qwen3_vl_2b_thinking_manifest_v4_2.json",
+      "manifest_sha256": "4e7453a51ceacdc59653a7cf7b34a076b33300961aa36286649d71515b078e15",
+      "required_file_sha256": {
+        "chat_template.json": "efad756db13feb8e8c5fe1341713bf18b82e91916b978d36b7c043f2b1bedf5f",
+        "config.json": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+        "generation_config.json": "fe72e86576da6dc6886b1083d9216296dcfa085e7a86feb3c8888a1faa52e656",
+        "model.safetensors": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+        "preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+        "tokenizer.json": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+        "tokenizer_config.json": "7b501e639b4d107a23effbe30390ee33d553f722467f7ac8e2744d7ff5d3a7d5"
+      },
+      "revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "snapshot_relative_to_evo": "models/Qwen3-VL-2B-Thinking"
+    }
+  },
+  "program_dependency_sha256": {
+    "baseline_instruct": {
+      "baseline_common.py": "465ca6047f1d1078ff72decdfe890f870ad7d301c0bcbb0c1bf55b87fb97da67",
+      "baseline_instruct.py": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+      "evaluation/atomic_artifacts.py": "654c91c0315d833ed7a78e1835ff9e201ec0328c9ca1c156aaf692e939fbdcdf",
+      "evaluation/gpu_scope.py": "58cd59f300fd6f0067cf6fc4284047a8a956db42f7b9ddf762b494b666f10841"
+    },
+    "baseline_thinking": {
+      "baseline_common.py": "465ca6047f1d1078ff72decdfe890f870ad7d301c0bcbb0c1bf55b87fb97da67",
+      "baseline_thinking.py": "042c67af753daca27225db12cc48df9b509773f8a7b703dfef8384b9e9378fab",
+      "evaluation/atomic_artifacts.py": "654c91c0315d833ed7a78e1835ff9e201ec0328c9ca1c156aaf692e939fbdcdf",
+      "evaluation/gpu_scope.py": "58cd59f300fd6f0067cf6fc4284047a8a956db42f7b9ddf762b494b666f10841"
+    }
+  },
+  "protocol_path": "evaluation/protocol_v4_2.json",
+  "protocol_sha256": "931f7bda0284fab91f9734ab21e1b7fab05c8e02f214aca68bd458bfa434ddaa",
+  "protocol_version": "gate1-exact-match-v4.2",
+  "requirements_lock_path": "requirements.lock.txt",
+  "requirements_lock_sha256": "3955e4785fc650f44c98cf479386ac07b32ca0469c96b97bfccb3b31609ca52f",
+  "result_schema_path": "evaluation/result_schema_v4_2.json",
+  "result_schema_sha256": "68e4decfd7b18f300c21d366877b60dcee36cf996a8db7539d9fadace31daa10",
+  "schema_version": 4
+}

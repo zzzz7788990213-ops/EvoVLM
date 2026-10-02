@@ -1,0 +1,10 @@
+{
+  "manifest_role": "warmup",
+  "num_samples": 1,
+  "protocol_version": "gate1-exact-match-v4",
+  "query_keys": [
+    "75_0"
+  ],
+  "query_keys_sha256": "cc96be98e9b467b6bbabd9d4897d7a0d59899922c4372c00b873b3e2667a1e9a",
+  "selection": "first query immediately after dev_128; never measured"
+}

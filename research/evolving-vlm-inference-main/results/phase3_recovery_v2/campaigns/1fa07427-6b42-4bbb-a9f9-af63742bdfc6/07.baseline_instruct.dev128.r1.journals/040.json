@@ -1,0 +1,55 @@
+{
+  "attempt_id": "00d288b2-8435-41ea-83f2-4cce57724709",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 15.879648255184293,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 128,
+    "generation_seconds": 15.857271607965231,
+    "input_token_count": 828,
+    "peak_memory_bytes": 4460593152,
+    "preprocessing_seconds": 0.02200806187465787,
+    "termination_reason": "length",
+    "total_seconds": 15.879476064816117
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "The y-axis in the plot has tick values: 0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40. The difference between consecutive tick values is:\n\n- 0.05 - 0.00 = 0.05\n- 0.10 - 0.05 = 0.05\n- 0.15 - 0.10 = 0.05",
+  "prediction_sha256": "cd989d3c216c00ac020406de2edb4bf94d552939ec1093cb39db1d8f1b389f52",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "20",
+    "image_sha256": "76fb16284c1bb2e211e9a6c3050e2758da29ff858dcb8e90400cfec284be7052",
+    "index": 40,
+    "qid": "9",
+    "query_key": "20_0",
+    "question": "For the current plot, what is difference between consecutive numerical tick values on the y-axis?\n    * Your final answer should be the difference between consecutive numerical tick values of the y-axis, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.\n    * If the plot does not have an explicit y-axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer \"Not Applicable\".",
+    "subq_idx": 0
+  },
+  "run_id": "266ce156-3b66-4c6c-96c8-93968a883c01",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "attempt": 1,
+  "attempt_id": "28084a36-ac59-4b47-8a81-cd85ecb5768f",
+  "attempt_version": "phase3-recovery-attempt-v2",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "entry_index": 21,
+  "manifest": "speed32",
+  "pid": 1275151,
+  "program": "manual_instruct",
+  "protocol_id": "phase3-recovery-v2",
+  "remaining_program_budget_seconds": 11999.671826311853,
+  "repeat": 2,
+  "started_unix": 1787644343.0126052
+}

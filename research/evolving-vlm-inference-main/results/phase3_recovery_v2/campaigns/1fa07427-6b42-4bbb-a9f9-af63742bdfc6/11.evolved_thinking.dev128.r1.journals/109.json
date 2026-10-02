@@ -1,0 +1,55 @@
+{
+  "attempt_id": "f39348f8-1f22-494d-b07c-fbb194af04c1",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 13.437540197744966,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 13.423387176822871,
+    "input_token_count": 451,
+    "peak_memory_bytes": 4398820864,
+    "preprocessing_seconds": 0.012522015254944563,
+    "termination_reason": "length",
+    "total_seconds": 13.436432118993253
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the chart. The x-axis has the models: Make/Model ResNet-1, Make/Model ResNet-2, Make ResNet-1, Make ResNet-2. The y-axis is Rank5, Rank2, Rank1. Wait, the bars are colored, and the numbers are the values. Let's check each bar's value.\n\nFirst, leftmost: Make/Model ResNet-1 has 85.1 (Rank5), then Make/Model ResNet-2 is 85.7 (Rank5). Wait, no, the labels on the bars: the top of each bar has the number. Wait, the bars are stacked? Wait, no, the chart shows each bar with a number. Let's list the numbers from left to right:\n\n1. Make/Model ResNet-1: 85.1 (but wait, the Rank5 is on the right, so maybe the numbers are the values for each rank? Wait, the labels on the bars: the purple bars are for Rank1? Wait, no, the labels on the right: Rank5, Rank2, Rank1. Wait, the bars are in order from left to right: Make/Model ResNet-1, Make/Model ResNet-2, Make ResNet-1, Make ResNet-2.\n\nWait, the numbers on the bars: the first bar (leftmost) is 85.1, then 85.7, then 92.8, then 93.2. Wait, no, the numbers on the top of the bars: the first bar (Make/Model ResNet-1) has 85.1, then Make/Model ResNet-2 has 85.7, then Make ResNet-1 has 92.8,",
+  "prediction_sha256": "2f094c64c6671b599e6d3659cc9130f9c3136a54a8965d2762dc40d667387672",
+  "program": "evolved_thinking",
+  "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "60",
+    "image_sha256": "cf5818a1debe8859a95867202d20023eedca5a06be80a4e261dcf3ea05dd097b",
+    "index": 109,
+    "qid": "16",
+    "query_key": "60_1",
+    "question": "For the current plot, what is the general trend of data from left to right?\n    * Your final answer should be within a few words, such as \"increases\", \"increases then stabilizes\".",
+    "subq_idx": 1
+  },
+  "run_id": "9440bec0-bd7d-447e-9206-1f6848aeee18",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "campaign_id": "campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed",
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase2-generation2-journal-v1",
+  "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+  "parent_ids": [
+    "21408a648a00e0736d7f4691",
+    "cf79d2c86b334f7954442316"
+  ],
+  "request_ids": [
+    "g2_child0",
+    "g2_child1",
+    "g2_child2",
+    "g2_child3"
+  ],
+  "run_manifest_sha256": "ce3ee46af26211774d881cccbd39b0a137ab5322b06b3077e12201ece4de5e2a",
+  "state": "planned_before_gpu"
+}

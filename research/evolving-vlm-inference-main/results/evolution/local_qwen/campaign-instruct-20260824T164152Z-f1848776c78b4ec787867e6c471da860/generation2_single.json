@@ -1,0 +1,341 @@
+{
+  "candidate_execution": "byte-exact trusted renderer template only",
+  "candidate_sources": [
+    {
+      "candidate_id": "dbdc40b76576307ac4e2c735",
+      "canonical_dsl_sha256": "9ae83e349d26846cd3d4446bf846ea195580817b2d7b5fe78631de17e8012da6",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "rendered_sha256": "fc4c1b3d154b1b510749259aab7604efe0fae2fd564fb1e7d81d431e9e09be17"
+    },
+    {
+      "candidate_id": "64bf751b385bd9deac09ed58",
+      "canonical_dsl_sha256": "1c157a2850fde3ac97db6ef1339ab7b3ec23390dcccffdc1440b75b0381d4440",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "rendered_sha256": "fed2b4055ba611939d9b3162456e5b95ab1da5fa07ecbb6e2e7300d4a5eec576"
+    },
+    {
+      "candidate_id": "9945b9be444c54e613a35e91",
+      "canonical_dsl_sha256": "91741236fbe673bacf2774515882ac8cacfb890a25f311480762eb5f2e52054a",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "rendered_sha256": "904323492233b3adbe0616a738fd88471661f7615951709b3bce3b649597ac45"
+    },
+    {
+      "candidate_id": "926abcca639f85fa2a98da93",
+      "canonical_dsl_sha256": "748860a46d3a709e5c02a295874850aeace19aa5143cd90eff4f63adc6cab572",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "rendered_sha256": "ca049eefc14ff2b67093393566afb8d92c266dd4768773f5c51a72be69b10147"
+    }
+  ],
+  "child_elapsed_seconds": 129.32723588403314,
+  "child_pid": 3274206,
+  "child_reaped": true,
+  "child_returncode": 0,
+  "child_shell": false,
+  "child_start_new_session": true,
+  "child_stderr_sha256": "a8fa6a0cbccafbea0fb60e1c94b9f03065ebd4d24ce956bd0f1b85d8708aab8e",
+  "child_stderr_size_bytes": 152,
+  "child_stderr_utf8": "The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n",
+  "execution_order": [
+    {
+      "candidate_id": "dbdc40b76576307ac4e2c735",
+      "phase": "prepare"
+    },
+    {
+      "candidate_id": "dbdc40b76576307ac4e2c735",
+      "phase": "warmup",
+      "request_id": "warmup_000"
+    },
+    {
+      "candidate_id": "dbdc40b76576307ac4e2c735",
+      "phase": "scoring",
+      "request_id": "single_000"
+    },
+    {
+      "candidate_id": "64bf751b385bd9deac09ed58",
+      "phase": "prepare"
+    },
+    {
+      "candidate_id": "64bf751b385bd9deac09ed58",
+      "phase": "warmup",
+      "request_id": "warmup_000"
+    },
+    {
+      "candidate_id": "64bf751b385bd9deac09ed58",
+      "phase": "scoring",
+      "request_id": "single_000"
+    },
+    {
+      "candidate_id": "9945b9be444c54e613a35e91",
+      "phase": "prepare"
+    },
+    {
+      "candidate_id": "9945b9be444c54e613a35e91",
+      "phase": "warmup",
+      "request_id": "warmup_000"
+    },
+    {
+      "candidate_id": "9945b9be444c54e613a35e91",
+      "phase": "scoring",
+      "request_id": "single_000"
+    },
+    {
+      "candidate_id": "926abcca639f85fa2a98da93",
+      "phase": "prepare"
+    },
+    {
+      "candidate_id": "926abcca639f85fa2a98da93",
+      "phase": "warmup",
+      "request_id": "warmup_000"
+    },
+    {
+      "candidate_id": "926abcca639f85fa2a98da93",
+      "phase": "scoring",
+      "request_id": "single_000"
+    }
+  ],
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "measurement_protocol": "load-excluded; fixed warmup per candidate; candidate-major fixed query order; CUDA pre/post sync",
+  "model_evidence": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "snapshot_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Instruct",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+    "weight_size_bytes": 4255140312
+  },
+  "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+  "network_attempts": 0,
+  "query_order": [
+    "single_000"
+  ],
+  "run_manifest_sha256": "32323fa96dfbf50a6370fd870a78c4a677231f104ad0ee45d37a9e8497247aa3",
+  "scores": [
+    {
+      "accuracy": 1.0,
+      "candidate_id": "dbdc40b76576307ac4e2c735",
+      "correct_count": 1,
+      "error_count": 0,
+      "mean_latency_seconds": 14.02022042311728,
+      "private_records": [
+        {
+          "correct": true,
+          "error_message": null,
+          "error_type": null,
+          "expected_answer": "Not Applicable",
+          "figure_id": "2145",
+          "generated_token_count": 4,
+          "generation_seconds": 13.89782840386033,
+          "image_sha256": "feab179616f8fa8b046f6e775711feb199806cacb22cc23e9a7528c00ee4b9fd",
+          "input_token_count": 674,
+          "peak_memory_bytes": 4431535616,
+          "prediction": "Not Applicable",
+          "preprocessing_seconds": 0.12166172126308084,
+          "qid": "1",
+          "query_key": "2145_3",
+          "question": "For the current plot, what is its title?\n    * Your final answer should be the most relevant title of the plot that is explicitly written.\n    * If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n    ",
+          "raw_text": "Not Applicable",
+          "request_id": "single_000",
+          "status": "ok",
+          "termination_reason": "eos",
+          "total_seconds": 14.02022042311728
+        }
+      ],
+      "sample_count": 1,
+      "termination_counts": {
+        "eos": 1
+      },
+      "total_generated_tokens": 4,
+      "total_seconds": 14.02022042311728
+    },
+    {
+      "accuracy": 1.0,
+      "candidate_id": "64bf751b385bd9deac09ed58",
+      "correct_count": 1,
+      "error_count": 0,
+      "mean_latency_seconds": 14.193113585934043,
+      "private_records": [
+        {
+          "correct": true,
+          "error_message": null,
+          "error_type": null,
+          "expected_answer": "Not Applicable",
+          "figure_id": "2145",
+          "generated_token_count": 4,
+          "generation_seconds": 14.082915428094566,
+          "image_sha256": "feab179616f8fa8b046f6e775711feb199806cacb22cc23e9a7528c00ee4b9fd",
+          "input_token_count": 674,
+          "peak_memory_bytes": 4431535616,
+          "prediction": "Not Applicable",
+          "preprocessing_seconds": 0.10970940673723817,
+          "qid": "1",
+          "query_key": "2145_3",
+          "question": "For the current plot, what is its title?\n    * Your final answer should be the most relevant title of the plot that is explicitly written.\n    * If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n    ",
+          "raw_text": "Not Applicable",
+          "request_id": "single_000",
+          "status": "ok",
+          "termination_reason": "eos",
+          "total_seconds": 14.193113585934043
+        }
+      ],
+      "sample_count": 1,
+      "termination_counts": {
+        "eos": 1
+      },
+      "total_generated_tokens": 4,
+      "total_seconds": 14.193113585934043
+    },
+    {
+      "accuracy": 1.0,
+      "candidate_id": "9945b9be444c54e613a35e91",
+      "correct_count": 1,
+      "error_count": 0,
+      "mean_latency_seconds": 14.271160196978599,
+      "private_records": [
+        {
+          "correct": true,
+          "error_message": null,
+          "error_type": null,
+          "expected_answer": "Not Applicable",
+          "figure_id": "2145",
+          "generated_token_count": 4,
+          "generation_seconds": 14.149009126704186,
+          "image_sha256": "feab179616f8fa8b046f6e775711feb199806cacb22cc23e9a7528c00ee4b9fd",
+          "input_token_count": 688,
+          "peak_memory_bytes": 4433734656,
+          "prediction": "Not Applicable",
+          "preprocessing_seconds": 0.12152009503915906,
+          "qid": "1",
+          "query_key": "2145_3",
+          "question": "For the current plot, what is its title?\n    * Your final answer should be the most relevant title of the plot that is explicitly written.\n    * If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n    ",
+          "raw_text": "Not Applicable",
+          "request_id": "single_000",
+          "status": "ok",
+          "termination_reason": "eos",
+          "total_seconds": 14.271160196978599
+        }
+      ],
+      "sample_count": 1,
+      "termination_counts": {
+        "eos": 1
+      },
+      "total_generated_tokens": 4,
+      "total_seconds": 14.271160196978599
+    },
+    {
+      "accuracy": 1.0,
+      "candidate_id": "926abcca639f85fa2a98da93",
+      "correct_count": 1,
+      "error_count": 0,
+      "mean_latency_seconds": 14.282647010404617,
+      "private_records": [
+        {
+          "correct": true,
+          "error_message": null,
+          "error_type": null,
+          "expected_answer": "Not Applicable",
+          "figure_id": "2145",
+          "generated_token_count": 4,
+          "generation_seconds": 14.170089900959283,
+          "image_sha256": "feab179616f8fa8b046f6e775711feb199806cacb22cc23e9a7528c00ee4b9fd",
+          "input_token_count": 667,
+          "peak_memory_bytes": 4431174144,
+          "prediction": "Not Applicable",
+          "preprocessing_seconds": 0.11195735028013587,
+          "qid": "1",
+          "query_key": "2145_3",
+          "question": "For the current plot, what is its title?\n    * Your final answer should be the most relevant title of the plot that is explicitly written.\n    * If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n    ",
+          "raw_text": "Not Applicable",
+          "request_id": "single_000",
+          "status": "ok",
+          "termination_reason": "eos",
+          "total_seconds": 14.282647010404617
+        }
+      ],
+      "sample_count": 1,
+      "termination_counts": {
+        "eos": 1
+      },
+      "total_generated_tokens": 4,
+      "total_seconds": 14.282647010404617
+    }
+  ],
+  "warmup_measurements": [
+    {
+      "candidate_id": "dbdc40b76576307ac4e2c735",
+      "generated_token_count": 10,
+      "generation_seconds": 14.189863768871874,
+      "image_sha256": "230c4da3ea6b688f7639d076008355084235a1d8f3496731ab4f4f2767896866",
+      "input_token_count": 689,
+      "peak_memory_bytes": 4432361472,
+      "prediction": "m(ω) - m(0)",
+      "preprocessing_seconds": 0.20405870582908392,
+      "raw_text": "m(ω) - m(0)",
+      "request_id": "warmup_000",
+      "termination_reason": "eos",
+      "total_seconds": 14.394605502020568
+    },
+    {
+      "candidate_id": "64bf751b385bd9deac09ed58",
+      "generated_token_count": 10,
+      "generation_seconds": 13.453282153233886,
+      "image_sha256": "230c4da3ea6b688f7639d076008355084235a1d8f3496731ab4f4f2767896866",
+      "input_token_count": 689,
+      "peak_memory_bytes": 4432556032,
+      "prediction": "m(ω) - m(0)",
+      "preprocessing_seconds": 0.11253661196678877,
+      "raw_text": "m(ω) - m(0)",
+      "request_id": "warmup_000",
+      "termination_reason": "eos",
+      "total_seconds": 13.566375572700053
+    },
+    {
+      "candidate_id": "9945b9be444c54e613a35e91",
+      "generated_token_count": 10,
+      "generation_seconds": 13.343499068170786,
+      "image_sha256": "230c4da3ea6b688f7639d076008355084235a1d8f3496731ab4f4f2767896866",
+      "input_token_count": 703,
+      "peak_memory_bytes": 4436960256,
+      "prediction": "m(ω) - m(0)",
+      "preprocessing_seconds": 0.10763867013156414,
+      "raw_text": "m(ω) - m(0)",
+      "request_id": "warmup_000",
+      "termination_reason": "eos",
+      "total_seconds": 13.45169400703162
+    },
+    {
+      "candidate_id": "926abcca639f85fa2a98da93",
+      "generated_token_count": 10,
+      "generation_seconds": 13.472519072704017,
+      "image_sha256": "230c4da3ea6b688f7639d076008355084235a1d8f3496731ab4f4f2767896866",
+      "input_token_count": 682,
+      "peak_memory_bytes": 4430597632,
+      "prediction": "m(ω) - m(0)",
+      "preprocessing_seconds": 0.11363824503496289,
+      "raw_text": "m(ω) - m(0)",
+      "request_id": "warmup_000",
+      "termination_reason": "eos",
+      "total_seconds": 13.586860290262848
+    }
+  ],
+  "warmup_request_id": "warmup_000",
+  "worker_input_disclosure": [
+    "opaque request_id",
+    "question",
+    "image bytes",
+    "actual image SHA-256"
+  ],
+  "worker_input_forbidden": [
+    "query_key",
+    "figure_id",
+    "qid",
+    "split",
+    "image_path",
+    "expected_answer",
+    "correctness"
+  ],
+  "worker_version": "phase2-restricted-target-v3"
+}

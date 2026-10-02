@@ -1,0 +1,312 @@
+{
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "created_at": "2026-08-25T09:53:01.228786Z",
+  "cuda_visible_devices": "0",
+  "physical_gpu_index": 0,
+  "plan_version": "phase3-recovery-campaign-plan-v2",
+  "preregistration": {
+    "protocol_id": "phase3-recovery-v2",
+    "sha256": {
+      "candidate_manifest.json": "7e1f0416cc327d6257e1d235a31f7b48e384b44a8e28eed9a75245d1bbe238f9",
+      "data_manifest.json": "d9beee3fa956313c9c7d0691c03fdadeba031937b1fc8b25eaf5a29b4bb03cbd",
+      "protocol.json": "a251e703c94167df9ff19dd4ff21f9c66297e1caa80d1519a0e0721e711b79dd",
+      "recovery_authorization.json": "c787e2077f54b421e65211871c54e9bdd2d2bc724451b4566f4465731281871c",
+      "selection_rules.json": "fb3a634fa042f3e473053cfa03463b045aaec8a96989627ffebf9d9b55bc52d7"
+    }
+  },
+  "program_budget_seconds": 14400,
+  "protocol_id": "phase3-recovery-v2",
+  "schedule": [
+    {
+      "attempt_prefix": "01.baseline_instruct.single1.r1.attempt",
+      "console_prefix": "01.baseline_instruct.single1.r1.attempt",
+      "index": 1,
+      "journal_dir": "01.baseline_instruct.single1.r1.journals",
+      "manifest": "single1",
+      "program": "baseline_instruct",
+      "repeat": 1,
+      "result": "01.baseline_instruct.single1.r1.json",
+      "run_id": "33d43945-a411-46dc-8687-36d80867cf1a"
+    },
+    {
+      "attempt_prefix": "02.baseline_thinking.single1.r1.attempt",
+      "console_prefix": "02.baseline_thinking.single1.r1.attempt",
+      "index": 2,
+      "journal_dir": "02.baseline_thinking.single1.r1.journals",
+      "manifest": "single1",
+      "program": "baseline_thinking",
+      "repeat": 1,
+      "result": "02.baseline_thinking.single1.r1.json",
+      "run_id": "a7450f08-002c-4d81-964b-6d99fbcfe774"
+    },
+    {
+      "attempt_prefix": "03.manual_instruct.single1.r1.attempt",
+      "console_prefix": "03.manual_instruct.single1.r1.attempt",
+      "index": 3,
+      "journal_dir": "03.manual_instruct.single1.r1.journals",
+      "manifest": "single1",
+      "program": "manual_instruct",
+      "repeat": 1,
+      "result": "03.manual_instruct.single1.r1.json",
+      "run_id": "15cc1436-de25-462e-b504-9e9bd0112568"
+    },
+    {
+      "attempt_prefix": "04.manual_thinking.single1.r1.attempt",
+      "console_prefix": "04.manual_thinking.single1.r1.attempt",
+      "index": 4,
+      "journal_dir": "04.manual_thinking.single1.r1.journals",
+      "manifest": "single1",
+      "program": "manual_thinking",
+      "repeat": 1,
+      "result": "04.manual_thinking.single1.r1.json",
+      "run_id": "ec0b0c9f-57b3-4c70-bd40-99862559a733"
+    },
+    {
+      "attempt_prefix": "05.evolved_instruct.single1.r1.attempt",
+      "console_prefix": "05.evolved_instruct.single1.r1.attempt",
+      "index": 5,
+      "journal_dir": "05.evolved_instruct.single1.r1.journals",
+      "manifest": "single1",
+      "program": "evolved_instruct",
+      "repeat": 1,
+      "result": "05.evolved_instruct.single1.r1.json",
+      "run_id": "b61d8cf5-82c9-4e89-acbb-f19e4ffc9fc0"
+    },
+    {
+      "attempt_prefix": "06.evolved_thinking.single1.r1.attempt",
+      "console_prefix": "06.evolved_thinking.single1.r1.attempt",
+      "index": 6,
+      "journal_dir": "06.evolved_thinking.single1.r1.journals",
+      "manifest": "single1",
+      "program": "evolved_thinking",
+      "repeat": 1,
+      "result": "06.evolved_thinking.single1.r1.json",
+      "run_id": "e5fa68e4-be2c-404c-9246-301d19e76286"
+    },
+    {
+      "attempt_prefix": "07.baseline_instruct.dev128.r1.attempt",
+      "console_prefix": "07.baseline_instruct.dev128.r1.attempt",
+      "index": 7,
+      "journal_dir": "07.baseline_instruct.dev128.r1.journals",
+      "manifest": "dev128",
+      "program": "baseline_instruct",
+      "repeat": 1,
+      "result": "07.baseline_instruct.dev128.r1.json",
+      "run_id": "670cbf93-12eb-4ddc-893e-1831e4419a32"
+    },
+    {
+      "attempt_prefix": "08.manual_instruct.dev128.r1.attempt",
+      "console_prefix": "08.manual_instruct.dev128.r1.attempt",
+      "index": 8,
+      "journal_dir": "08.manual_instruct.dev128.r1.journals",
+      "manifest": "dev128",
+      "program": "manual_instruct",
+      "repeat": 1,
+      "result": "08.manual_instruct.dev128.r1.json",
+      "run_id": "b14e5de4-5d0a-43fb-9f02-6bdb171b6a4d"
+    },
+    {
+      "attempt_prefix": "09.manual_thinking.dev128.r1.attempt",
+      "console_prefix": "09.manual_thinking.dev128.r1.attempt",
+      "index": 9,
+      "journal_dir": "09.manual_thinking.dev128.r1.journals",
+      "manifest": "dev128",
+      "program": "manual_thinking",
+      "repeat": 1,
+      "result": "09.manual_thinking.dev128.r1.json",
+      "run_id": "8c6d98f2-05bf-4e0a-94a6-9c5da1dd5c91"
+    },
+    {
+      "attempt_prefix": "10.evolved_instruct.dev128.r1.attempt",
+      "console_prefix": "10.evolved_instruct.dev128.r1.attempt",
+      "index": 10,
+      "journal_dir": "10.evolved_instruct.dev128.r1.journals",
+      "manifest": "dev128",
+      "program": "evolved_instruct",
+      "repeat": 1,
+      "result": "10.evolved_instruct.dev128.r1.json",
+      "run_id": "33fdcd5e-6e8f-4637-a533-57144362b105"
+    },
+    {
+      "attempt_prefix": "11.evolved_thinking.dev128.r1.attempt",
+      "console_prefix": "11.evolved_thinking.dev128.r1.attempt",
+      "index": 11,
+      "journal_dir": "11.evolved_thinking.dev128.r1.journals",
+      "manifest": "dev128",
+      "program": "evolved_thinking",
+      "repeat": 1,
+      "result": "11.evolved_thinking.dev128.r1.json",
+      "run_id": "c2f84d6b-c7a2-4a25-aa9e-c016da1ff658"
+    },
+    {
+      "attempt_prefix": "12.baseline_instruct.speed32.r1.attempt",
+      "console_prefix": "12.baseline_instruct.speed32.r1.attempt",
+      "index": 12,
+      "journal_dir": "12.baseline_instruct.speed32.r1.journals",
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 1,
+      "result": "12.baseline_instruct.speed32.r1.json",
+      "run_id": "e3560f89-dfbb-43b4-899b-e6efdaeca1c4"
+    },
+    {
+      "attempt_prefix": "13.manual_instruct.speed32.r1.attempt",
+      "console_prefix": "13.manual_instruct.speed32.r1.attempt",
+      "index": 13,
+      "journal_dir": "13.manual_instruct.speed32.r1.journals",
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 1,
+      "result": "13.manual_instruct.speed32.r1.json",
+      "run_id": "84ee09a0-9b70-41e5-87e6-a6e9957d1585"
+    },
+    {
+      "attempt_prefix": "14.manual_thinking.speed32.r1.attempt",
+      "console_prefix": "14.manual_thinking.speed32.r1.attempt",
+      "index": 14,
+      "journal_dir": "14.manual_thinking.speed32.r1.journals",
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 1,
+      "result": "14.manual_thinking.speed32.r1.json",
+      "run_id": "39e207b2-e40c-4c15-be72-ced7d138fc14"
+    },
+    {
+      "attempt_prefix": "15.evolved_instruct.speed32.r1.attempt",
+      "console_prefix": "15.evolved_instruct.speed32.r1.attempt",
+      "index": 15,
+      "journal_dir": "15.evolved_instruct.speed32.r1.journals",
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 1,
+      "result": "15.evolved_instruct.speed32.r1.json",
+      "run_id": "35e0a193-6ac7-4e32-844d-32643246ebdb"
+    },
+    {
+      "attempt_prefix": "16.evolved_thinking.speed32.r1.attempt",
+      "console_prefix": "16.evolved_thinking.speed32.r1.attempt",
+      "index": 16,
+      "journal_dir": "16.evolved_thinking.speed32.r1.journals",
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 1,
+      "result": "16.evolved_thinking.speed32.r1.json",
+      "run_id": "0c82210b-cc42-471c-b24e-3917e7bdcbae"
+    },
+    {
+      "attempt_prefix": "17.manual_thinking.speed32.r2.attempt",
+      "console_prefix": "17.manual_thinking.speed32.r2.attempt",
+      "index": 17,
+      "journal_dir": "17.manual_thinking.speed32.r2.journals",
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 2,
+      "result": "17.manual_thinking.speed32.r2.json",
+      "run_id": "cc18cd9c-d1ba-471a-9536-0b26518f95e4"
+    },
+    {
+      "attempt_prefix": "18.evolved_instruct.speed32.r2.attempt",
+      "console_prefix": "18.evolved_instruct.speed32.r2.attempt",
+      "index": 18,
+      "journal_dir": "18.evolved_instruct.speed32.r2.journals",
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 2,
+      "result": "18.evolved_instruct.speed32.r2.json",
+      "run_id": "b7ec1c06-0b55-4e92-b0b4-97fff907a5ce"
+    },
+    {
+      "attempt_prefix": "19.evolved_thinking.speed32.r2.attempt",
+      "console_prefix": "19.evolved_thinking.speed32.r2.attempt",
+      "index": 19,
+      "journal_dir": "19.evolved_thinking.speed32.r2.journals",
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 2,
+      "result": "19.evolved_thinking.speed32.r2.json",
+      "run_id": "715ba3c1-4a39-416a-bc9d-1118a7547067"
+    },
+    {
+      "attempt_prefix": "20.baseline_instruct.speed32.r2.attempt",
+      "console_prefix": "20.baseline_instruct.speed32.r2.attempt",
+      "index": 20,
+      "journal_dir": "20.baseline_instruct.speed32.r2.journals",
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 2,
+      "result": "20.baseline_instruct.speed32.r2.json",
+      "run_id": "a9434c13-3bd7-4a67-a98a-ac9444da55a1"
+    },
+    {
+      "attempt_prefix": "21.manual_instruct.speed32.r2.attempt",
+      "console_prefix": "21.manual_instruct.speed32.r2.attempt",
+      "index": 21,
+      "journal_dir": "21.manual_instruct.speed32.r2.journals",
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 2,
+      "result": "21.manual_instruct.speed32.r2.json",
+      "run_id": "c843b45d-72b6-4d75-afc8-d597d8f4c4c5"
+    },
+    {
+      "attempt_prefix": "22.evolved_thinking.speed32.r3.attempt",
+      "console_prefix": "22.evolved_thinking.speed32.r3.attempt",
+      "index": 22,
+      "journal_dir": "22.evolved_thinking.speed32.r3.journals",
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 3,
+      "result": "22.evolved_thinking.speed32.r3.json",
+      "run_id": "c0f3666b-b289-41f0-a94b-fd4b447b5354"
+    },
+    {
+      "attempt_prefix": "23.baseline_instruct.speed32.r3.attempt",
+      "console_prefix": "23.baseline_instruct.speed32.r3.attempt",
+      "index": 23,
+      "journal_dir": "23.baseline_instruct.speed32.r3.journals",
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 3,
+      "result": "23.baseline_instruct.speed32.r3.json",
+      "run_id": "7f0a3498-bde5-44b5-a321-a32fbbf85132"
+    },
+    {
+      "attempt_prefix": "24.manual_instruct.speed32.r3.attempt",
+      "console_prefix": "24.manual_instruct.speed32.r3.attempt",
+      "index": 24,
+      "journal_dir": "24.manual_instruct.speed32.r3.journals",
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 3,
+      "result": "24.manual_instruct.speed32.r3.json",
+      "run_id": "66072c1c-c723-4851-b7f7-cf11d84ffb3d"
+    },
+    {
+      "attempt_prefix": "25.manual_thinking.speed32.r3.attempt",
+      "console_prefix": "25.manual_thinking.speed32.r3.attempt",
+      "index": 25,
+      "journal_dir": "25.manual_thinking.speed32.r3.journals",
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 3,
+      "result": "25.manual_thinking.speed32.r3.json",
+      "run_id": "43907178-86c3-448e-8c85-79a99ff6d7b2"
+    },
+    {
+      "attempt_prefix": "26.evolved_instruct.speed32.r3.attempt",
+      "console_prefix": "26.evolved_instruct.speed32.r3.attempt",
+      "index": 26,
+      "journal_dir": "26.evolved_instruct.speed32.r3.journals",
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 3,
+      "result": "26.evolved_instruct.speed32.r3.json",
+      "run_id": "fd9697bc-f0ab-48f8-b706-910e891de00e"
+    }
+  ],
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  },
+  "visible_device_count": 1
+}

@@ -1,0 +1,32 @@
+% Generated from the semantically verified Recovery-v2 composition; do not edit.
+\begin{table}[t]
+\centering\small
+\caption{Recovery-v2 formal validation with authorized whole-set Speed32 replacement. Accuracy is exact match on Dev128; latency is the median of the 32 per-query medians over three steady-state repeats.}
+\label{tab:formal-results}
+\begin{tabular}{lrrrr}
+\toprule
+Program & Correct/128 & Errors & Median (s) & Type-7 p95 (s) \\
+\midrule
+baseline\_instruct & 51/128 & 0 & 14.541101 & 19.728077 \\
+manual\_instruct & 78/128 & 0 & 15.443962 & 21.594249 \\
+manual\_thinking & 23/128 & 0 & 20.043467 & 27.825051 \\
+evolved\_instruct & 78/128 & 0 & 14.071758 & 19.757527 \\
+evolved\_thinking & 44/128 & 0 & 17.912906 & 26.498611 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering\small
+\caption{Pre-registered optimized-program selections.}
+\label{tab:best-programs}
+\begin{tabular}{ll}
+\toprule
+Role & Selected program \\
+\midrule
+best\_accuracy & evolved\_instruct \\
+best\_speed & evolved\_instruct \\
+best\_overall & evolved\_instruct \\
+\bottomrule
+\end{tabular}
+\end{table}

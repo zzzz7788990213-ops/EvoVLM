@@ -1,0 +1,55 @@
+{
+  "attempt_id": "b9c8f5dc-0af7-4b4e-b7b9-95d43d8c52cb",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": true,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 8.799567149952054,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 5,
+    "generation_seconds": 8.782179202884436,
+    "input_token_count": 514,
+    "peak_memory_bytes": 4398055424,
+    "preprocessing_seconds": 0.014712453354150057,
+    "termination_reason": "eos",
+    "total_seconds": 8.797267884016037
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "Adversarial accuracy",
+  "prediction_sha256": "e1f10650d54ef1a946e6414232e203b2de059a548ff68cb7c1c6f325374aa238",
+  "program": "evolved_instruct",
+  "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "12",
+    "image_sha256": "e06cdf638b07badf4af01bdd82449618c4bcb3158a970b7954cedb9f50813f08",
+    "index": 24,
+    "qid": "1",
+    "query_key": "12_0",
+    "question": "For the subplot at row 1 and column 2, what is its title?\n    * Your final answer should be the most relevant title of the plot that is explicitly written.\n    * If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n    ",
+    "subq_idx": 0
+  },
+  "run_id": "d386581c-050c-449d-98bf-39b8c9500fe1",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

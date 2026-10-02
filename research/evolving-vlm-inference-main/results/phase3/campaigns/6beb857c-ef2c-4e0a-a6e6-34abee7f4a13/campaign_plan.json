@@ -1,0 +1,260 @@
+{
+  "campaign_id": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+  "created_at": "2026-08-24T20:29:03.038972Z",
+  "cuda_visible_devices": "0",
+  "physical_gpu_index": 0,
+  "plan_version": "phase3-campaign-plan-v1",
+  "preregistration": {
+    "candidate_manifest_sha256": "bd0b465fb2df2426537da34a2a6b921633a5fe3f83f9c736aec4b5da931b397c",
+    "protocol_sha256": "a87505597e8837dce341efd31c1ecf79798343ce0666ab4c7fbd680f10ff0d72",
+    "selection_rules_sha256": "f0c6882726c49712656f1aa6c08842d89e542b6ce6dc7889439aa8c04ccec692"
+  },
+  "protocol_id": "phase3-dev128-speed32-v1",
+  "schedule": [
+    {
+      "console": "01.baseline_instruct.single1.r1.console.log",
+      "index": 1,
+      "manifest": "single1",
+      "program": "baseline_instruct",
+      "repeat": 1,
+      "result": "01.baseline_instruct.single1.r1.json"
+    },
+    {
+      "console": "02.baseline_thinking.single1.r1.console.log",
+      "index": 2,
+      "manifest": "single1",
+      "program": "baseline_thinking",
+      "repeat": 1,
+      "result": "02.baseline_thinking.single1.r1.json"
+    },
+    {
+      "console": "03.manual_instruct.single1.r1.console.log",
+      "index": 3,
+      "manifest": "single1",
+      "program": "manual_instruct",
+      "repeat": 1,
+      "result": "03.manual_instruct.single1.r1.json"
+    },
+    {
+      "console": "04.manual_thinking.single1.r1.console.log",
+      "index": 4,
+      "manifest": "single1",
+      "program": "manual_thinking",
+      "repeat": 1,
+      "result": "04.manual_thinking.single1.r1.json"
+    },
+    {
+      "console": "05.evolved_instruct.single1.r1.console.log",
+      "index": 5,
+      "manifest": "single1",
+      "program": "evolved_instruct",
+      "repeat": 1,
+      "result": "05.evolved_instruct.single1.r1.json"
+    },
+    {
+      "console": "06.evolved_thinking.single1.r1.console.log",
+      "index": 6,
+      "manifest": "single1",
+      "program": "evolved_thinking",
+      "repeat": 1,
+      "result": "06.evolved_thinking.single1.r1.json"
+    },
+    {
+      "console": "07.baseline_instruct.dev128.r1.console.log",
+      "index": 7,
+      "manifest": "dev128",
+      "program": "baseline_instruct",
+      "repeat": 1,
+      "result": "07.baseline_instruct.dev128.r1.json"
+    },
+    {
+      "console": "08.baseline_thinking.dev128.r1.console.log",
+      "index": 8,
+      "manifest": "dev128",
+      "program": "baseline_thinking",
+      "repeat": 1,
+      "result": "08.baseline_thinking.dev128.r1.json"
+    },
+    {
+      "console": "09.manual_instruct.dev128.r1.console.log",
+      "index": 9,
+      "manifest": "dev128",
+      "program": "manual_instruct",
+      "repeat": 1,
+      "result": "09.manual_instruct.dev128.r1.json"
+    },
+    {
+      "console": "10.manual_thinking.dev128.r1.console.log",
+      "index": 10,
+      "manifest": "dev128",
+      "program": "manual_thinking",
+      "repeat": 1,
+      "result": "10.manual_thinking.dev128.r1.json"
+    },
+    {
+      "console": "11.evolved_instruct.dev128.r1.console.log",
+      "index": 11,
+      "manifest": "dev128",
+      "program": "evolved_instruct",
+      "repeat": 1,
+      "result": "11.evolved_instruct.dev128.r1.json"
+    },
+    {
+      "console": "12.evolved_thinking.dev128.r1.console.log",
+      "index": 12,
+      "manifest": "dev128",
+      "program": "evolved_thinking",
+      "repeat": 1,
+      "result": "12.evolved_thinking.dev128.r1.json"
+    },
+    {
+      "console": "13.baseline_instruct.speed32.r1.console.log",
+      "index": 13,
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 1,
+      "result": "13.baseline_instruct.speed32.r1.json"
+    },
+    {
+      "console": "14.baseline_thinking.speed32.r1.console.log",
+      "index": 14,
+      "manifest": "speed32",
+      "program": "baseline_thinking",
+      "repeat": 1,
+      "result": "14.baseline_thinking.speed32.r1.json"
+    },
+    {
+      "console": "15.manual_instruct.speed32.r1.console.log",
+      "index": 15,
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 1,
+      "result": "15.manual_instruct.speed32.r1.json"
+    },
+    {
+      "console": "16.manual_thinking.speed32.r1.console.log",
+      "index": 16,
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 1,
+      "result": "16.manual_thinking.speed32.r1.json"
+    },
+    {
+      "console": "17.evolved_instruct.speed32.r1.console.log",
+      "index": 17,
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 1,
+      "result": "17.evolved_instruct.speed32.r1.json"
+    },
+    {
+      "console": "18.evolved_thinking.speed32.r1.console.log",
+      "index": 18,
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 1,
+      "result": "18.evolved_thinking.speed32.r1.json"
+    },
+    {
+      "console": "19.manual_instruct.speed32.r2.console.log",
+      "index": 19,
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 2,
+      "result": "19.manual_instruct.speed32.r2.json"
+    },
+    {
+      "console": "20.manual_thinking.speed32.r2.console.log",
+      "index": 20,
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 2,
+      "result": "20.manual_thinking.speed32.r2.json"
+    },
+    {
+      "console": "21.evolved_instruct.speed32.r2.console.log",
+      "index": 21,
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 2,
+      "result": "21.evolved_instruct.speed32.r2.json"
+    },
+    {
+      "console": "22.evolved_thinking.speed32.r2.console.log",
+      "index": 22,
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 2,
+      "result": "22.evolved_thinking.speed32.r2.json"
+    },
+    {
+      "console": "23.baseline_instruct.speed32.r2.console.log",
+      "index": 23,
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 2,
+      "result": "23.baseline_instruct.speed32.r2.json"
+    },
+    {
+      "console": "24.baseline_thinking.speed32.r2.console.log",
+      "index": 24,
+      "manifest": "speed32",
+      "program": "baseline_thinking",
+      "repeat": 2,
+      "result": "24.baseline_thinking.speed32.r2.json"
+    },
+    {
+      "console": "25.evolved_instruct.speed32.r3.console.log",
+      "index": 25,
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 3,
+      "result": "25.evolved_instruct.speed32.r3.json"
+    },
+    {
+      "console": "26.evolved_thinking.speed32.r3.console.log",
+      "index": 26,
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 3,
+      "result": "26.evolved_thinking.speed32.r3.json"
+    },
+    {
+      "console": "27.baseline_instruct.speed32.r3.console.log",
+      "index": 27,
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 3,
+      "result": "27.baseline_instruct.speed32.r3.json"
+    },
+    {
+      "console": "28.baseline_thinking.speed32.r3.console.log",
+      "index": 28,
+      "manifest": "speed32",
+      "program": "baseline_thinking",
+      "repeat": 3,
+      "result": "28.baseline_thinking.speed32.r3.json"
+    },
+    {
+      "console": "29.manual_instruct.speed32.r3.console.log",
+      "index": 29,
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 3,
+      "result": "29.manual_instruct.speed32.r3.json"
+    },
+    {
+      "console": "30.manual_thinking.speed32.r3.console.log",
+      "index": 30,
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 3,
+      "result": "30.manual_thinking.speed32.r3.json"
+    }
+  ],
+  "source_identity": {
+    "commit": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+    "tree": "61d5613b227952a177c49e9d638c974c9416681d"
+  },
+  "visible_device_count": 1
+}

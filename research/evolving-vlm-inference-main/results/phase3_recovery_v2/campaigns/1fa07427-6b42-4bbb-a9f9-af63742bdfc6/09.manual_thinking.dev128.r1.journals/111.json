@@ -1,0 +1,55 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 12.5893241786398,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 328,
+    "generation_seconds": 12.572163720149547,
+    "input_token_count": 486,
+    "peak_memory_bytes": 4398211584,
+    "preprocessing_seconds": 0.01587914302945137,
+    "termination_reason": "eos",
+    "total_seconds": 12.588394844904542
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the chart. The legend is on the right side, with labels \"Rank5\", \"Rank2\", \"Rank1\". Wait, the question is about the labels in the legend. Let's check the positions. The legend has three labels: Rank5, Rank2, Rank1. The problem says to list them from top to bottom, then left to right. Wait, the legend is on the right, so the order is Rank5 (top), then Rank2, then Rank1 (bottom). But the question says \"from top to bottom, then from left to right\". Wait, the legend is a vertical list? Wait, the chart's legend: the labels are Rank5, Rank2, Rank1. Let's see the positions. The legend is on the right, so the labels are Rank5 (top), Rank2 (middle), Rank1 (bottom). So the order is Rank5, Rank2, Rank1. But the question says \"from top to bottom, then from left to right\". Wait, the legend is a vertical list, so top to bottom is Rank5, then Rank2, then Rank1. But the labels in the legend are Rank5, Rank2, Rank1. So the answer should be Rank5, Rank2, Rank1. Let's confirm. The legend has three labels: Rank5, Rank2, Rank1. So the labels from top to bottom are Rank5, Rank2, Rank1. So the answer is Rank5, Rank2, Rank1.\n</think>\n\nRank5, Rank2, Rank1",
+  "prediction_sha256": "092c00b9250b490e457f1a629f3fb7ae2a97a5db765bf8d5afd8001e6f2316c9",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "60",
+    "image_sha256": "cf5818a1debe8859a95867202d20023eedca5a06be80a4e261dcf3ea05dd097b",
+    "index": 111,
+    "qid": "13",
+    "query_key": "60_3",
+    "question": "For the current plot, what are the names of the labels in the legend?\n    * You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot.\n    * If the plot does not have a legend or no legend is not considered relevant to this plot, answer \"Not Applicable\".",
+    "subq_idx": 3
+  },
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

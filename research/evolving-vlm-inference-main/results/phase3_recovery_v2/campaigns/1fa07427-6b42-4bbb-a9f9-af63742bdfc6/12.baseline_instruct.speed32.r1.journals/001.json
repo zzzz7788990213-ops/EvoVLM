@@ -1,0 +1,55 @@
+{
+  "attempt_id": "0f7f5566-28a4-4a43-ba5c-8ac8408ec083",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 9.415101029910147,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 128,
+    "generation_seconds": 9.40019004419446,
+    "input_token_count": 471,
+    "peak_memory_bytes": 4393159168,
+    "preprocessing_seconds": 0.01444120379164815,
+    "termination_reason": "length",
+    "total_seconds": 9.414874151814729
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "To determine the spatially lowest labeled tick on the y-axis for the subplot at row 1 and column 2, we need to examine the y-axis of that specific subplot.\n\n- The subplot at row 1 and column 2 is the right-hand plot (the one on the right side of the image).\n- The y-axis of this subplot is labeled \"log(Breg)\".\n- The tick marks on this y-axis are: 13.1, 13.2, 13.3, 13.4, 13.5, 13.6, 13.",
+  "prediction_sha256": "a8008cdcf7ab7084a42e1e8a7debe13e0fd7cc028d4eca2c3d394d63c22c86e7",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1125",
+    "image_sha256": "390bc147143cfc938c37ccd3044f45b3db47f0338b96829a9d3a2091cff25576",
+    "index": 1,
+    "qid": "6",
+    "query_key": "1125_0",
+    "question": "For the subplot at row 1 and column 2, what is the spatially lowest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+    "subq_idx": 0
+  },
+  "run_id": "afadb6e7-c97a-48ca-9f9a-63df6034de89",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

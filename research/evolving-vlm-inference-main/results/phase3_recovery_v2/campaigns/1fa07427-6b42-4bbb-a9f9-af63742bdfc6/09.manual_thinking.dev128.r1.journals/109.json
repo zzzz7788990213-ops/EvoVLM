@@ -1,0 +1,55 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 13.484097333159298,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 13.469130705110729,
+    "input_token_count": 434,
+    "peak_memory_bytes": 4398214656,
+    "preprocessing_seconds": 0.013773287646472454,
+    "termination_reason": "length",
+    "total_seconds": 13.483256955631077
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the chart. The x-axis has different models: Make/Model ResNet-1, Make/Model ResNet-2, Make ResNet-1, Make ResNet-2. The y-axis is Rank1 and Rank2, but the values are the scores. Wait, the bars are colored, and the numbers on top are the scores. Let's check each bar's value.\n\nFirst, Make/Model ResNet-1: 85.1 (Rank5, so maybe Rank5 is the position, but the score is 85.1). Then Make/Model ResNet-2: 85.7. Then Make ResNet-1: 92.8. Then Make ResNet-2: 93.2. Wait, the ranks: Rank1 is the highest, Rank2 next. Wait, the bars are stacked? Wait, no, the chart shows each bar with a score. Let's list the scores from left to right:\n\n1. Make/Model ResNet-1: 85.1\n2. Make/Model ResNet-2: 85.7\n3. Make ResNet-1: 92.8\n4. Make ResNet-2: 93.2\n\nWait, the scores are increasing from left to right. Let's check the numbers: 85.1, 85.7, 92.8, 93.2. So 85.1 to 85.7 is a small increase, then 92.8 to 93.2 is a larger increase. So overall, the trend is increasing. Let's confirm. The first two are around 85, then the next two are higher. So the general trend from left to right is increasing.\n</think>",
+  "prediction_sha256": "254e5696c64a2d62de91c56d006a61644e1b3f47f26802097c8a4787196456c2",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "60",
+    "image_sha256": "cf5818a1debe8859a95867202d20023eedca5a06be80a4e261dcf3ea05dd097b",
+    "index": 109,
+    "qid": "16",
+    "query_key": "60_1",
+    "question": "For the current plot, what is the general trend of data from left to right?\n    * Your final answer should be within a few words, such as \"increases\", \"increases then stabilizes\".",
+    "subq_idx": 1
+  },
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

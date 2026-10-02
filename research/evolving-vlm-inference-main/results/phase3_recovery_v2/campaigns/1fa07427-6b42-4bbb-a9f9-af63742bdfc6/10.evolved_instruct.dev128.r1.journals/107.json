@@ -1,0 +1,55 @@
+{
+  "attempt_id": "b9c8f5dc-0af7-4b4e-b7b9-95d43d8c52cb",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 10.674010255839676,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 2,
+    "generation_seconds": 10.655666502658278,
+    "input_token_count": 628,
+    "peak_memory_bytes": 4421060096,
+    "preprocessing_seconds": 0.01704748161137104,
+    "termination_reason": "eos",
+    "total_seconds": 10.673026255797595
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "No",
+  "prediction_sha256": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+  "program": "evolved_instruct",
+  "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "57",
+    "image_sha256": "7bd890306aa213c8e79344b38d7191760c8af129d3076120c6b33764b0846e22",
+    "index": 107,
+    "qid": "11",
+    "query_key": "57_3",
+    "question": "For the subplot at row 1 and column 2, do any lines intersect?\n    * Your final answer should be \"Yes\" if any lines intersect, and \"No\" otherwise. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines.\n    * If the plot does not contain any lines or is not considered a line plot, answer \"Not Applicable\".",
+    "subq_idx": 3
+  },
+  "run_id": "d386581c-050c-449d-98bf-39b8c9500fe1",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

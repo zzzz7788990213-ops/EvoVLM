@@ -1,0 +1,37 @@
+{
+  "figure_ids": [
+    "1185",
+    "2147",
+    "1857",
+    "298",
+    "2040",
+    "2051",
+    "1225",
+    "86",
+    "1006",
+    "2179",
+    "341",
+    "279"
+  ],
+  "ground_truth_sha256": "5dc144dd043b77b32feeae2875c6112b1d7cc45e05790cf025859c21e9b40a68",
+  "manifest_version": "phase2-local-search-manifests-v2",
+  "query_key_order_sha256": "90dda8f56289ccffd261ebd88bfe067fc75b30a723ff07ff9a9abdb9b2333e99",
+  "query_keys": [
+    "1185_1",
+    "2147_1",
+    "1857_1",
+    "298_1",
+    "2040_2",
+    "2051_3",
+    "1225_0",
+    "86_1",
+    "1006_1",
+    "2179_3",
+    "341_3",
+    "279_2"
+  ],
+  "salt_sha256": "fd616a0fa1481d9107a68ae3db574365314ff4f5d41fc5a59d4a353421c3a349",
+  "sample_count": 12,
+  "selection": "sha256 fixed-salt rank; globally figure isolated",
+  "stage": "search12"
+}

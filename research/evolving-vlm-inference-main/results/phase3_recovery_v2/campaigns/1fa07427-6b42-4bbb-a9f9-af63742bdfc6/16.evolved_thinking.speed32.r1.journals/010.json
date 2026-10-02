@@ -1,0 +1,55 @@
+{
+  "attempt_id": "f69a55ef-e676-4eec-ab1a-78b7575e4f34",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": true,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 16.995150934904814,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 189,
+    "generation_seconds": 16.97084868978709,
+    "input_token_count": 831,
+    "peak_memory_bytes": 4460859392,
+    "preprocessing_seconds": 0.022398168686777353,
+    "termination_reason": "stop_text",
+    "total_seconds": 16.99364800611511
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "10^11",
+  "prediction_sha256": "ac7d8aa0d8ce77c091943604ae69e4b3ae67853ea9ba09dd25229ab283434679",
+  "program": "evolved_thinking",
+  "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1917",
+    "image_sha256": "a1d2a18bd2149f32f0e4273c6198cd2491b107794bfd3b05831cbb60e151dcc7",
+    "index": 10,
+    "qid": "4",
+    "query_key": "1917_1",
+    "question": "For the current plot, what is the leftmost labeled tick on the x-axis?\n    * Your final answer should be the tick value on the x-axis that is explicitly written, including the case when x-axis is shared across multiple subplots. When the x-axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+    "subq_idx": 1
+  },
+  "run_id": "9caf7a74-764a-4a8a-97fe-3520878d2039",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "actual_campaign_plan": {
+    "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+    "sha256": "effe1b6a1741885b2ab4c48c71efeedc1735825039d837ea0533b79f13258c79",
+    "size_bytes": 7755
+  },
+  "created_base_commit": "696cb0161bb5c4e83f451b39e9c1c6db5ef14231",
+  "declarations": [
+    {
+      "locator": {
+        "kind": "markdown_exact_line",
+        "value": "- Campaign plan SHA-256: `effe1b6f06a78a3544444248667f9e5c5f941633424299475121cb329f526f567`"
+      },
+      "path": "docs/PHASE3_V1_FAILURE_CLOSEOUT.md",
+      "sha256": "dbe3128d07edd8f089432be5d2e5d5aaf19c351af9aee3914e3181e9c6bab34e",
+      "size_bytes": 2109
+    },
+    {
+      "locator": {
+        "kind": "json_pointer",
+        "value": "/recovery_of/campaign_plan_sha256"
+      },
+      "path": "evaluation/recovery_v2/protocol.json",
+      "sha256": "a251e703c94167df9ff19dd4ff21f9c66297e1caa80d1519a0e0721e711b79dd",
+      "size_bytes": 4766
+    }
+  ],
+  "discovered_at_utc": "2026-08-26T07:16:40Z",
+  "explanation": "The immutable v1 closeout and Recovery-v2 protocol declared an incorrect campaign-plan digest. The original artifacts remain unchanged; this erratum binds their exact bytes to the rehashed original plan.",
+  "formal_metrics_affected": false,
+  "incorrect_declared_sha256": "effe1b6f06a78a3544444248667f9e5c5f941633424299475121cb329f526f567",
+  "schema_version": 1,
+  "selection_affected": false,
+  "status": "ERRATUM_VERIFIED"
+}

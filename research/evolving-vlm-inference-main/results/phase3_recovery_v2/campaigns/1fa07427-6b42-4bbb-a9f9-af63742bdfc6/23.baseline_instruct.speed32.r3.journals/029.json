@@ -1,0 +1,55 @@
+{
+  "attempt_id": "3f155c45-8977-46d6-a296-eea93556d3aa",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 16.972082761581987,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 65,
+    "generation_seconds": 16.660122781060636,
+    "input_token_count": 817,
+    "peak_memory_bytes": 4462590976,
+    "preprocessing_seconds": 0.31160093983635306,
+    "termination_reason": "eos",
+    "total_seconds": 16.971898381132632
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "The legend is located on the right side of the plot and contains a single color bar with a label \"f\" and a scale from 0 to 60k. The label \"f\" is the only label relevant to the plot. Therefore, there is one discrete label in the legend.\n\nAnswer: 1",
+  "prediction_sha256": "8dad82355d2a76e3b7f7d9a0f38cadc404ef473352485ecf95af46b28dd596de",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "2347",
+    "image_sha256": "bd5666a0b6e2161830da40bddd8cefa7ccfd143990dee4b3ff74a557d9f7f48e",
+    "index": 29,
+    "qid": "12",
+    "query_key": "2347_3",
+    "question": "For the current plot, how many discrete labels are there in the legend?\n    * Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. \n    * If the plot does not have a legend or no legend is not considered relevant to this plot, answer \"Not Applicable\".",
+    "subq_idx": 3
+  },
+  "run_id": "b8a1a334-95dd-466d-8b23-a341777fd951",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

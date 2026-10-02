@@ -1,0 +1,55 @@
+{
+  "attempt_id": "65cb6933-a92a-4b2b-b9af-a02e8f43a53a",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 17.209459764882922,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 26,
+    "generation_seconds": 17.184188346378505,
+    "input_token_count": 738,
+    "peak_memory_bytes": 4457762304,
+    "preprocessing_seconds": 0.024869990535080433,
+    "termination_reason": "eos",
+    "total_seconds": 17.209260007366538
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "The image contains 4 rows and 2 columns of subplots. Therefore, the layout is 4 by 2.",
+  "prediction_sha256": "7a84611a5e6d9f844eaf61a220a7a0384e5a05f8ee244c760db98296a5f8b1ff",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1948",
+    "image_sha256": "d67e47c3e418ccfd476736c7933a2539ec2f3247f17530e7e6b11dd3568795fd",
+    "index": 25,
+    "qid": "18",
+    "query_key": "1948_2",
+    "question": "What is the layout of the subplots?\n    * Your final answer should follow \"n by m\" format, where n is the number of rows and m is the number of columns.\n    * If the plot does not contain subplots, answer \"1 by 1\".",
+    "subq_idx": 2
+  },
+  "run_id": "a9434c13-3bd7-4a67-a98a-ac9444da55a1",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  }
+}

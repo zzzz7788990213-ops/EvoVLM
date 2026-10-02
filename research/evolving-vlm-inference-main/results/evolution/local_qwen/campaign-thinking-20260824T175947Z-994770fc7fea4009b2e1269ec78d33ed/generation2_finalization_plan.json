@@ -1,0 +1,1081 @@
+{
+  "campaign_id": "campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed",
+  "export_name": "evolved_thinking.py",
+  "export_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "export_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n                    \"missing or inapplicable chart elements. Use the model's native \"\n                    'reasoning, then return only the concise final answer enclosed in '\n                    '<final> and </final>. Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip_terminal_punctuation',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+  "final_state": {
+    "campaign_directory": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/workspace/evolving-vlm-inference-main/results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed",
+    "campaign_id": "campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed",
+    "campaign_version": "phase2-catalog-qwen-two-generation-v4",
+    "candidates": [
+      {
+        "candidate_id": "seed-thinking",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 0,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": null,
+        "rendered_sha256": "068921c91fa2e4454f5fb40a4cba05ec191850d927c9787f459f0b63e66e050d",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                    'Finish with the concise answer enclosed in <final> and </final>. '\n                    'Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "manual_seed",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.975107382323284,
+            "mean_latency_seconds": 21.01042168071338,
+            "mean_preprocessing_seconds": 0.034650640368151166,
+            "peak_memory_bytes": 4528586240,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 1,
+              "length": 8,
+              "stop_text": 3
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 4043,
+            "total_generation_seconds": 251.7012885878794,
+            "total_preprocessing_seconds": 0.415807684417814,
+            "total_seconds": 252.1250601685606
+          },
+          "selection32": {
+            "accuracy": 0.21875,
+            "correct": 7,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 18.513012642637477,
+            "mean_latency_seconds": 18.547191667705192,
+            "mean_preprocessing_seconds": 0.03354678908362985,
+            "peak_memory_bytes": 4532545536,
+            "samples": 32,
+            "stage": "selection32",
+            "termination_counts": {
+              "eos": 10,
+              "length": 15,
+              "stop_text": 7
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 8848,
+            "total_generation_seconds": 592.4164045643993,
+            "total_preprocessing_seconds": 1.073497250676155,
+            "total_seconds": 593.5101333665662
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 13.764609271194786,
+            "mean_latency_seconds": 13.803260288666934,
+            "mean_preprocessing_seconds": 0.03812789265066385,
+            "peak_memory_bytes": 4431225344,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 105,
+            "total_generation_seconds": 13.764609271194786,
+            "total_preprocessing_seconds": 0.03812789265066385,
+            "total_seconds": 13.803260288666934
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "manual_seed_semantics": true,
+          "source": "manual_thinking.py"
+        },
+        "unified_diff": ""
+      },
+      {
+        "candidate_id": "21408a648a00e0736d7f4691",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Use only evidence visible in the scientific figure; do not invent missing or inapplicable chart elements. Use the model's native reasoning, then return only the concise final answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 1,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "seed-thinking",
+        "rendered_sha256": "3dbd70c2d0aa32996286d2c7b7f42d61ec73db77a14ac4d56e2dfa1795767d84",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n                    \"missing or inapplicable chart elements. Use the model's native \"\n                    'reasoning, then return only the concise final answer enclosed in '\n                    '<final> and </final>. Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g1_child0",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.58855905542926,
+            "mean_latency_seconds": 20.625195748444337,
+            "mean_preprocessing_seconds": 0.0359948737702022,
+            "peak_memory_bytes": 4531271680,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 3,
+              "length": 5,
+              "stop_text": 4
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 3736,
+            "total_generation_seconds": 247.06270866515115,
+            "total_preprocessing_seconds": 0.4319384852424264,
+            "total_seconds": 247.50234898133203
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 14.505651418119669,
+            "mean_latency_seconds": 14.533047788776457,
+            "mean_preprocessing_seconds": 0.02670797286555171,
+            "peak_memory_bytes": 4433340416,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 146,
+            "total_generation_seconds": 14.505651418119669,
+            "total_preprocessing_seconds": 0.02670797286555171,
+            "total_seconds": 14.533047788776457
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "3dbd70c2d0aa32996286d2c7b7f42d61ec73db77a14ac4d56e2dfa1795767d84",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -5,9 +5,10 @@\n RENDERER_VERSION = 'phase2-local-renderer-v2'\n CANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n  'system_instruction': '',\n- 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n-                    'Finish with the concise answer enclosed in <final> and </final>. '\n-                    'Question: {question}',\n+ 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n+                    \"missing or inapplicable chart elements. Use the model's native \"\n+                    'reasoning, then return only the concise final answer enclosed in '\n+                    '<final> and </final>. Question: {question}',\n  'reasoning_mode': 'thinking',\n  'max_new_tokens': 384,\n  'min_pixels': 200704,\n"
+      },
+      {
+        "candidate_id": "cf79d2c86b334f7954442316",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'boxed_or_final', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 1,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "seed-thinking",
+        "rendered_sha256": "a1e198186e56ec96651a3ceaddd2744d8cbb4f2307759a7550dea42757df5480",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                    'Finish with the concise answer enclosed in <final> and </final>. '\n                    'Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'boxed_or_final',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g1_child1",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.996788034720037,
+            "mean_latency_seconds": 21.0309812274063,
+            "mean_preprocessing_seconds": 0.03353086890031894,
+            "peak_memory_bytes": 4528586240,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 1,
+              "length": 8,
+              "stop_text": 3
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 4043,
+            "total_generation_seconds": 251.96145641664043,
+            "total_preprocessing_seconds": 0.4023704268038273,
+            "total_seconds": 252.3717747288756
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 13.885031548328698,
+            "mean_latency_seconds": 13.910633066203445,
+            "mean_preprocessing_seconds": 0.025123832281678915,
+            "peak_memory_bytes": 4431225344,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 105,
+            "total_generation_seconds": 13.885031548328698,
+            "total_preprocessing_seconds": 0.025123832281678915,
+            "total_seconds": 13.910633066203445
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "a1e198186e56ec96651a3ceaddd2744d8cbb4f2307759a7550dea42757df5480",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -13,7 +13,7 @@\n  'min_pixels': 200704,\n  'max_pixels': 1003520,\n  'preprocessing_option': 'qwen_default',\n- 'extraction_strategy': 'final_tag',\n+ 'extraction_strategy': 'boxed_or_final',\n  'postprocessing_strategy': 'strip',\n  'dtype': 'bfloat16',\n  'attention': 'sdpa',\n"
+      },
+      {
+        "candidate_id": "7c84eaf79398a983ec802356",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Use only evidence visible in the scientific figure; do not invent missing or inapplicable chart elements. Use the model's native reasoning, then return only the concise final answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 100352, 'max_pixels': 1605632, 'preprocessing_option': 'rgb', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 2,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "21408a648a00e0736d7f4691",
+        "rendered_sha256": "640f7978a8b5215c655b5fda245fe1f614a4531abe97d5c031f27bead85dfd75",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n                    \"missing or inapplicable chart elements. Use the model's native \"\n                    'reasoning, then return only the concise final answer enclosed in '\n                    '<final> and </final>. Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 100352,\n 'max_pixels': 1605632,\n 'preprocessing_option': 'rgb',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g2_child0",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.39927764888853,
+            "mean_latency_seconds": 20.457224872157287,
+            "mean_preprocessing_seconds": 0.055030588332253196,
+            "peak_memory_bytes": 4531271680,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 3,
+              "length": 5,
+              "stop_text": 4
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 3736,
+            "total_generation_seconds": 244.79133178666234,
+            "total_preprocessing_seconds": 0.6603670599870384,
+            "total_seconds": 245.48669846588746
+          },
+          "selection32": {
+            "accuracy": 0.375,
+            "correct": 12,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 18.549925468105357,
+            "mean_latency_seconds": 18.583247127055074,
+            "mean_preprocessing_seconds": 0.0325310848566005,
+            "peak_memory_bytes": 4534225408,
+            "samples": 32,
+            "stage": "selection32",
+            "termination_counts": {
+              "eos": 6,
+              "length": 14,
+              "stop_text": 12
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 8760,
+            "total_generation_seconds": 593.5976149793714,
+            "total_preprocessing_seconds": 1.040994715411216,
+            "total_seconds": 594.6639080657624
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 14.291033082176,
+            "mean_latency_seconds": 14.325224620755762,
+            "mean_preprocessing_seconds": 0.03357462165877223,
+            "peak_memory_bytes": 4433340416,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 146,
+            "total_generation_seconds": 14.291033082176,
+            "total_preprocessing_seconds": 0.03357462165877223,
+            "total_seconds": 14.325224620755762
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "640f7978a8b5215c655b5fda245fe1f614a4531abe97d5c031f27bead85dfd75",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -11,9 +11,9 @@\n                     '<final> and </final>. Question: {question}',\n  'reasoning_mode': 'thinking',\n  'max_new_tokens': 384,\n- 'min_pixels': 200704,\n- 'max_pixels': 1003520,\n- 'preprocessing_option': 'qwen_default',\n+ 'min_pixels': 100352,\n+ 'max_pixels': 1605632,\n+ 'preprocessing_option': 'rgb',\n  'extraction_strategy': 'final_tag',\n  'postprocessing_strategy': 'strip',\n  'dtype': 'bfloat16',\n"
+      },
+      {
+        "candidate_id": "a2c757eab4e6957091039309",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Use only evidence visible in the scientific figure; do not invent missing or inapplicable chart elements. Use the model's native reasoning, then return only the concise final answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip_terminal_punctuation', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 2,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "21408a648a00e0736d7f4691",
+        "rendered_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n                    \"missing or inapplicable chart elements. Use the model's native \"\n                    'reasoning, then return only the concise final answer enclosed in '\n                    '<final> and </final>. Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip_terminal_punctuation',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g2_child1",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.53908498007028,
+            "mean_latency_seconds": 20.584511213121004,
+            "mean_preprocessing_seconds": 0.04470197029877454,
+            "peak_memory_bytes": 4531271680,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 3,
+              "length": 5,
+              "stop_text": 4
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 3736,
+            "total_generation_seconds": 246.46901976084337,
+            "total_preprocessing_seconds": 0.5364236435852945,
+            "total_seconds": 247.01413455745205
+          },
+          "selection32": {
+            "accuracy": 0.375,
+            "correct": 12,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 18.533528674583067,
+            "mean_latency_seconds": 18.56425702186243,
+            "mean_preprocessing_seconds": 0.030097125592874363,
+            "peak_memory_bytes": 4534225408,
+            "samples": 32,
+            "stage": "selection32",
+            "termination_counts": {
+              "eos": 6,
+              "length": 14,
+              "stop_text": 12
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 8760,
+            "total_generation_seconds": 593.0729175866581,
+            "total_preprocessing_seconds": 0.9631080189719796,
+            "total_seconds": 594.0562246995978
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 14.303384841885418,
+            "mean_latency_seconds": 14.336544161196798,
+            "mean_preprocessing_seconds": 0.03243434615433216,
+            "peak_memory_bytes": 4433340416,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 146,
+            "total_generation_seconds": 14.303384841885418,
+            "total_preprocessing_seconds": 0.03243434615433216,
+            "total_seconds": 14.336544161196798
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -15,7 +15,7 @@\n  'max_pixels': 1003520,\n  'preprocessing_option': 'qwen_default',\n  'extraction_strategy': 'final_tag',\n- 'postprocessing_strategy': 'strip',\n+ 'postprocessing_strategy': 'strip_terminal_punctuation',\n  'dtype': 'bfloat16',\n  'attention': 'sdpa',\n  'batch_size': 1,\n"
+      },
+      {
+        "candidate_id": "7fd9490ae1b2f95c27162c0b",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': 'Read charts conservatively: distinguish observed evidence from missing or inapplicable elements.', 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'boxed_or_final', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 2,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "cf79d2c86b334f7954442316",
+        "rendered_sha256": "a5a955258ec17796100ec585065e1dbc9e2a403b2db5e7676ac90c077ee8e834",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': 'Read charts conservatively: distinguish observed evidence from '\n                       'missing or inapplicable elements.',\n 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                    'Finish with the concise answer enclosed in <final> and </final>. '\n                    'Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'boxed_or_final',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g2_child2",
+        "scores": {
+          "search12": {
+            "accuracy": 0.16666666666666666,
+            "correct": 2,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.770650274469517,
+            "mean_latency_seconds": 20.822847371455282,
+            "mean_preprocessing_seconds": 0.05142250924836844,
+            "peak_memory_bytes": 4532559872,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 1,
+              "length": 8,
+              "stop_text": 3
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 3902,
+            "total_generation_seconds": 249.2478032936342,
+            "total_preprocessing_seconds": 0.6170701109804213,
+            "total_seconds": 249.87416845746338
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 14.009703980758786,
+            "mean_latency_seconds": 14.03123321896419,
+            "mean_preprocessing_seconds": 0.021025846246629953,
+            "peak_memory_bytes": 4433866752,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 125,
+            "total_generation_seconds": 14.009703980758786,
+            "total_preprocessing_seconds": 0.021025846246629953,
+            "total_seconds": 14.03123321896419
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "a5a955258ec17796100ec585065e1dbc9e2a403b2db5e7676ac90c077ee8e834",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -4,7 +4,8 @@\n \n RENDERER_VERSION = 'phase2-local-renderer-v2'\n CANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n- 'system_instruction': '',\n+ 'system_instruction': 'Read charts conservatively: distinguish observed evidence from '\n+                       'missing or inapplicable elements.',\n  'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                     'Finish with the concise answer enclosed in <final> and </final>. '\n                     'Question: {question}',\n"
+      },
+      {
+        "candidate_id": "1b751e83ceff157e1a2b3a32",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 448, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'boxed_or_final', 'postprocessing_strategy': 'strip_terminal_punctuation', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 2,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "cf79d2c86b334f7954442316",
+        "rendered_sha256": "8d512cc7ad9aa6e698cbdab21803e2042895be11cef08f067c22596befabf4e2",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                    'Finish with the concise answer enclosed in <final> and </final>. '\n                    'Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 448,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'boxed_or_final',\n 'postprocessing_strategy': 'strip_terminal_punctuation',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 448, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g2_child3",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 21.48389610570545,
+            "mean_latency_seconds": 21.52035270720565,
+            "mean_preprocessing_seconds": 0.03570006807179501,
+            "peak_memory_bytes": 4528586240,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 3,
+              "length": 6,
+              "stop_text": 3
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 4525,
+            "total_generation_seconds": 257.8067532684654,
+            "total_preprocessing_seconds": 0.4284008168615401,
+            "total_seconds": 258.2442324864678
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 13.781680015381426,
+            "mean_latency_seconds": 13.806053356733173,
+            "mean_preprocessing_seconds": 0.023821822833269835,
+            "peak_memory_bytes": 4431225344,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 105,
+            "total_generation_seconds": 13.781680015381426,
+            "total_preprocessing_seconds": 0.023821822833269835,
+            "total_seconds": 13.806053356733173
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "8d512cc7ad9aa6e698cbdab21803e2042895be11cef08f067c22596befabf4e2",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -9,12 +9,12 @@\n                     'Finish with the concise answer enclosed in <final> and </final>. '\n                     'Question: {question}',\n  'reasoning_mode': 'thinking',\n- 'max_new_tokens': 384,\n+ 'max_new_tokens': 448,\n  'min_pixels': 200704,\n  'max_pixels': 1003520,\n  'preprocessing_option': 'qwen_default',\n  'extraction_strategy': 'boxed_or_final',\n- 'postprocessing_strategy': 'strip',\n+ 'postprocessing_strategy': 'strip_terminal_punctuation',\n  'dtype': 'bfloat16',\n  'attention': 'sdpa',\n  'batch_size': 1,\n@@ -29,7 +29,7 @@\n DTYPE = 'bfloat16'\n ATTENTION_IMPLEMENTATION = 'sdpa'\n QUANTIZATION = 'none'\n-EFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n+EFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 448, 'use_cache': True}\n \n _RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n \n"
+      }
+    ],
+    "execution_class": "production_evolution",
+    "failures": [],
+    "generation": 2,
+    "gpu_elapsed_seconds": 4015.3776066591963,
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "run_manifest_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/workspace/evolving-vlm-inference-main/results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/run_manifest.json",
+    "run_manifest_sha256": "ce3ee46af26211774d881cccbd39b0a137ab5322b06b3077e12201ece4de5e2a"
+  },
+  "finalization_version": "phase2-generation2-finalization-v1",
+  "generation2_checkpoint": "phase2_local/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation2.json",
+  "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+  "run_manifest_sha256": "ce3ee46af26211774d881cccbd39b0a137ab5322b06b3077e12201ece4de5e2a",
+  "summary": {
+    "accuracy_delta_vs_manual_seed": 0.15625,
+    "authorization_receipt_id": "9c306607e822a0369db93ffc8260ecefd76785903e09ec2af679f9e66a243942",
+    "best_candidate_id": "a2c757eab4e6957091039309",
+    "best_is_real_mutation_child": true,
+    "best_program_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+    "campaign_directory": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/workspace/evolving-vlm-inference-main/results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed",
+    "campaign_id": "campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed",
+    "campaign_version": "phase2-catalog-qwen-two-generation-v4",
+    "candidates": [
+      {
+        "candidate_id": "seed-thinking",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 0,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": null,
+        "rendered_sha256": "068921c91fa2e4454f5fb40a4cba05ec191850d927c9787f459f0b63e66e050d",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                    'Finish with the concise answer enclosed in <final> and </final>. '\n                    'Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "manual_seed",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.975107382323284,
+            "mean_latency_seconds": 21.01042168071338,
+            "mean_preprocessing_seconds": 0.034650640368151166,
+            "peak_memory_bytes": 4528586240,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 1,
+              "length": 8,
+              "stop_text": 3
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 4043,
+            "total_generation_seconds": 251.7012885878794,
+            "total_preprocessing_seconds": 0.415807684417814,
+            "total_seconds": 252.1250601685606
+          },
+          "selection32": {
+            "accuracy": 0.21875,
+            "correct": 7,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 18.513012642637477,
+            "mean_latency_seconds": 18.547191667705192,
+            "mean_preprocessing_seconds": 0.03354678908362985,
+            "peak_memory_bytes": 4532545536,
+            "samples": 32,
+            "stage": "selection32",
+            "termination_counts": {
+              "eos": 10,
+              "length": 15,
+              "stop_text": 7
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 8848,
+            "total_generation_seconds": 592.4164045643993,
+            "total_preprocessing_seconds": 1.073497250676155,
+            "total_seconds": 593.5101333665662
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 13.764609271194786,
+            "mean_latency_seconds": 13.803260288666934,
+            "mean_preprocessing_seconds": 0.03812789265066385,
+            "peak_memory_bytes": 4431225344,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 105,
+            "total_generation_seconds": 13.764609271194786,
+            "total_preprocessing_seconds": 0.03812789265066385,
+            "total_seconds": 13.803260288666934
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "manual_seed_semantics": true,
+          "source": "manual_thinking.py"
+        },
+        "unified_diff": ""
+      },
+      {
+        "candidate_id": "21408a648a00e0736d7f4691",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Use only evidence visible in the scientific figure; do not invent missing or inapplicable chart elements. Use the model's native reasoning, then return only the concise final answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 1,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "seed-thinking",
+        "rendered_sha256": "3dbd70c2d0aa32996286d2c7b7f42d61ec73db77a14ac4d56e2dfa1795767d84",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n                    \"missing or inapplicable chart elements. Use the model's native \"\n                    'reasoning, then return only the concise final answer enclosed in '\n                    '<final> and </final>. Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g1_child0",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.58855905542926,
+            "mean_latency_seconds": 20.625195748444337,
+            "mean_preprocessing_seconds": 0.0359948737702022,
+            "peak_memory_bytes": 4531271680,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 3,
+              "length": 5,
+              "stop_text": 4
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 3736,
+            "total_generation_seconds": 247.06270866515115,
+            "total_preprocessing_seconds": 0.4319384852424264,
+            "total_seconds": 247.50234898133203
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 14.505651418119669,
+            "mean_latency_seconds": 14.533047788776457,
+            "mean_preprocessing_seconds": 0.02670797286555171,
+            "peak_memory_bytes": 4433340416,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 146,
+            "total_generation_seconds": 14.505651418119669,
+            "total_preprocessing_seconds": 0.02670797286555171,
+            "total_seconds": 14.533047788776457
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "3dbd70c2d0aa32996286d2c7b7f42d61ec73db77a14ac4d56e2dfa1795767d84",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -5,9 +5,10 @@\n RENDERER_VERSION = 'phase2-local-renderer-v2'\n CANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n  'system_instruction': '',\n- 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n-                    'Finish with the concise answer enclosed in <final> and </final>. '\n-                    'Question: {question}',\n+ 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n+                    \"missing or inapplicable chart elements. Use the model's native \"\n+                    'reasoning, then return only the concise final answer enclosed in '\n+                    '<final> and </final>. Question: {question}',\n  'reasoning_mode': 'thinking',\n  'max_new_tokens': 384,\n  'min_pixels': 200704,\n"
+      },
+      {
+        "candidate_id": "cf79d2c86b334f7954442316",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'boxed_or_final', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 1,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "seed-thinking",
+        "rendered_sha256": "a1e198186e56ec96651a3ceaddd2744d8cbb4f2307759a7550dea42757df5480",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                    'Finish with the concise answer enclosed in <final> and </final>. '\n                    'Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'boxed_or_final',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g1_child1",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.996788034720037,
+            "mean_latency_seconds": 21.0309812274063,
+            "mean_preprocessing_seconds": 0.03353086890031894,
+            "peak_memory_bytes": 4528586240,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 1,
+              "length": 8,
+              "stop_text": 3
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 4043,
+            "total_generation_seconds": 251.96145641664043,
+            "total_preprocessing_seconds": 0.4023704268038273,
+            "total_seconds": 252.3717747288756
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 13.885031548328698,
+            "mean_latency_seconds": 13.910633066203445,
+            "mean_preprocessing_seconds": 0.025123832281678915,
+            "peak_memory_bytes": 4431225344,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 105,
+            "total_generation_seconds": 13.885031548328698,
+            "total_preprocessing_seconds": 0.025123832281678915,
+            "total_seconds": 13.910633066203445
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "a1e198186e56ec96651a3ceaddd2744d8cbb4f2307759a7550dea42757df5480",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -13,7 +13,7 @@\n  'min_pixels': 200704,\n  'max_pixels': 1003520,\n  'preprocessing_option': 'qwen_default',\n- 'extraction_strategy': 'final_tag',\n+ 'extraction_strategy': 'boxed_or_final',\n  'postprocessing_strategy': 'strip',\n  'dtype': 'bfloat16',\n  'attention': 'sdpa',\n"
+      },
+      {
+        "candidate_id": "7c84eaf79398a983ec802356",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Use only evidence visible in the scientific figure; do not invent missing or inapplicable chart elements. Use the model's native reasoning, then return only the concise final answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 100352, 'max_pixels': 1605632, 'preprocessing_option': 'rgb', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 2,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "21408a648a00e0736d7f4691",
+        "rendered_sha256": "640f7978a8b5215c655b5fda245fe1f614a4531abe97d5c031f27bead85dfd75",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n                    \"missing or inapplicable chart elements. Use the model's native \"\n                    'reasoning, then return only the concise final answer enclosed in '\n                    '<final> and </final>. Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 100352,\n 'max_pixels': 1605632,\n 'preprocessing_option': 'rgb',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g2_child0",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.39927764888853,
+            "mean_latency_seconds": 20.457224872157287,
+            "mean_preprocessing_seconds": 0.055030588332253196,
+            "peak_memory_bytes": 4531271680,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 3,
+              "length": 5,
+              "stop_text": 4
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 3736,
+            "total_generation_seconds": 244.79133178666234,
+            "total_preprocessing_seconds": 0.6603670599870384,
+            "total_seconds": 245.48669846588746
+          },
+          "selection32": {
+            "accuracy": 0.375,
+            "correct": 12,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 18.549925468105357,
+            "mean_latency_seconds": 18.583247127055074,
+            "mean_preprocessing_seconds": 0.0325310848566005,
+            "peak_memory_bytes": 4534225408,
+            "samples": 32,
+            "stage": "selection32",
+            "termination_counts": {
+              "eos": 6,
+              "length": 14,
+              "stop_text": 12
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 8760,
+            "total_generation_seconds": 593.5976149793714,
+            "total_preprocessing_seconds": 1.040994715411216,
+            "total_seconds": 594.6639080657624
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 14.291033082176,
+            "mean_latency_seconds": 14.325224620755762,
+            "mean_preprocessing_seconds": 0.03357462165877223,
+            "peak_memory_bytes": 4433340416,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 146,
+            "total_generation_seconds": 14.291033082176,
+            "total_preprocessing_seconds": 0.03357462165877223,
+            "total_seconds": 14.325224620755762
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "640f7978a8b5215c655b5fda245fe1f614a4531abe97d5c031f27bead85dfd75",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -11,9 +11,9 @@\n                     '<final> and </final>. Question: {question}',\n  'reasoning_mode': 'thinking',\n  'max_new_tokens': 384,\n- 'min_pixels': 200704,\n- 'max_pixels': 1003520,\n- 'preprocessing_option': 'qwen_default',\n+ 'min_pixels': 100352,\n+ 'max_pixels': 1605632,\n+ 'preprocessing_option': 'rgb',\n  'extraction_strategy': 'final_tag',\n  'postprocessing_strategy': 'strip',\n  'dtype': 'bfloat16',\n"
+      },
+      {
+        "candidate_id": "a2c757eab4e6957091039309",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Use only evidence visible in the scientific figure; do not invent missing or inapplicable chart elements. Use the model's native reasoning, then return only the concise final answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip_terminal_punctuation', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 2,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "21408a648a00e0736d7f4691",
+        "rendered_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n                    \"missing or inapplicable chart elements. Use the model's native \"\n                    'reasoning, then return only the concise final answer enclosed in '\n                    '<final> and </final>. Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip_terminal_punctuation',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g2_child1",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.53908498007028,
+            "mean_latency_seconds": 20.584511213121004,
+            "mean_preprocessing_seconds": 0.04470197029877454,
+            "peak_memory_bytes": 4531271680,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 3,
+              "length": 5,
+              "stop_text": 4
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 3736,
+            "total_generation_seconds": 246.46901976084337,
+            "total_preprocessing_seconds": 0.5364236435852945,
+            "total_seconds": 247.01413455745205
+          },
+          "selection32": {
+            "accuracy": 0.375,
+            "correct": 12,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 18.533528674583067,
+            "mean_latency_seconds": 18.56425702186243,
+            "mean_preprocessing_seconds": 0.030097125592874363,
+            "peak_memory_bytes": 4534225408,
+            "samples": 32,
+            "stage": "selection32",
+            "termination_counts": {
+              "eos": 6,
+              "length": 14,
+              "stop_text": 12
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 8760,
+            "total_generation_seconds": 593.0729175866581,
+            "total_preprocessing_seconds": 0.9631080189719796,
+            "total_seconds": 594.0562246995978
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 14.303384841885418,
+            "mean_latency_seconds": 14.336544161196798,
+            "mean_preprocessing_seconds": 0.03243434615433216,
+            "peak_memory_bytes": 4433340416,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 146,
+            "total_generation_seconds": 14.303384841885418,
+            "total_preprocessing_seconds": 0.03243434615433216,
+            "total_seconds": 14.336544161196798
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -15,7 +15,7 @@\n  'max_pixels': 1003520,\n  'preprocessing_option': 'qwen_default',\n  'extraction_strategy': 'final_tag',\n- 'postprocessing_strategy': 'strip',\n+ 'postprocessing_strategy': 'strip_terminal_punctuation',\n  'dtype': 'bfloat16',\n  'attention': 'sdpa',\n  'batch_size': 1,\n"
+      },
+      {
+        "candidate_id": "7fd9490ae1b2f95c27162c0b",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': 'Read charts conservatively: distinguish observed evidence from missing or inapplicable elements.', 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'boxed_or_final', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 2,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "cf79d2c86b334f7954442316",
+        "rendered_sha256": "a5a955258ec17796100ec585065e1dbc9e2a403b2db5e7676ac90c077ee8e834",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': 'Read charts conservatively: distinguish observed evidence from '\n                       'missing or inapplicable elements.',\n 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                    'Finish with the concise answer enclosed in <final> and </final>. '\n                    'Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'boxed_or_final',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g2_child2",
+        "scores": {
+          "search12": {
+            "accuracy": 0.16666666666666666,
+            "correct": 2,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 20.770650274469517,
+            "mean_latency_seconds": 20.822847371455282,
+            "mean_preprocessing_seconds": 0.05142250924836844,
+            "peak_memory_bytes": 4532559872,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 1,
+              "length": 8,
+              "stop_text": 3
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 3902,
+            "total_generation_seconds": 249.2478032936342,
+            "total_preprocessing_seconds": 0.6170701109804213,
+            "total_seconds": 249.87416845746338
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 14.009703980758786,
+            "mean_latency_seconds": 14.03123321896419,
+            "mean_preprocessing_seconds": 0.021025846246629953,
+            "peak_memory_bytes": 4433866752,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 125,
+            "total_generation_seconds": 14.009703980758786,
+            "total_preprocessing_seconds": 0.021025846246629953,
+            "total_seconds": 14.03123321896419
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "a5a955258ec17796100ec585065e1dbc9e2a403b2db5e7676ac90c077ee8e834",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -4,7 +4,8 @@\n \n RENDERER_VERSION = 'phase2-local-renderer-v2'\n CANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n- 'system_instruction': '',\n+ 'system_instruction': 'Read charts conservatively: distinguish observed evidence from '\n+                       'missing or inapplicable elements.',\n  'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                     'Finish with the concise answer enclosed in <final> and </final>. '\n                     'Question: {question}',\n"
+      },
+      {
+        "candidate_id": "1b751e83ceff157e1a2b3a32",
+        "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. Finish with the concise answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 448, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'boxed_or_final', 'postprocessing_strategy': 'strip_terminal_punctuation', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+        "generation": 2,
+        "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+        "parent_id": "cf79d2c86b334f7954442316",
+        "rendered_sha256": "8d512cc7ad9aa6e698cbdab21803e2042895be11cef08f067c22596befabf4e2",
+        "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n                    'Finish with the concise answer enclosed in <final> and </final>. '\n                    'Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 448,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'boxed_or_final',\n 'postprocessing_strategy': 'strip_terminal_punctuation',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 448, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+        "repair_used": false,
+        "request_id": "g2_child3",
+        "scores": {
+          "search12": {
+            "accuracy": 0.25,
+            "correct": 3,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 21.48389610570545,
+            "mean_latency_seconds": 21.52035270720565,
+            "mean_preprocessing_seconds": 0.03570006807179501,
+            "peak_memory_bytes": 4528586240,
+            "samples": 12,
+            "stage": "search12",
+            "termination_counts": {
+              "eos": 3,
+              "length": 6,
+              "stop_text": 3
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 4525,
+            "total_generation_seconds": 257.8067532684654,
+            "total_preprocessing_seconds": 0.4284008168615401,
+            "total_seconds": 258.2442324864678
+          },
+          "single": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "errors": 0,
+            "fixed_warmup_included_in_score": false,
+            "mean_generation_seconds": 13.781680015381426,
+            "mean_latency_seconds": 13.806053356733173,
+            "mean_preprocessing_seconds": 0.023821822833269835,
+            "peak_memory_bytes": 4431225344,
+            "samples": 1,
+            "stage": "single",
+            "termination_counts": {
+              "eos": 1
+            },
+            "timing_load_included": false,
+            "total_generated_tokens": 105,
+            "total_generation_seconds": 13.781680015381426,
+            "total_preprocessing_seconds": 0.023821822833269835,
+            "total_seconds": 13.806053356733173
+          }
+        },
+        "static_receipt": {
+          "interface": "vlm_inference(image_path, question)",
+          "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+          "program_sha256": "8d512cc7ad9aa6e698cbdab21803e2042895be11cef08f067c22596befabf4e2",
+          "renderer_version": "phase2-local-renderer-v2",
+          "torch_imported": false
+        },
+        "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -9,12 +9,12 @@\n                     'Finish with the concise answer enclosed in <final> and </final>. '\n                     'Question: {question}',\n  'reasoning_mode': 'thinking',\n- 'max_new_tokens': 384,\n+ 'max_new_tokens': 448,\n  'min_pixels': 200704,\n  'max_pixels': 1003520,\n  'preprocessing_option': 'qwen_default',\n  'extraction_strategy': 'boxed_or_final',\n- 'postprocessing_strategy': 'strip',\n+ 'postprocessing_strategy': 'strip_terminal_punctuation',\n  'dtype': 'bfloat16',\n  'attention': 'sdpa',\n  'batch_size': 1,\n@@ -29,7 +29,7 @@\n DTYPE = 'bfloat16'\n ATTENTION_IMPLEMENTATION = 'sdpa'\n QUANTIZATION = 'none'\n-EFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n+EFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 448, 'use_cache': True}\n \n _RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n \n"
+      }
+    ],
+    "child_attempts": 6,
+    "claims_improvement_over_seed": false,
+    "dominated_by_seed": false,
+    "execution_class": "production_evolution",
+    "export_path": "evolved_thinking.py",
+    "failures": [],
+    "generation": 2,
+    "generation2_attempts": 4,
+    "generation2_has_generation1_parent": true,
+    "generation2_parent_ids": [
+      "21408a648a00e0736d7f4691",
+      "cf79d2c86b334f7954442316"
+    ],
+    "gpu_budget_seconds": 4500.0,
+    "gpu_elapsed_seconds": 4015.3776066591963,
+    "latency_delta_seconds_vs_manual_seed": 0.0170653541572392,
+    "manual_seed_same_selection_protocol": true,
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "pareto_all": [
+      "seed-thinking",
+      "a2c757eab4e6957091039309"
+    ],
+    "pareto_children": [
+      "a2c757eab4e6957091039309"
+    ],
+    "provider": "CatalogConstrainedQwenMutationProvider/Qwen3-VL-2B-Instruct@78448d793a7eb2f7a987a1da76d464384aa1becd/single-token-argmax-bfloat16-sdpa-offline",
+    "run_manifest_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/workspace/evolving-vlm-inference-main/results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/run_manifest.json",
+    "run_manifest_sha256": "ce3ee46af26211774d881cccbd39b0a137ab5322b06b3077e12201ece4de5e2a",
+    "search12_query_count": 12,
+    "selection32_query_count": 32,
+    "status": "completed",
+    "top2_real_child_ids": [
+      "7c84eaf79398a983ec802356",
+      "a2c757eab4e6957091039309"
+    ]
+  }
+}

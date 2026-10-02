@@ -1,0 +1,22 @@
+{
+  "attempt_id": "757aa1b7-88b7-448a-a595-5a92a71296d7",
+  "completed_at_utc": "2026-08-26T10:06:47.945912Z",
+  "console": {
+    "path": "lane1/03.baseline_thinking.single1.757aa1b7-88b7-448a-a595-5a92a71296d7.console.log",
+    "sha256": "8d318a0fc829225b8c6cd706c315c8f89335d517d0c976260462e452b546a62d",
+    "size_bytes": 1229
+  },
+  "elapsed_seconds": 35.88800573348999,
+  "event": "attempt_ended",
+  "outcome": "COMPLETED",
+  "physical_gpu_index": 1,
+  "program": "baseline_thinking",
+  "result": {
+    "path": "lane1/03.baseline_thinking.single1.757aa1b7-88b7-448a-a595-5a92a71296d7.result.json",
+    "sha256": "cc278df48793043e2b82ea04554614a9fb31ea786b3e5f8f8679873ab70e9735",
+    "size_bytes": 2973
+  },
+  "returncode": 0,
+  "role": "single1",
+  "run_id": "1aa9594f-47a3-4e87-b417-b3ef720adc1f"
+}

@@ -1,0 +1,55 @@
+{
+  "campaign_id": "provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7",
+  "campaign_version": "phase2-catalog-qwen-two-generation-v4",
+  "child": {
+    "candidate_id": "d5ad5f210c4143cda0bf7d4e",
+    "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Instruct', 'system_instruction': '', 'prompt_template': 'Answer the chart question concisely. Return only the answer enclosed in <final> and </final>; do not add an explanation. Question: {question}', 'reasoning_mode': 'direct', 'max_new_tokens': 64, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'boxed_or_final', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+    "generation": 1,
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "parent_id": "seed-instruct",
+    "rendered_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+    "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Instruct',\n 'system_instruction': '',\n 'prompt_template': 'Answer the chart question concisely. Return only the answer '\n                    'enclosed in <final> and </final>; do not add an explanation. '\n                    'Question: {question}',\n 'reasoning_mode': 'direct',\n 'max_new_tokens': 64,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'boxed_or_final',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Instruct'\nMODEL_REVISION = '78448d793a7eb2f7a987a1da76d464384aa1becd'\nPROCESSOR_REVISION = '78448d793a7eb2f7a987a1da76d464384aa1becd'\nMODEL_WEIGHT_SHA256 = '7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 64, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+    "repair_used": false,
+    "request_id": "g1_child1",
+    "scores": {
+      "single": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "errors": 0,
+        "fixed_warmup_included_in_score": false,
+        "mean_generation_seconds": 14.315585576929152,
+        "mean_latency_seconds": 14.432520702015609,
+        "mean_preprocessing_seconds": 0.11639158707112074,
+        "peak_memory_bytes": 4431174144,
+        "samples": 1,
+        "stage": "single",
+        "termination_counts": {
+          "eos": 1
+        },
+        "timing_load_included": false,
+        "total_generated_tokens": 4,
+        "total_generation_seconds": 14.315585576929152,
+        "total_preprocessing_seconds": 0.11639158707112074,
+        "total_seconds": 14.432520702015609
+      }
+    },
+    "static_receipt": {
+      "interface": "vlm_inference(image_path, question)",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "program_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+      "renderer_version": "phase2-local-renderer-v2",
+      "torch_imported": false
+    },
+    "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -9,11 +9,11 @@\n                     'enclosed in <final> and </final>; do not add an explanation. '\n                     'Question: {question}',\n  'reasoning_mode': 'direct',\n- 'max_new_tokens': 48,\n+ 'max_new_tokens': 64,\n  'min_pixels': 200704,\n  'max_pixels': 1003520,\n  'preprocessing_option': 'qwen_default',\n- 'extraction_strategy': 'final_tag',\n+ 'extraction_strategy': 'boxed_or_final',\n  'postprocessing_strategy': 'strip',\n  'dtype': 'bfloat16',\n  'attention': 'sdpa',\n@@ -29,7 +29,7 @@\n DTYPE = 'bfloat16'\n ATTENTION_IMPLEMENTATION = 'sdpa'\n QUANTIZATION = 'none'\n-EFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 48, 'use_cache': True}\n+EFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 64, 'use_cache': True}\n \n _RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n \n"
+  },
+  "exported": false,
+  "gpu_budget_seconds": 2700.0,
+  "gpu_elapsed_seconds": 62.57896304316819,
+  "kind": "provider_smoke",
+  "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+  "provider": "CatalogConstrainedQwenMutationProvider/Qwen3-VL-2B-Instruct@78448d793a7eb2f7a987a1da76d464384aa1becd/single-token-argmax-bfloat16-sdpa-offline",
+  "qualification_focus": "token_budget_and_extraction",
+  "qualification_ordinal": 2,
+  "run_manifest_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/run_manifest.json",
+  "run_manifest_sha256": "2f242f7b519cb81304632b05be7e91ae43a8aa9ec438f073fcdd5cfe756be9f5"
+}

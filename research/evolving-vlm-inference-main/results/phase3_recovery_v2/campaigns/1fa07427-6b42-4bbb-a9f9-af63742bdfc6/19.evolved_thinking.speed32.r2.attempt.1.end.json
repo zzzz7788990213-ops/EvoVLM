@@ -1,0 +1,18 @@
+{
+  "attempt": 1,
+  "attempt_id": "ba2e503f-bbee-4c78-9b3f-6447a117c614",
+  "attempt_version": "phase3-recovery-attempt-v2",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "completed_unix": 1787643875.7909615,
+  "console_path": "results/phase3_recovery_v2/campaigns/1fa07427-6b42-4bbb-a9f9-af63742bdfc6/19.evolved_thinking.speed32.r2.attempt.1.console.log",
+  "console_sha256": "5e8788e3264fff4acb4fcbbf1c129f66de26768310ad9736103945aa27cc4956",
+  "elapsed_seconds": 608.7837643031962,
+  "entry_index": 19,
+  "journal_count_after": 32,
+  "manifest": "speed32",
+  "outcome": "COMPLETED",
+  "program": "evolved_thinking",
+  "protocol_id": "phase3-recovery-v2",
+  "repeat": 2,
+  "returncode": 0
+}

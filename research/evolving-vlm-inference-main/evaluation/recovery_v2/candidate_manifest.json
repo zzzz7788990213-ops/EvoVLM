@@ -1,0 +1,266 @@
+{
+  "formal_programs": [
+    "baseline_instruct",
+    "manual_instruct",
+    "manual_thinking",
+    "evolved_instruct",
+    "evolved_thinking"
+  ],
+  "manifest_version": "phase3-recovery-candidate-manifest-v2",
+  "optimized_programs": [
+    "manual_instruct",
+    "manual_thinking",
+    "evolved_instruct",
+    "evolved_thinking"
+  ],
+  "program_order": [
+    "baseline_instruct",
+    "baseline_thinking",
+    "manual_instruct",
+    "manual_thinking",
+    "evolved_instruct",
+    "evolved_thinking"
+  ],
+  "programs": [
+    {
+      "attention": "sdpa",
+      "batch_size": 1,
+      "dependencies": [
+        {
+          "path": "baseline_common.py",
+          "sha256": "8db77a1f61f75186bee223f5cb7512f0044ad895716396a04575e2fd939d4d0f",
+          "size_bytes": 12000
+        }
+      ],
+      "dtype": "bfloat16",
+      "effective_generation": {
+        "do_sample": false,
+        "max_new_tokens": 128,
+        "num_beams": 1,
+        "num_return_sequences": 1
+      },
+      "family": "instruct",
+      "kind": "baseline",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "optimized": false,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "baseline_instruct",
+      "quantization": "none",
+      "source": {
+        "path": "baseline_instruct.py",
+        "sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+        "size_bytes": 603
+      },
+      "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+    },
+    {
+      "attention": "sdpa",
+      "batch_size": 1,
+      "dependencies": [
+        {
+          "path": "baseline_common.py",
+          "sha256": "8db77a1f61f75186bee223f5cb7512f0044ad895716396a04575e2fd939d4d0f",
+          "size_bytes": 12000
+        }
+      ],
+      "dtype": "bfloat16",
+      "effective_generation": {
+        "do_sample": false,
+        "max_new_tokens": 128,
+        "num_beams": 1,
+        "num_return_sequences": 1
+      },
+      "family": "thinking",
+      "kind": "baseline",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "optimized": false,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "baseline_thinking",
+      "quantization": "none",
+      "source": {
+        "path": "baseline_thinking.py",
+        "sha256": "042c67af753daca27225db12cc48df9b509773f8a7b703dfef8384b9e9378fab",
+        "size_bytes": 603
+      },
+      "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+    },
+    {
+      "attention": "sdpa",
+      "batch_size": 1,
+      "dependencies": [
+        {
+          "path": "manual_common.py",
+          "sha256": "c2690d470b5cc04583f0995cc72630540d485541d3fff5571e0ad99a1eb597b6",
+          "size_bytes": 11608
+        }
+      ],
+      "dtype": "bfloat16",
+      "effective_generation": {
+        "do_sample": false,
+        "max_new_tokens": 48,
+        "num_beams": 1,
+        "num_return_sequences": 1
+      },
+      "family": "instruct",
+      "kind": "manual",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "optimized": true,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "manual_instruct",
+      "quantization": "none",
+      "source": {
+        "path": "manual_instruct.py",
+        "sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+        "size_bytes": 487
+      },
+      "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+    },
+    {
+      "attention": "sdpa",
+      "batch_size": 1,
+      "dependencies": [
+        {
+          "path": "manual_common.py",
+          "sha256": "c2690d470b5cc04583f0995cc72630540d485541d3fff5571e0ad99a1eb597b6",
+          "size_bytes": 11608
+        }
+      ],
+      "dtype": "bfloat16",
+      "effective_generation": {
+        "do_sample": false,
+        "max_new_tokens": 384,
+        "num_beams": 1,
+        "num_return_sequences": 1
+      },
+      "family": "thinking",
+      "kind": "manual",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "optimized": true,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "manual_thinking",
+      "quantization": "none",
+      "source": {
+        "path": "manual_thinking.py",
+        "sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+        "size_bytes": 487
+      },
+      "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+    },
+    {
+      "attention": "sdpa",
+      "batch_size": 1,
+      "dependencies": [
+        {
+          "path": "evolution/candidate_runtime.py",
+          "sha256": "039a03c7f0a687a3d0e1de24e8b183f958969be14f6e592818744d348f78f06d",
+          "size_bytes": 16520
+        },
+        {
+          "path": "evolution/dsl.py",
+          "sha256": "aa25c9c65bbb0bf420bb88e39ff80c92ddf78da5c63bcc3073fa9a15182a86ec",
+          "size_bytes": 17234
+        }
+      ],
+      "dtype": "bfloat16",
+      "effective_generation": {
+        "do_sample": false,
+        "max_new_tokens": 64,
+        "num_beams": 1,
+        "num_return_sequences": 1
+      },
+      "family": "instruct",
+      "kind": "evolved",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "optimized": true,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "evolved_instruct",
+      "quantization": "none",
+      "source": {
+        "path": "evolved_instruct.py",
+        "sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+        "size_bytes": 1453
+      },
+      "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+    },
+    {
+      "attention": "sdpa",
+      "batch_size": 1,
+      "dependencies": [
+        {
+          "path": "evolution/candidate_runtime.py",
+          "sha256": "039a03c7f0a687a3d0e1de24e8b183f958969be14f6e592818744d348f78f06d",
+          "size_bytes": 16520
+        },
+        {
+          "path": "evolution/dsl.py",
+          "sha256": "aa25c9c65bbb0bf420bb88e39ff80c92ddf78da5c63bcc3073fa9a15182a86ec",
+          "size_bytes": 17234
+        }
+      ],
+      "dtype": "bfloat16",
+      "effective_generation": {
+        "do_sample": false,
+        "max_new_tokens": 384,
+        "num_beams": 1,
+        "num_return_sequences": 1
+      },
+      "family": "thinking",
+      "kind": "evolved",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "optimized": true,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "evolved_thinking",
+      "quantization": "none",
+      "source": {
+        "path": "evolved_thinking.py",
+        "sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+        "size_bytes": 1591
+      },
+      "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+    }
+  ],
+  "runtime_closure": [
+    {
+      "path": "evaluate.py",
+      "sha256": "9aa2fee2cb19e2163453b4520ffcc63857daff110dbc0975a4f1dce07f8bfa0a",
+      "size_bytes": 12234
+    },
+    {
+      "path": "evaluation/phase3_recovery.py",
+      "sha256": "5b13f1f6c8543b48192bd0210e8bb1e4446fec531e415707f46b4a7dd5d4afd8",
+      "size_bytes": 70482
+    },
+    {
+      "path": "evaluation/phase3_manifests.py",
+      "sha256": "1be0eec46bf3464d0e159b2d2b5b3adda5d0b0ce1c2c6ec56ed249f20162b35a",
+      "size_bytes": 10414
+    },
+    {
+      "path": "evaluation/atomic_artifacts.py",
+      "sha256": "654c91c0315d833ed7a78e1835ff9e201ec0328c9ca1c156aaf692e939fbdcdf",
+      "size_bytes": 4999
+    },
+    {
+      "path": "evaluation/gpu_scope.py",
+      "sha256": "58cd59f300fd6f0067cf6fc4284047a8a956db42f7b9ddf762b494b666f10841",
+      "size_bytes": 1430
+    },
+    {
+      "path": "charxiv/src/descriptive_utils.py",
+      "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+      "size_bytes": 7881
+    },
+    {
+      "path": "requirements.lock.txt",
+      "sha256": "043541d2f615ec3210127d0dc1025be5dbea71c5ffd342c98de41dba64f43740",
+      "size_bytes": 1094
+    }
+  ],
+  "runtime_closure_sha256": "d1c212cd3e14be02526194357f434705c4efa02bfd8173b7ed31e92a2e19f0a3"
+}

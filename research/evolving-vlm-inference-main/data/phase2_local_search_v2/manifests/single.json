@@ -1,0 +1,15 @@
+{
+  "figure_ids": [
+    "2145"
+  ],
+  "ground_truth_sha256": "5dc144dd043b77b32feeae2875c6112b1d7cc45e05790cf025859c21e9b40a68",
+  "manifest_version": "phase2-local-search-manifests-v2",
+  "query_key_order_sha256": "97eaced057f2793eed2159af8dcb97a35897767898826c775fab918241145439",
+  "query_keys": [
+    "2145_3"
+  ],
+  "salt_sha256": "fd616a0fa1481d9107a68ae3db574365314ff4f5d41fc5a59d4a353421c3a349",
+  "sample_count": 1,
+  "selection": "sha256 fixed-salt rank; globally figure isolated",
+  "stage": "single"
+}

@@ -1,0 +1,55 @@
+{
+  "attempt_id": "f39348f8-1f22-494d-b07c-fbb194af04c1",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 19.11156013002619,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 148,
+    "generation_seconds": 19.08432922512293,
+    "input_token_count": 935,
+    "peak_memory_bytes": 4482724352,
+    "preprocessing_seconds": 0.025830956175923347,
+    "termination_reason": "stop_text",
+    "total_seconds": 19.110564338974655
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "0.4",
+  "prediction_sha256": "f3e360d89952f40d3b79d0b07dd0b94f1cbf9017cba5d2a5f8128e4146d6e3c1",
+  "program": "evolved_thinking",
+  "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "13",
+    "image_sha256": "9ee188d073b673a5ee613d7649199f12fa2867c10b45d5002c6979cbbc269a22",
+    "index": 31,
+    "qid": "14",
+    "query_key": "13_3",
+    "question": "For the current plot, what is the difference between the maximum and minimum values of the tick labels on the continuous legend (i.e., colorbar)?\n    * You should remove the percentage sign (if any) in your answer.\n    * If the plot does not have an explicit colorbar-based continuous legend or the legend is not considered relevant to this subplot, answer \"Not Applicable\".",
+    "subq_idx": 3
+  },
+  "run_id": "9440bec0-bd7d-447e-9206-1f6848aeee18",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

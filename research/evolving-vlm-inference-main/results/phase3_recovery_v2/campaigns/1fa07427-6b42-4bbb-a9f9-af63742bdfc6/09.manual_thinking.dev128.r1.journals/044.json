@@ -1,0 +1,55 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 23.23779697623104,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 191,
+    "generation_seconds": 23.194480552803725,
+    "input_token_count": 1071,
+    "peak_memory_bytes": 4512605184,
+    "preprocessing_seconds": 0.041932697873562574,
+    "termination_reason": "eos",
+    "total_seconds": 23.23682498699054
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the legend in the image. The legend is on the right side, and it lists the labels: advmod, amod, case, cc, conj, det, mark, nmod, nssubj, obj, obl. Let's count them. Let's list each one:\n\n1. advmod\n2. amod\n3. case\n4. cc\n5. conj\n6. det\n7. mark\n8. nmod\n9. nssubj\n10. obj\n11. obl\n\nSo that's 11 labels. I need to make sure these are all relevant to the plot. The plot has these labels in the legend, so they are all relevant. The question asks for the number of discrete labels in the legend that are relevant to the plot. Since the legend is provided and all these labels are in the legend, we count them.\n</think>\n\n11",
+  "prediction_sha256": "4c6676a39d3964db432d6bf644799cb8f6dfc6496dc019a2091f6fd31b0f548a",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "21",
+    "image_sha256": "e4ad4e12ff784f872d750327b75e53d3186ef55087aa5bbb27e86574730f8ae8",
+    "index": 44,
+    "qid": "12",
+    "query_key": "21_0",
+    "question": "For the current plot, how many discrete labels are there in the legend?\n    * Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. \n    * If the plot does not have a legend or no legend is not considered relevant to this plot, answer \"Not Applicable\".",
+    "subq_idx": 0
+  },
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

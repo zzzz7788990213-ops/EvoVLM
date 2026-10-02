@@ -1,0 +1,55 @@
+{
+  "attempt_id": "00d288b2-8435-41ea-83f2-4cce57724709",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 17.81072250008583,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 128,
+    "generation_seconds": 17.780231491662562,
+    "input_token_count": 856,
+    "peak_memory_bytes": 4472202240,
+    "preprocessing_seconds": 0.03012239234521985,
+    "termination_reason": "eos",
+    "total_seconds": 17.81054605031386
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "The continuous legend in the plot is the one that shows the different methods being compared. The tick labels on this legend are: -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2. The maximum value is -0.2 and the minimum value is -0.8. The difference between these values is 0.2 - (-0.8) = 1.0.\n\nTherefore, the difference between the maximum and minimum values of the tick labels on the continuous legend is 1.0.\n\n1.0",
+  "prediction_sha256": "3fe594ca9d82fd01be00f8c737a6e06976a35be04d82fe57905838dd36eae814",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "42",
+    "image_sha256": "9a43b4890a205a4418e439a332c64be687b695769b93880ef64c9d2e6821f72a",
+    "index": 83,
+    "qid": "14",
+    "query_key": "42_3",
+    "question": "For the current plot, what is the difference between the maximum and minimum values of the tick labels on the continuous legend (i.e., colorbar)?\n    * You should remove the percentage sign (if any) in your answer.\n    * If the plot does not have an explicit colorbar-based continuous legend or the legend is not considered relevant to this subplot, answer \"Not Applicable\".",
+    "subq_idx": 3
+  },
+  "run_id": "266ce156-3b66-4c6c-96c8-93968a883c01",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

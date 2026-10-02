@@ -1,0 +1,25 @@
+{
+  "authorization_version": "phase3-recovery-authorization-v2",
+  "authorized_by": "user",
+  "candidate_programs_modified": false,
+  "dev128_modified": false,
+  "greedy_or_exact_match_modified": false,
+  "ground_truth_or_answers_modified": false,
+  "metric_conditioned_retry": false,
+  "model_weights_modified": false,
+  "observed_run08_accuracy": false,
+  "observed_run08_partial_prediction": false,
+  "reason": "whole-run timeout and absence of per-query journal",
+  "recovery_changes": [
+    "per-query atomic no-replace journal",
+    "validated resume from next query",
+    "14400-second cumulative per-program budget",
+    "candidate timeout does not abort unrelated programs",
+    "baseline_thinking Dev128 excluded as TIMEOUT_CENSORED"
+  ],
+  "v1_campaign_preserved": {
+    "campaign_id": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+    "completed_result_count": 7,
+    "incident_sha256": "30d2490971fe06f386ecd707da0e10ec03a8ea104c925dd45a8fca148dfef4c7"
+  }
+}

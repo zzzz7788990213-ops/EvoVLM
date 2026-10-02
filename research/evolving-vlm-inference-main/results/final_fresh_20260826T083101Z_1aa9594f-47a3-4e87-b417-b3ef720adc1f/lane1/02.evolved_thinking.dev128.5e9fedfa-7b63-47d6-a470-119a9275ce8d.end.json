@@ -1,0 +1,22 @@
+{
+  "attempt_id": "5e9fedfa-7b63-47d6-a470-119a9275ce8d",
+  "completed_at_utc": "2026-08-26T10:06:12.050550Z",
+  "console": {
+    "path": "lane1/02.evolved_thinking.dev128.5e9fedfa-7b63-47d6-a470-119a9275ce8d.console.log",
+    "sha256": "260bedc8a679ab2eaad994ec5abb3394e59cc07297df9e8d64ed718805794d2b",
+    "size_bytes": 1370
+  },
+  "elapsed_seconds": 2724.9346232414246,
+  "event": "attempt_ended",
+  "outcome": "COMPLETED",
+  "physical_gpu_index": 1,
+  "program": "evolved_thinking",
+  "result": {
+    "path": "lane1/02.evolved_thinking.dev128.5e9fedfa-7b63-47d6-a470-119a9275ce8d.result.json",
+    "sha256": "4a1a34014ad451d4f71febc688619a05148c0aeca9517920dd07ffd8bf6b714e",
+    "size_bytes": 418975
+  },
+  "returncode": 0,
+  "role": "dev128",
+  "run_id": "1aa9594f-47a3-4e87-b417-b3ef720adc1f"
+}

@@ -1,0 +1,55 @@
+{
+  "attempt_id": "f39348f8-1f22-494d-b07c-fbb194af04c1",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 19.480209996923804,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 253,
+    "generation_seconds": 19.455483839847147,
+    "input_token_count": 887,
+    "peak_memory_bytes": 4474617344,
+    "preprocessing_seconds": 0.02314677182585001,
+    "termination_reason": "eos",
+    "total_seconds": 19.479073693044484
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the legend in the figure. The legend has two entries: \"Class pair: 3 and 8\" and \"Class pair: 1 and 9\". The question asks for the labels from top to bottom, then left to right. So first, the top one is \"Class pair: 3 and 8\", then the next is \"Class pair: 1 and 9\". Need to check if they are in order. The legend is on the left, with the first label (top) being \"Class pair: 3 and 8\" and the second (bottom) being \"Class pair: 1 and 9\". Wait, the legend is a box with two items. The labels are listed as \"Class pair: 3 and 8\" and \"Class pair: 1 and 9\". So the order in the legend is top to bottom: first is \"Class pair: 3 and 8\", then \"Class pair: 1 and 9\". So the answer should be \"Class pair: 3 and 8, Class pair: 1 and 9\".\n</think>\n\n<Class pair: 3 and 8, Class pair: 1 and 9>",
+  "prediction_sha256": "9fc86082e15426d76875dcb2cf86e381f5b3fa9df43d66ad75e17114a5ee3d29",
+  "program": "evolved_thinking",
+  "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "61",
+    "image_sha256": "baf0f84a7f657facee976311530d51995ca4b175d5c7ec9de99988c0b0f8a623",
+    "index": 114,
+    "qid": "13",
+    "query_key": "61_2",
+    "question": "For the current plot, what are the names of the labels in the legend?\n    * You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot.\n    * If the plot does not have a legend or no legend is not considered relevant to this plot, answer \"Not Applicable\".",
+    "subq_idx": 2
+  },
+  "run_id": "9440bec0-bd7d-447e-9206-1f6848aeee18",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "figure_ids": [
+    "474"
+  ],
+  "figure_order_sha256": "98144d79af44407273f26589afc01901b7b296deada61a4740b0d404c5043c53",
+  "ground_truth_path": "charxiv/data/descriptive_val.json",
+  "ground_truth_sha256": "5dc144dd043b77b32feeae2875c6112b1d7cc45e05790cf025859c21e9b40a68",
+  "manifest_version": "phase3-fixed-evaluation-v1",
+  "name": "warmup1",
+  "phase2_manifest_version": "phase2-local-search-manifests-v2",
+  "query_key_order_sha256": "9b792daf1440ea00fb7353b7dde4202a1f7c69d10c12f580a693827d2cf9046a",
+  "query_keys": [
+    "474_3"
+  ],
+  "sample_count": 1,
+  "selection": "fixed salted hash rank excluding Dev128/evolution/speed figures",
+  "selection_salt_sha256": "df5189fd4631dea53827b717d0b6105651f2480ae33add3f4fd4ea06ac61f78b",
+  "source_query_count": 4000
+}

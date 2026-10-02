@@ -1,0 +1,73 @@
+{
+  "attention_implementation": "sdpa",
+  "batch_size": 1,
+  "correctness_protocol": {
+    "id": "accuracy_dev128_r1_v4_4",
+    "manifest": "evaluation/manifests/v4_4/dev_128.json",
+    "num_samples": 128,
+    "repeats": 1
+  },
+  "cuda_device_order": "PCI_BUS_ID",
+  "cuda_visible_devices": "0",
+  "dataset": "CharXiv descriptive validation",
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 128,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "sampling_only_fields": null,
+    "use_cache": true,
+    "use_model_defaults": false
+  },
+  "dtype": "bfloat16",
+  "evidence": {
+    "canonical_path_contract": "evaluation/active_contract.py",
+    "generated_token_count_per_call": true,
+    "historical_and_outside_path_rejection": true,
+    "input_image_hash_per_call": true,
+    "prediction_hash_per_call": true,
+    "run_id_per_call": true,
+    "runtime_event_id_per_call": true,
+    "synthetic_end_to_end_cpu_witness": true,
+    "termination_reason_per_call": true
+  },
+  "gpu_execution": {
+    "authorization_scope": "physical-gpu0-only",
+    "fallback_gpu_allowed": false,
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "latency_percentile": "Type 7 linear interpolation: (n-1)*p",
+  "metric": {
+    "definition": "response.strip().lower() == ground_truth.lower()",
+    "id": "provided_exact_match_v1"
+  },
+  "protocol_version": "gate1-exact-match-v4.4",
+  "quantization": "none",
+  "raw_log_commit": {
+    "interruption": "same no-replace publication to unique interrupted UUID filename",
+    "overwrite_existing_valid_result": false,
+    "partial": "unique O_EXCL same-directory .partial inode",
+    "success": "fsync file; atomic link(2) no-replace; fsync parent; unlink temp; fsync parent"
+  },
+  "speed_protocol": {
+    "id": "speed_smoke4_r3_v4_4",
+    "manifest": "evaluation/manifests/v4_4/smoke_4.json",
+    "num_samples": 4,
+    "repeats": 3,
+    "scope": "Gate 1 trusted-baseline microbenchmark only; not an overall score"
+  },
+  "speed_scope": "evaluator provenance pre-hash and stable-file snapshot occur before timing; timer starts only after pre-sync; measured scope includes the baseline reading the exact input bytes, SHA-256 hashing those bytes, decoding the in-memory image, preprocessing, tokenization, H2D transfer, generation, and decoding; post-sync completes before timer ends; excludes import, model load, full provenance closure hashing, evaluator pre-hash, and warmup",
+  "synchronization": "torch.cuda.synchronize(0), then perf_counter_ns start; program call; torch.cuda.synchronize(0), then perf_counter_ns end",
+  "validation_commit": {
+    "canonical_run_end": "unique immutable validation.run_end.json",
+    "check_existing": "unique checks/check.<UUID>.json; never canonical",
+    "hash_dag": "freeze -> plan -> raw+summary+runtime -> validation -> receipt -> latest_v4_4"
+  },
+  "warmup": {
+    "manifest": "evaluation/manifests/v4_4/warmup_1.json",
+    "must_not_overlap_measurement": true,
+    "num_samples": 1
+  }
+}

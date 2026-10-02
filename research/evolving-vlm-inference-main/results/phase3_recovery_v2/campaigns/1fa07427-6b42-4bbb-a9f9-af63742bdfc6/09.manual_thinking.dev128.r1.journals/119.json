@@ -1,0 +1,55 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 24.173674487974495,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 182,
+    "generation_seconds": 24.13529301993549,
+    "input_token_count": 1138,
+    "peak_memory_bytes": 4529071616,
+    "preprocessing_seconds": 0.03711388539522886,
+    "termination_reason": "eos",
+    "total_seconds": 24.17274189600721
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "Got it, let's look at the bottom subplot. The y-axis has tick labels from 0 to 20, right? Wait, the y-axis is labeled with numbers: 0, 5, 10, 15, 20. The labels on the y-axis are the tick labels. The question is about the maximum value of the tick labels on the continuous legend (colorbar). Wait, the bottom subplot's y-axis has the labels 0, 5, 10, 15, 20. The maximum value here is 20. Let me check again. The y-axis goes up to 20, so the tick labels are 0, 5, 10, 15, 20. The maximum is 20. So the answer should be 20.\n</think>\n\n20",
+  "prediction_sha256": "6ba5e5573cb62d877fad5458733d119b82a0d424a9658cd2407e3a0cdc2a6481",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "62",
+    "image_sha256": "62f34b12a5e32915256d58e62ef00c5241b5aea4400cf22f26063c3b538a7098",
+    "index": 119,
+    "qid": "15",
+    "query_key": "62_3",
+    "question": "For the bottom subplot, what is the maximum value of the tick labels on the continuous legend (i.e., colorbar)?\n    * You should remove the percentage sign (if any) in your answer. \n    * If the plot does not have an explicit colorbar-based continuous legend or the legend is not considered relevant to this subplot, answer \"Not Applicable\".",
+    "subq_idx": 3
+  },
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

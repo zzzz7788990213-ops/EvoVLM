@@ -1,0 +1,793 @@
+{
+  "$defs": {
+    "errorDetail": {
+      "additionalProperties": false,
+      "properties": {
+        "message": {
+          "type": "string"
+        },
+        "query_key": {
+          "$ref": "#/$defs/queryKey"
+        },
+        "repeat": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "traceback": {
+          "type": "string"
+        },
+        "type": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "query_key",
+        "repeat",
+        "type",
+        "message",
+        "traceback"
+      ],
+      "type": "object"
+    },
+    "generationConfig": {
+      "additionalProperties": false,
+      "properties": {
+        "do_sample": {
+          "const": false
+        },
+        "max_new_tokens": {
+          "const": 128
+        },
+        "min_p": {
+          "type": "null"
+        },
+        "num_beams": {
+          "const": 1
+        },
+        "num_return_sequences": {
+          "const": 1
+        },
+        "temperature": {
+          "type": "null"
+        },
+        "top_k": {
+          "type": "null"
+        },
+        "top_p": {
+          "type": "null"
+        },
+        "typical_p": {
+          "type": "null"
+        },
+        "use_cache": {
+          "const": true
+        },
+        "use_model_defaults": {
+          "const": false
+        }
+      },
+      "required": [
+        "do_sample",
+        "num_beams",
+        "num_return_sequences",
+        "temperature",
+        "top_p",
+        "top_k",
+        "min_p",
+        "typical_p",
+        "max_new_tokens",
+        "use_cache",
+        "use_model_defaults"
+      ],
+      "type": "object"
+    },
+    "generationSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "mean_generated_tokens": {
+          "$ref": "#/$defs/nonnegativeNumber"
+        },
+        "termination_counts": {
+          "additionalProperties": false,
+          "properties": {
+            "eos": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "length": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "other": {
+              "minimum": 0,
+              "type": "integer"
+            }
+          },
+          "required": [
+            "eos",
+            "length",
+            "other"
+          ],
+          "type": "object"
+        },
+        "total_generated_tokens": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total_generated_tokens",
+        "mean_generated_tokens",
+        "termination_counts"
+      ],
+      "type": "object"
+    },
+    "gitCommit": {
+      "pattern": "[0-9a-f]{40}",
+      "type": "string"
+    },
+    "gitState": {
+      "additionalProperties": false,
+      "properties": {
+        "commit": {
+          "$ref": "#/$defs/gitCommit"
+        },
+        "dirty": {
+          "type": "boolean"
+        },
+        "status_porcelain": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "working_diff_sha256": {
+          "$ref": "#/$defs/hash"
+        }
+      },
+      "required": [
+        "commit",
+        "dirty",
+        "status_porcelain",
+        "working_diff_sha256"
+      ],
+      "type": "object"
+    },
+    "hash": {
+      "pattern": "[0-9a-f]{64}",
+      "type": "string"
+    },
+    "latency": {
+      "additionalProperties": false,
+      "properties": {
+        "max": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "mean": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "median": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "min": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "p50": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "p95": {
+          "$ref": "#/$defs/positiveNumber"
+        }
+      },
+      "required": [
+        "mean",
+        "median",
+        "p50",
+        "p95",
+        "min",
+        "max"
+      ],
+      "type": "object"
+    },
+    "modelRevision": {
+      "pattern": "[0-9a-f]{40}",
+      "type": "string"
+    },
+    "modelSnapshot": {
+      "additionalProperties": false,
+      "properties": {
+        "manifest_path": {
+          "pattern": "evaluation/provenance/[A-Za-z0-9_.-]+\\.json",
+          "type": "string"
+        },
+        "manifest_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "required_file_sha256": {
+          "$ref": "#/$defs/requiredModelFiles"
+        },
+        "revision": {
+          "$ref": "#/$defs/modelRevision"
+        }
+      },
+      "required": [
+        "revision",
+        "manifest_path",
+        "manifest_sha256",
+        "required_file_sha256"
+      ],
+      "type": "object"
+    },
+    "modelSnapshots": {
+      "additionalProperties": false,
+      "properties": {
+        "Qwen/Qwen3-VL-2B-Instruct": {
+          "$ref": "#/$defs/modelSnapshot"
+        },
+        "Qwen/Qwen3-VL-2B-Thinking": {
+          "$ref": "#/$defs/modelSnapshot"
+        }
+      },
+      "required": [
+        "Qwen/Qwen3-VL-2B-Instruct",
+        "Qwen/Qwen3-VL-2B-Thinking"
+      ],
+      "type": "object"
+    },
+    "nonnegativeNumber": {
+      "minimum": 0,
+      "type": "number"
+    },
+    "positiveNumber": {
+      "exclusiveMinimum": 0,
+      "type": "number"
+    },
+    "programMetadata": {
+      "additionalProperties": false,
+      "properties": {
+        "ATTENTION_IMPLEMENTATION": {
+          "const": "sdpa"
+        },
+        "BATCH_SIZE": {
+          "const": 1
+        },
+        "DTYPE": {
+          "const": "bfloat16"
+        },
+        "EFFECTIVE_GENERATION_CONFIG": {
+          "$ref": "#/$defs/generationConfig"
+        },
+        "MAX_NEW_TOKENS": {
+          "const": 128
+        },
+        "MODEL_ID": {
+          "enum": [
+            "Qwen/Qwen3-VL-2B-Instruct",
+            "Qwen/Qwen3-VL-2B-Thinking"
+          ]
+        },
+        "MODEL_REVISION": {
+          "$ref": "#/$defs/modelRevision"
+        },
+        "MODEL_WEIGHT_SHA256": {
+          "$ref": "#/$defs/hash"
+        },
+        "PROCESSOR_REVISION": {
+          "$ref": "#/$defs/modelRevision"
+        },
+        "QUANTIZATION": {
+          "const": "none"
+        }
+      },
+      "required": [
+        "MODEL_ID",
+        "MODEL_REVISION",
+        "MODEL_WEIGHT_SHA256",
+        "PROCESSOR_REVISION",
+        "DTYPE",
+        "QUANTIZATION",
+        "ATTENTION_IMPLEMENTATION",
+        "MAX_NEW_TOKENS",
+        "BATCH_SIZE",
+        "EFFECTIVE_GENERATION_CONFIG"
+      ],
+      "type": "object"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "authorization_scope": {
+          "const": "physical-gpu0-only"
+        },
+        "default_future_gpu": {
+          "const": 0
+        },
+        "evaluator_dependency_sha256": {
+          "additionalProperties": {
+            "$ref": "#/$defs/hash"
+          },
+          "type": "object"
+        },
+        "freeze_file_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "freeze_id": {
+          "$ref": "#/$defs/hash"
+        },
+        "git_state_at_start": {
+          "$ref": "#/$defs/gitState"
+        },
+        "ground_truth_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "image_manifest_path": {
+          "pattern": "evaluation/provenance/[A-Za-z0-9_.-]+\\.json",
+          "type": "string"
+        },
+        "image_manifest_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "image_zip_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "input_image_sha256": {
+          "additionalProperties": {
+            "$ref": "#/$defs/hash"
+          },
+          "type": "object"
+        },
+        "manifest_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "model_manifest_path": {
+          "pattern": "evaluation/provenance/[A-Za-z0-9_.-]+\\.json",
+          "type": "string"
+        },
+        "model_manifest_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "model_required_file_sha256": {
+          "$ref": "#/$defs/requiredModelFiles"
+        },
+        "model_snapshot_manifests": {
+          "$ref": "#/$defs/modelSnapshots"
+        },
+        "physical_gpu_index": {
+          "const": 0
+        },
+        "program_dependency_sha256": {
+          "additionalProperties": {
+            "$ref": "#/$defs/hash"
+          },
+          "type": "object"
+        },
+        "protocol_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "raw_log_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "requirements_lock_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "result_schema_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "runtime_event_path": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "runtime_event_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "selected_model_id": {
+          "enum": [
+            "Qwen/Qwen3-VL-2B-Instruct",
+            "Qwen/Qwen3-VL-2B-Thinking"
+          ]
+        },
+        "selected_model_revision": {
+          "$ref": "#/$defs/modelRevision"
+        },
+        "warmup_manifest_sha256": {
+          "$ref": "#/$defs/hash"
+        }
+      },
+      "required": [
+        "freeze_id",
+        "freeze_file_sha256",
+        "ground_truth_sha256",
+        "image_zip_sha256",
+        "image_manifest_path",
+        "image_manifest_sha256",
+        "input_image_sha256",
+        "selected_model_id",
+        "selected_model_revision",
+        "model_manifest_path",
+        "model_manifest_sha256",
+        "model_required_file_sha256",
+        "model_snapshot_manifests",
+        "evaluator_dependency_sha256",
+        "program_dependency_sha256",
+        "manifest_sha256",
+        "warmup_manifest_sha256",
+        "protocol_sha256",
+        "requirements_lock_sha256",
+        "result_schema_sha256",
+        "raw_log_sha256",
+        "physical_gpu_index",
+        "authorization_scope",
+        "default_future_gpu",
+        "git_state_at_start",
+        "runtime_event_path",
+        "runtime_event_sha256"
+      ],
+      "type": "object"
+    },
+    "queryKey": {
+      "pattern": "[0-9]+_[0-9]+",
+      "type": "string"
+    },
+    "record": {
+      "additionalProperties": false,
+      "properties": {
+        "correct": {
+          "type": "boolean"
+        },
+        "errors": {
+          "items": {
+            "$ref": "#/$defs/errorDetail"
+          },
+          "type": "array"
+        },
+        "expected_answer": {
+          "type": "string"
+        },
+        "figure_id": {
+          "pattern": "[0-9]+",
+          "type": "string"
+        },
+        "generated_token_count": {
+          "items": {
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "image_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "latency_seconds": {
+          "items": {
+            "$ref": "#/$defs/positiveNumber"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "prediction_sha256": {
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/hash"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "qid": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "query_key": {
+          "$ref": "#/$defs/queryKey"
+        },
+        "question": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "responses": {
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "subq_idx": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "termination_reason": {
+          "items": {
+            "enum": [
+              "eos",
+              "length",
+              "other",
+              null
+            ]
+          },
+          "minItems": 1,
+          "type": "array"
+        }
+      },
+      "required": [
+        "query_key",
+        "figure_id",
+        "subq_idx",
+        "qid",
+        "question",
+        "responses",
+        "prediction_sha256",
+        "latency_seconds",
+        "generated_token_count",
+        "termination_reason",
+        "image_sha256",
+        "errors",
+        "expected_answer",
+        "correct"
+      ],
+      "type": "object"
+    },
+    "requiredModelFiles": {
+      "additionalProperties": false,
+      "properties": {
+        "chat_template.json": {
+          "$ref": "#/$defs/hash"
+        },
+        "config.json": {
+          "$ref": "#/$defs/hash"
+        },
+        "generation_config.json": {
+          "$ref": "#/$defs/hash"
+        },
+        "model.safetensors": {
+          "$ref": "#/$defs/hash"
+        },
+        "preprocessor_config.json": {
+          "$ref": "#/$defs/hash"
+        },
+        "tokenizer.json": {
+          "$ref": "#/$defs/hash"
+        },
+        "tokenizer_config.json": {
+          "$ref": "#/$defs/hash"
+        }
+      },
+      "required": [
+        "model.safetensors",
+        "config.json",
+        "generation_config.json",
+        "preprocessor_config.json",
+        "chat_template.json",
+        "tokenizer_config.json",
+        "tokenizer.json"
+      ],
+      "type": "object"
+    },
+    "uuid": {
+      "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}",
+      "type": "string"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "accuracy": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": "number"
+    },
+    "avg_time_per_query": {
+      "$ref": "#/$defs/positiveNumber"
+    },
+    "completed_at_utc": {
+      "minLength": 20,
+      "type": "string"
+    },
+    "correct": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "error_rate": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": "number"
+    },
+    "errors": {
+      "items": {
+        "$ref": "#/$defs/errorDetail"
+      },
+      "type": "array"
+    },
+    "generation_summary": {
+      "$ref": "#/$defs/generationSummary"
+    },
+    "import_seconds": {
+      "$ref": "#/$defs/nonnegativeNumber"
+    },
+    "latency_seconds": {
+      "$ref": "#/$defs/latency"
+    },
+    "manifest": {
+      "pattern": "evaluation/manifests/[A-Za-z0-9_]+\\.json",
+      "type": "string"
+    },
+    "measured_call_seconds": {
+      "$ref": "#/$defs/positiveNumber"
+    },
+    "measurement_includes_model_load": {
+      "const": false
+    },
+    "measurement_wall_seconds": {
+      "$ref": "#/$defs/positiveNumber"
+    },
+    "model_load_and_warmup_seconds": {
+      "$ref": "#/$defs/nonnegativeNumber"
+    },
+    "nondeterministic_query_keys": {
+      "items": {
+        "$ref": "#/$defs/queryKey"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "num_calls": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "num_errors": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "num_evaluated": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "peak_gpu_memory_allocated_bytes": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "peak_gpu_memory_reserved_bytes": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "program": {
+      "pattern": "[A-Za-z_][A-Za-z0-9_]*",
+      "type": "string"
+    },
+    "program_metadata": {
+      "$ref": "#/$defs/programMetadata"
+    },
+    "protocol_version": {
+      "const": "gate1-exact-match-v4.1"
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "raw_log": {
+      "pattern": "results/evaluations/v4_1/campaigns/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+\\.raw\\.jsonl",
+      "type": "string"
+    },
+    "records": {
+      "items": {
+        "$ref": "#/$defs/record"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "repeats": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "run_id": {
+      "$ref": "#/$defs/uuid"
+    },
+    "runtime_event_id": {
+      "$ref": "#/$defs/uuid"
+    },
+    "schema_version": {
+      "const": 4
+    },
+    "started_at_utc": {
+      "minLength": 20,
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "pass",
+        "fail"
+      ]
+    },
+    "throughput_queries_per_second": {
+      "$ref": "#/$defs/positiveNumber"
+    },
+    "torch_peak_memory_allocated_bytes": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "torch_peak_memory_reserved_bytes": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "total_time": {
+      "$ref": "#/$defs/positiveNumber"
+    },
+    "wall_throughput_queries_per_second": {
+      "$ref": "#/$defs/positiveNumber"
+    },
+    "warmup_calls": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "warmup_manifest": {
+      "pattern": "evaluation/manifests/[A-Za-z0-9_]+\\.json",
+      "type": "string"
+    },
+    "warmup_query_keys": {
+      "items": {
+        "$ref": "#/$defs/queryKey"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "warmup_seconds": {
+      "$ref": "#/$defs/nonnegativeNumber"
+    }
+  },
+  "required": [
+    "schema_version",
+    "protocol_version",
+    "run_id",
+    "runtime_event_id",
+    "started_at_utc",
+    "completed_at_utc",
+    "program",
+    "program_metadata",
+    "accuracy",
+    "correct",
+    "num_evaluated",
+    "num_calls",
+    "num_errors",
+    "error_rate",
+    "nondeterministic_query_keys",
+    "repeats",
+    "manifest",
+    "warmup_manifest",
+    "warmup_query_keys",
+    "warmup_calls",
+    "import_seconds",
+    "warmup_seconds",
+    "model_load_and_warmup_seconds",
+    "measurement_includes_model_load",
+    "measurement_wall_seconds",
+    "measured_call_seconds",
+    "total_time",
+    "avg_time_per_query",
+    "latency_seconds",
+    "throughput_queries_per_second",
+    "wall_throughput_queries_per_second",
+    "torch_peak_memory_allocated_bytes",
+    "torch_peak_memory_reserved_bytes",
+    "peak_gpu_memory_allocated_bytes",
+    "peak_gpu_memory_reserved_bytes",
+    "generation_summary",
+    "errors",
+    "records",
+    "status",
+    "raw_log",
+    "provenance"
+  ],
+  "title": "Gate 1 exact-match v4.1 result",
+  "type": "object"
+}

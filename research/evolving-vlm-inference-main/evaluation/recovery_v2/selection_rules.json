@@ -1,0 +1,45 @@
+{
+  "baseline": "baseline_instruct",
+  "baseline_thinking_best_eligible": false,
+  "best_accuracy": [
+    "highest Dev128 integer correct_count",
+    "fewest Dev128 errors",
+    "lowest Speed32 aggregate median",
+    "fewest generated tokens",
+    "lexicographic source SHA256"
+  ],
+  "best_overall": {
+    "accuracy_component": "correct_count/max_eligible_correct_count",
+    "author_defined": true,
+    "eligibility": "Dev128 complete, errors==0, correct_count>=baseline_instruct",
+    "score": "harmonic mean",
+    "speed_component": "min_eligible_median/candidate_median",
+    "ties": [
+      "higher score",
+      "higher correct_count",
+      "lower median",
+      "fewer tokens",
+      "source SHA256"
+    ]
+  },
+  "best_speed": {
+    "eligibility": "Dev128 complete, errors==0, correct_count>=floor_correct",
+    "floor_correct": "max(baseline_instruct_correct,best_accuracy_correct-4)",
+    "ties": [
+      "lowest Speed32 median",
+      "lowest Type-7 p95",
+      "fewest generated tokens",
+      "highest correct_count",
+      "source SHA256"
+    ]
+  },
+  "candidates": [
+    "manual_instruct",
+    "manual_thinking",
+    "evolved_instruct",
+    "evolved_thinking"
+  ],
+  "rules_version": "phase3-recovery-selection-v2",
+  "selection_uses_only_recovery_v2_results": true,
+  "timeout_best_eligible": false
+}

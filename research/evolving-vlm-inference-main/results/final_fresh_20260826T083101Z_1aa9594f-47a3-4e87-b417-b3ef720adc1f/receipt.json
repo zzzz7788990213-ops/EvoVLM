@@ -1,0 +1,463 @@
+{
+  "best_source_identity": {
+    "byte_identical_to": "evolved_instruct",
+    "sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984"
+  },
+  "completed_at_utc": "2026-08-26T10:21:27.412113Z",
+  "expected_dev128_correct": {
+    "baseline_instruct": 51,
+    "evolved_instruct": 78,
+    "evolved_thinking": 44,
+    "manual_instruct": 78,
+    "manual_thinking": 23
+  },
+  "formal_manifest": {
+    "path": "evaluation/recovery_v2/final_manifest.json",
+    "sha256": "3ca726afb199f1e2890855838f9949dfcf69dad743484e3d7067ae4380e5a65a",
+    "size_bytes": 478508
+  },
+  "formal_metrics_affected": false,
+  "label": "FINAL_FRESH_REPRODUCTION_ONLY",
+  "lane_receipts": [
+    {
+      "path": "lane0/receipt.json",
+      "sha256": "f452211aeb3cbb216c01d735761c94f01c82dc36feff4b648f786e444e840566",
+      "size_bytes": 11570
+    },
+    {
+      "path": "lane1/receipt.json",
+      "sha256": "452da4ad3c9def066e35345dddeb064f6f17b3be99361fb51d667be00611e9bd",
+      "size_bytes": 5945
+    }
+  ],
+  "lanes": {
+    "0": [
+      {
+        "program": "baseline_instruct",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "manual_instruct",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "evolved_instruct",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "best_accuracy",
+        "role": "single1",
+        "sample_count": 1
+      },
+      {
+        "program": "best_speed",
+        "role": "single1",
+        "sample_count": 1
+      },
+      {
+        "program": "best_overall",
+        "role": "single1",
+        "sample_count": 1
+      }
+    ],
+    "1": [
+      {
+        "program": "manual_thinking",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "evolved_thinking",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "baseline_thinking",
+        "role": "single1",
+        "sample_count": 1
+      }
+    ]
+  },
+  "orchestrator_logs": [
+    {
+      "path": "lane0.orchestrator.log",
+      "sha256": "87843e7b6d9017ce53f6c41831406f99248fca1ae08d3de953b2999567196da0",
+      "size_bytes": 10461
+    },
+    {
+      "path": "lane1.orchestrator.log",
+      "sha256": "fb17df4acff8c911a9e8e16b7010aaccd6d1751e11050f91c7652335d6f59aeb",
+      "size_bytes": 5628
+    }
+  ],
+  "plan": {
+    "path": "plan.json",
+    "sha256": "7d790cb70c72eebed418a24eedb740e36dc884f5478a68c602e25f2e6def0c95",
+    "size_bytes": 17410
+  },
+  "results": [
+    {
+      "attempt_id": "c1e3d63a-2370-49cd-bcf9-b241b5963d81",
+      "avg_time_per_query": 16.436335424805293,
+      "console": {
+        "path": "lane0/01.baseline_instruct.dev128.c1e3d63a-2370-49cd-bcf9-b241b5963d81.console.log",
+        "sha256": "692a9b226fbf999d2b8a69015eac04cb0fb4d8b825763c2c003f4dec5fb01c82",
+        "size_bytes": 1237
+      },
+      "correct": 51,
+      "dependency_closure_sha256": "d1446e2a949ad649d2d88f7698a7732718995123ff1057e5b0196725803cc38c",
+      "end": {
+        "path": "lane0/01.baseline_instruct.dev128.c1e3d63a-2370-49cd-bcf9-b241b5963d81.end.json",
+        "sha256": "916cc77482db412fc05e57e8b54ede194057f3ce03c42df021f87a6fd139f64e",
+        "size_bytes": 806
+      },
+      "generated_token_count": 5208,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "num_errors": 0,
+      "physical_gpu_index": 0,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "baseline_instruct",
+      "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+      "result": {
+        "path": "lane0/01.baseline_instruct.dev128.c1e3d63a-2370-49cd-bcf9-b241b5963d81.result.json",
+        "sha256": "b6bd3f7ef10d64c028b102de7915f519295b938744f3d48d73a297a0e97ef2f1",
+        "size_bytes": 206914
+      },
+      "role": "dev128",
+      "sample_count": 128,
+      "start": {
+        "path": "lane0/01.baseline_instruct.dev128.c1e3d63a-2370-49cd-bcf9-b241b5963d81.start.json",
+        "sha256": "d9c7a7f3389ca0433c804dbd220c2c388923c4abf80f748a5c57913f6c56b9a9",
+        "size_bytes": 1497
+      },
+      "total_time": 2103.8509343750775
+    },
+    {
+      "attempt_id": "5fb0f432-4851-4830-8773-d70de2f971fd",
+      "avg_time_per_query": 16.13539657128422,
+      "console": {
+        "path": "lane0/03.evolved_instruct.dev128.5fb0f432-4851-4830-8773-d70de2f971fd.console.log",
+        "sha256": "79403dea8e91ebaa9933d2cd946bd7743f971e890d65bbcaa7f8e816042f01a2",
+        "size_bytes": 1383
+      },
+      "correct": 78,
+      "dependency_closure_sha256": "7e61dc9b4a54c196475e09976ba8095c6e37ebfefe357f921990549215e47fda",
+      "end": {
+        "path": "lane0/03.evolved_instruct.dev128.5fb0f432-4851-4830-8773-d70de2f971fd.end.json",
+        "sha256": "d08b17438269c250f996fa95936b4d92288dd0030c6f4baf5a280af508e7bc2c",
+        "size_bytes": 802
+      },
+      "generated_token_count": 751,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "num_errors": 0,
+      "physical_gpu_index": 0,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "evolved_instruct",
+      "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+      "result": {
+        "path": "lane0/03.evolved_instruct.dev128.5fb0f432-4851-4830-8773-d70de2f971fd.result.json",
+        "sha256": "5b3b08170f4534b38bfc3a2dbfd7c3ec22028d35a952496d6ea49e5339bcc10e",
+        "size_bytes": 160275
+      },
+      "role": "dev128",
+      "sample_count": 128,
+      "start": {
+        "path": "lane0/03.evolved_instruct.dev128.5fb0f432-4851-4830-8773-d70de2f971fd.start.json",
+        "sha256": "fdbfe4a28da2bdc8ac91ac4f9a3b7ffce72967f1ff436de5036ffcb682687a1d",
+        "size_bytes": 1494
+      },
+      "total_time": 2065.33076112438
+    },
+    {
+      "attempt_id": "5e9fedfa-7b63-47d6-a470-119a9275ce8d",
+      "avg_time_per_query": 21.233001060652896,
+      "console": {
+        "path": "lane1/02.evolved_thinking.dev128.5e9fedfa-7b63-47d6-a470-119a9275ce8d.console.log",
+        "sha256": "260bedc8a679ab2eaad994ec5abb3394e59cc07297df9e8d64ed718805794d2b",
+        "size_bytes": 1370
+      },
+      "correct": 44,
+      "dependency_closure_sha256": "4ec077411ffb552d2c9a1c703efee114245cbebff0784cbdc0caeaccbbe65473",
+      "end": {
+        "path": "lane1/02.evolved_thinking.dev128.5e9fedfa-7b63-47d6-a470-119a9275ce8d.end.json",
+        "sha256": "4436f146a3e8390974f00a067e36fe8047b5db3b6c0fba3d7a9d7517b594d260",
+        "size_bytes": 803
+      },
+      "generated_token_count": 33193,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "model_weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+      "num_errors": 0,
+      "physical_gpu_index": 1,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "evolved_thinking",
+      "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+      "result": {
+        "path": "lane1/02.evolved_thinking.dev128.5e9fedfa-7b63-47d6-a470-119a9275ce8d.result.json",
+        "sha256": "4a1a34014ad451d4f71febc688619a05148c0aeca9517920dd07ffd8bf6b714e",
+        "size_bytes": 418975
+      },
+      "role": "dev128",
+      "sample_count": 128,
+      "start": {
+        "path": "lane1/02.evolved_thinking.dev128.5e9fedfa-7b63-47d6-a470-119a9275ce8d.start.json",
+        "sha256": "1f7ae0a323a0d86b81880833fceeb2e2e0a09daa3e7f2c6466e931ec2f4e22ce",
+        "size_bytes": 1494
+      },
+      "total_time": 2717.8241357635707
+    },
+    {
+      "attempt_id": "00c5109a-9325-4ff3-ace3-b7e417dff1dc",
+      "avg_time_per_query": 18.05518667328579,
+      "console": {
+        "path": "lane0/02.manual_instruct.dev128.00c5109a-9325-4ff3-ace3-b7e417dff1dc.console.log",
+        "sha256": "c84ce5556fa59b690247ced3c0001db73d3a2173814b39e2d57a6355bde611fb",
+        "size_bytes": 1382
+      },
+      "correct": 78,
+      "dependency_closure_sha256": "0e85fc07dfffa99edb65ff3416061bdc7beedf234ae25657d27b38e1e5e10827",
+      "end": {
+        "path": "lane0/02.manual_instruct.dev128.00c5109a-9325-4ff3-ace3-b7e417dff1dc.end.json",
+        "sha256": "4c092fa9bd48c491ba1ae6455ebbfa2d7a5d93ff09649cdab7c49ca11dfac5a7",
+        "size_bytes": 800
+      },
+      "generated_token_count": 751,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "num_errors": 0,
+      "physical_gpu_index": 0,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "manual_instruct",
+      "program_source_sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+      "result": {
+        "path": "lane0/02.manual_instruct.dev128.00c5109a-9325-4ff3-ace3-b7e417dff1dc.result.json",
+        "sha256": "0b3c456ab7ec6d6fa07bc9b6de2857aeec0599a5fbb74bd6196ca198796d18d1",
+        "size_bytes": 151228
+      },
+      "role": "dev128",
+      "sample_count": 128,
+      "start": {
+        "path": "lane0/02.manual_instruct.dev128.00c5109a-9325-4ff3-ace3-b7e417dff1dc.start.json",
+        "sha256": "1e0474454e1a5cb51df40d5fca3300a7a5fbaeb4bf23068529280a05e01166c1",
+        "size_bytes": 1491
+      },
+      "total_time": 2311.063894180581
+    },
+    {
+      "attempt_id": "2febfd16-9161-4631-b4d2-72aa5dc1678b",
+      "avg_time_per_query": 23.050131850475736,
+      "console": {
+        "path": "lane1/01.manual_thinking.dev128.2febfd16-9161-4631-b4d2-72aa5dc1678b.console.log",
+        "sha256": "1471c017d5de0df59a20dec188756ecf8d4621060b470d1cb658a27becbad420",
+        "size_bytes": 1370
+      },
+      "correct": 23,
+      "dependency_closure_sha256": "846040fb528b6d9bc7bd21639b89884d49df1c2b05f247f05613a2a94616de9e",
+      "end": {
+        "path": "lane1/01.manual_thinking.dev128.2febfd16-9161-4631-b4d2-72aa5dc1678b.end.json",
+        "sha256": "677f08c082c2dc256485f3ed2c2ae255a22279bbba4c2cd26843ec390e4e8e26",
+        "size_bytes": 799
+      },
+      "generated_token_count": 33541,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "model_weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+      "num_errors": 0,
+      "physical_gpu_index": 1,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "manual_thinking",
+      "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+      "result": {
+        "path": "lane1/01.manual_thinking.dev128.2febfd16-9161-4631-b4d2-72aa5dc1678b.result.json",
+        "sha256": "d3201d62a5f5218ec0ef0fc3453f78d654976ecaaa51aad27b2eb0d247b4c769",
+        "size_bytes": 244340
+      },
+      "role": "dev128",
+      "sample_count": 128,
+      "start": {
+        "path": "lane1/01.manual_thinking.dev128.2febfd16-9161-4631-b4d2-72aa5dc1678b.start.json",
+        "sha256": "ae85633f05854aa96a17f5bd0eee28e9af6c1a4fb627e9773bad13c697d48ae5",
+        "size_bytes": 1491
+      },
+      "total_time": 2950.4168768608943
+    },
+    {
+      "attempt_id": "757aa1b7-88b7-448a-a595-5a92a71296d7",
+      "avg_time_per_query": 29.553259262815118,
+      "console": {
+        "path": "lane1/03.baseline_thinking.single1.757aa1b7-88b7-448a-a595-5a92a71296d7.console.log",
+        "sha256": "8d318a0fc829225b8c6cd706c315c8f89335d517d0c976260462e452b546a62d",
+        "size_bytes": 1229
+      },
+      "correct": 0,
+      "dependency_closure_sha256": "6b876bf09566028348dc965269b3411cd5d9d2be4e6b4d8920d353bb8354421f",
+      "end": {
+        "path": "lane1/03.baseline_thinking.single1.757aa1b7-88b7-448a-a595-5a92a71296d7.end.json",
+        "sha256": "ecf43ff5b02b4b739b963b985189af9f496b2c09cfe952d0297ff1f64260f068",
+        "size_bytes": 806
+      },
+      "generated_token_count": 128,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "model_weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+      "num_errors": 0,
+      "physical_gpu_index": 1,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "baseline_thinking",
+      "program_source_sha256": "042c67af753daca27225db12cc48df9b509773f8a7b703dfef8384b9e9378fab",
+      "result": {
+        "path": "lane1/03.baseline_thinking.single1.757aa1b7-88b7-448a-a595-5a92a71296d7.result.json",
+        "sha256": "cc278df48793043e2b82ea04554614a9fb31ea786b3e5f8f8679873ab70e9735",
+        "size_bytes": 2973
+      },
+      "role": "single1",
+      "sample_count": 1,
+      "start": {
+        "path": "lane1/03.baseline_thinking.single1.757aa1b7-88b7-448a-a595-5a92a71296d7.start.json",
+        "sha256": "acc53c8c2fb5d5cc17ab78f78b53ef39250d988f23c1bfcdef626286ae07c767",
+        "size_bytes": 1497
+      },
+      "total_time": 29.553259262815118
+    },
+    {
+      "attempt_id": "2a896a1d-2fc9-4e9d-b284-f41298061153",
+      "avg_time_per_query": 27.758427063934505,
+      "console": {
+        "path": "lane0/04.best_accuracy.single1.2a896a1d-2fc9-4e9d-b284-f41298061153.console.log",
+        "sha256": "353bcb7dd91d904d2402bfb67bc111575e483ebd1dde298987a24b8b7bc8b460",
+        "size_bytes": 1373
+      },
+      "correct": 1,
+      "dependency_closure_sha256": "50220f9d08e698f63ee0731c8b659f357ef59b9143a75d8f8df0934d28ce8934",
+      "end": {
+        "path": "lane0/04.best_accuracy.single1.2a896a1d-2fc9-4e9d-b284-f41298061153.end.json",
+        "sha256": "da1ec3220667aedce8d6b0eb9a232516e9016f2aef0fd9f764877fa5f17bd96f",
+        "size_bytes": 794
+      },
+      "generated_token_count": 3,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "num_errors": 0,
+      "physical_gpu_index": 0,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "best_accuracy",
+      "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+      "result": {
+        "path": "lane0/04.best_accuracy.single1.2a896a1d-2fc9-4e9d-b284-f41298061153.result.json",
+        "sha256": "1df1aa85e7dcb1c482cf5caa025ce2c819e6b5f206292c1dca26ec98c156fb0c",
+        "size_bytes": 2290
+      },
+      "role": "single1",
+      "sample_count": 1,
+      "start": {
+        "path": "lane0/04.best_accuracy.single1.2a896a1d-2fc9-4e9d-b284-f41298061153.start.json",
+        "sha256": "5299fa51de90811a971f9b05b4c8e6fb746e17f2601f0137b54f2b87974898de",
+        "size_bytes": 1485
+      },
+      "total_time": 27.758427063934505
+    },
+    {
+      "attempt_id": "f37e191a-a5a8-4ffb-9cbc-bd3aa1c83a45",
+      "avg_time_per_query": 24.422839247621596,
+      "console": {
+        "path": "lane0/06.best_overall.single1.f37e191a-a5a8-4ffb-9cbc-bd3aa1c83a45.console.log",
+        "sha256": "9d955ff28902fca4469902ddde4c8f918da70a983d39e3575ded5c92274d16e1",
+        "size_bytes": 1371
+      },
+      "correct": 1,
+      "dependency_closure_sha256": "5cbdef6528cb41fa5bec93ff5a63f21c9b24f8e4b89660f9398675ac19ab6a3d",
+      "end": {
+        "path": "lane0/06.best_overall.single1.f37e191a-a5a8-4ffb-9cbc-bd3aa1c83a45.end.json",
+        "sha256": "488abe10b948503af7589986f9b9a51e2e12cff5e0d3d77dd1dce25609e08f17",
+        "size_bytes": 792
+      },
+      "generated_token_count": 3,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "num_errors": 0,
+      "physical_gpu_index": 0,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "best_overall",
+      "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+      "result": {
+        "path": "lane0/06.best_overall.single1.f37e191a-a5a8-4ffb-9cbc-bd3aa1c83a45.result.json",
+        "sha256": "ec66864b8cdd793e93fa41c7d2069f5d487eaecd61f8080be77ffee3f32014fa",
+        "size_bytes": 2289
+      },
+      "role": "single1",
+      "sample_count": 1,
+      "start": {
+        "path": "lane0/06.best_overall.single1.f37e191a-a5a8-4ffb-9cbc-bd3aa1c83a45.start.json",
+        "sha256": "baf2f9864b30ab3181c95c75135ffa0f36307ed03ff26428a98878c88b3faf0c",
+        "size_bytes": 1482
+      },
+      "total_time": 24.422839247621596
+    },
+    {
+      "attempt_id": "610b2ef4-380a-4ca2-92ba-1817e625baa6",
+      "avg_time_per_query": 24.98277364205569,
+      "console": {
+        "path": "lane0/05.best_speed.single1.610b2ef4-380a-4ca2-92ba-1817e625baa6.console.log",
+        "sha256": "89a7a044ccb4240efde5b572528822d3cec4fead2188cf98a21223895b4552e9",
+        "size_bytes": 1365
+      },
+      "correct": 1,
+      "dependency_closure_sha256": "8bb0a4885f2fd4c2cff670ae9fefb687a1d4eb4b59f5f4559383129cea8f135f",
+      "end": {
+        "path": "lane0/05.best_speed.single1.610b2ef4-380a-4ca2-92ba-1817e625baa6.end.json",
+        "sha256": "312260808eb89e921cfc48883b4cd19d2f8c988a39ae6eb89ffa0e74579f6780",
+        "size_bytes": 786
+      },
+      "generated_token_count": 3,
+      "input_manifest_sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "num_errors": 0,
+      "physical_gpu_index": 0,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "best_speed",
+      "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+      "result": {
+        "path": "lane0/05.best_speed.single1.610b2ef4-380a-4ca2-92ba-1817e625baa6.result.json",
+        "sha256": "2c5b21c3eca29ec8a8de0c449e5b08776bbd142c3db1cdb044661608ffa785d0",
+        "size_bytes": 2282
+      },
+      "role": "single1",
+      "sample_count": 1,
+      "start": {
+        "path": "lane0/05.best_speed.single1.610b2ef4-380a-4ca2-92ba-1817e625baa6.start.json",
+        "sha256": "213a42163dc51379296a82f4b7591d55872a2bb37a2e266a2ad3a7494296cc9d",
+        "size_bytes": 1476
+      },
+      "total_time": 24.98277364205569
+    }
+  ],
+  "run_id": "1aa9594f-47a3-4e87-b417-b3ef720adc1f",
+  "schema_version": "final-fresh-reproduction-receipt-v1",
+  "selection_affected": false,
+  "source": {
+    "commit": "0354229d892d242bcdc303ee6494bc74f576d1a1",
+    "tree": "b748c76efa136323596d9cf03bd014eb58db9dd2"
+  },
+  "started_at_utc": "2026-08-26T08:31:01.083183Z",
+  "status": "COMPLETE"
+}

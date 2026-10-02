@@ -1,0 +1,14 @@
+{
+  "attempt_id": "ddee796d-316f-4885-bf03-5d92428aef78",
+  "attempt_version": "phase3-speed32-replacement-attempt-v1",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "completed_at_utc": "2026-08-25T11:47:28.555414Z",
+  "console_sha256": "b12c818298743aef2f1aabbcff5706864fd5fb6a8db6ded54cf6cb9bcaa0eedb",
+  "foreign_pids": [],
+  "index": 23,
+  "program": "baseline_instruct",
+  "repeat": 3,
+  "returncode": 0,
+  "telemetry_session_id": "2186b505-6124-497f-a5b3-cfc23599363c",
+  "telemetry_sha256": "ad401ec39fc2a32178fcef7114b738370b2694aa58dfe33fcd8fc991a777d33b"
+}

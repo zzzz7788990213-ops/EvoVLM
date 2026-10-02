@@ -1,0 +1,55 @@
+{
+  "attempt_id": "bbed0d96-a5e1-4056-bf21-71feaae0917b",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 27.52390974201262,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 27.486076535191387,
+    "input_token_count": 1166,
+    "peak_memory_bytes": 4530292736,
+    "preprocessing_seconds": 0.03620833298191428,
+    "termination_reason": "length",
+    "total_seconds": 27.522610410116613
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "Got it, let's look at the problem. The question is asking for the spatially lowest labeled tick on the y-axis. First, I need to identify the y-axis labels. The y-axis has labels: HP, NORM, TA.HG, TA.LG, TVA.HG, TVA.LG. Wait, no, wait. Wait, the y-axis is the vertical axis, so the labels are the categories on the left. Let's check the image. The y-axis labels are listed vertically: HP, NORM, TA.HG, TA.LG, TVA.HG, TVA.LG. Wait, no, wait. Wait, the first row on the left is HP, then NORM, then TA.HG, then TA.LG, then TVA.HG, then TVA.LG. Wait, no, the y-axis labels are the rows. Let's count the number of labels. The y-axis has six labels: HP, NORM, TA.HG, TA.LG, TVA.HG, TVA.LG. Wait, no, wait. Wait, the image shows the y-axis with labels: HP, NORM, TA.HG, TA.LG, TVA.HG, TVA.LG. Wait, no, let's check the image again. The y-axis is labeled with these terms. Now, the question is about the spatially lowest labeled tick. So we need to find the lowest one. Wait, the y-axis is the vertical axis, so the labels are the categories. Wait, the y-axis is the left side, so the labels are HP, NORM, TA.HG, TA.LG, TVA.HG, TVA.LG. Wait, but the problem says \"spatially lowest labeled tick\". So we need to see which of these labels is the lowest",
+  "prediction_sha256": "c743ed7ce56585f76c6ddc48338600bbee922c3163f5c1e25419af3d88813163",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "677",
+    "image_sha256": "c60d7c4cc964de71e0c1ce0101ac22053d94abb25793daed24f6fd2bd27a1009",
+    "index": 3,
+    "qid": "6",
+    "query_key": "677_0",
+    "question": "For the current plot, what is the spatially lowest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+    "subq_idx": 0
+  },
+  "run_id": "1799f06c-4d76-4006-b6c9-c4fe17679f8d",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

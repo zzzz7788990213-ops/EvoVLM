@@ -1,0 +1,20 @@
+% Generated only from validated Gate 1 JSON; do not edit numerical values by hand.
+% Validation: results/evaluations/gate1_validation.json
+% Instruct dev SHA256: eb104ed5bcd8a925026a07e0d0ee76be6bef3adb0d21345c3e3fed326a972d29
+% Thinking dev SHA256: 824f887eeae6844c0cc2223a3aa0148b64c3b6f31b147da4b5d9e679120fd7bd
+\begin{table}[t]
+\centering
+\small
+\caption{Frozen Gate 1 naive baselines. Dev uses 128 queries once; speed uses
+four separate queries with three repeats. Times exclude load and warm-up.
+Accuracy is the challenge exact-match metric.}
+\label{tab:gate1-baselines}
+\begin{tabular}{lrrrrr}
+\toprule
+Model & Dev exact & Dev mean (s) & Dev q/s & Speed mean (s) & Speed q/s \\
+\midrule
+Qwen3-VL-2B-Instruct & 51/128 (39.84\%) & 17.1458 & 0.05832 & 12.9167 & 0.07742 \\
+Qwen3-VL-2B-Thinking & 0/128 (0.00\%) & 18.6324 & 0.05367 & 14.4861 & 0.06903 \\
+\bottomrule
+\end{tabular}
+\end{table}

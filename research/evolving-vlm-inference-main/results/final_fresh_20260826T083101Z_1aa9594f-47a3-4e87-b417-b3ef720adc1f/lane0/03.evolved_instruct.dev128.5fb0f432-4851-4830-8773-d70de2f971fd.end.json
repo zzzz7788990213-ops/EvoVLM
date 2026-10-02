@@ -1,0 +1,22 @@
+{
+  "attempt_id": "5fb0f432-4851-4830-8773-d70de2f971fd",
+  "completed_at_utc": "2026-08-26T10:19:52.510902Z",
+  "console": {
+    "path": "lane0/03.evolved_instruct.dev128.5fb0f432-4851-4830-8773-d70de2f971fd.console.log",
+    "sha256": "79403dea8e91ebaa9933d2cd946bd7743f971e890d65bbcaa7f8e816042f01a2",
+    "size_bytes": 1383
+  },
+  "elapsed_seconds": 2073.060652732849,
+  "event": "attempt_ended",
+  "outcome": "COMPLETED",
+  "physical_gpu_index": 0,
+  "program": "evolved_instruct",
+  "result": {
+    "path": "lane0/03.evolved_instruct.dev128.5fb0f432-4851-4830-8773-d70de2f971fd.result.json",
+    "sha256": "5b3b08170f4534b38bfc3a2dbfd7c3ec22028d35a952496d6ea49e5339bcc10e",
+    "size_bytes": 160275
+  },
+  "returncode": 0,
+  "role": "dev128",
+  "run_id": "1aa9594f-47a3-4e87-b417-b3ef720adc1f"
+}

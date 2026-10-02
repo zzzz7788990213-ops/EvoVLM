@@ -1,0 +1,55 @@
+{
+  "attempt_id": "08b9481d-838f-4182-913d-076e00215d9c",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "correct": true,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 16.11651910841465,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 3,
+    "generation_seconds": 16.075371213257313,
+    "input_token_count": 820,
+    "peak_memory_bytes": 4459884544,
+    "preprocessing_seconds": 0.03629283420741558,
+    "termination_reason": "eos",
+    "total_seconds": 16.111872876994312
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "-7",
+  "prediction_sha256": "a770d3270c9dcdedf12ed9fd70444f7c8a95c26cae3cae9bd867499090a2f14b",
+  "program": "manual_instruct",
+  "program_source_sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1297",
+    "image_sha256": "7fda3ae87d954f75b5f069c5a6993cac85440cd7f862276d0160da83d21a4aca",
+    "index": 11,
+    "qid": "6",
+    "query_key": "1297_1",
+    "question": "For the subplot at row 2 and column 3, what is the spatially lowest labeled tick on the y-axis?\n    * Your final answer should be the tick value on the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.",
+    "subq_idx": 1
+  },
+  "run_id": "c843b45d-72b6-4d75-afc8-d597d8f4c4c5",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  }
+}

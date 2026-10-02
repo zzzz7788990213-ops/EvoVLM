@@ -1,0 +1,55 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 22.988514778204262,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 22.957400480285287,
+    "input_token_count": 896,
+    "peak_memory_bytes": 4479333888,
+    "preprocessing_seconds": 0.02970961481332779,
+    "termination_reason": "length",
+    "total_seconds": 22.98749658605084
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the chart. The chart has a left side with different methods (like UNIFORM, SOFTADAPT, LEARNABLE, RANDOM-COMBO) and a right side with their corresponding box plots. Wait, the question is about the layout of the subplots. Wait, the chart is a single plot with multiple box plots arranged side by side? Wait, no, the left part is the methods, and the right part is the box plots. Wait, actually, the chart is a single figure with a vertical axis (the methods) and a horizontal axis (Attribution IoU). The box plots are for each method. But the question is about subplots. Wait, maybe the chart is a grid of subplots? Wait, no, the chart shows each method's box plot on the left, and the right side is another set of box plots. Wait, no, the chart is a single plot with multiple box plots. Wait, the problem says \"layout of the subplots\". Wait, maybe the chart is a single plot with multiple subplots? Wait, no, the chart is a single figure with a vertical axis (methods) and horizontal axis (Attribution IoU). Each method has a box plot. So the layout is a single plot with multiple box plots arranged vertically. Wait, but the question is about subplots. Wait, maybe the chart is a grid of subplots. Wait, looking at the image: the left side has a list of methods (UNIFORM, SOFTADAPT, LEARNABLE, RANDOM-COMBO), each with a box plot. The right side has another set of box plots. Wait, no, the chart is a single plot with a vertical axis (methods) and horizontal axis (Attribution IoU). So the layout is a single plot with multiple box plots. Wait, but the question is about",
+  "prediction_sha256": "0c14279572d4fbd7ab667ae15fa0b9e719d6e7dd46640870a3a99e6b1258cb5f",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "13",
+    "image_sha256": "9ee188d073b673a5ee613d7649199f12fa2867c10b45d5002c6979cbbc269a22",
+    "index": 28,
+    "qid": "18",
+    "query_key": "13_0",
+    "question": "What is the layout of the subplots?\n    * Your final answer should follow \"n by m\" format, where n is the number of rows and m is the number of columns.\n    * If the plot does not contain subplots, answer \"1 by 1\".",
+    "subq_idx": 0
+  },
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

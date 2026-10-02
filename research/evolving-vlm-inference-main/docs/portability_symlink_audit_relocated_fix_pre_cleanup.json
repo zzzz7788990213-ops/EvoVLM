@@ -1,0 +1,56 @@
+{
+  "absolute_symlink_count": 3,
+  "broken_symlink_count": 0,
+  "escape_symlink_count": 0,
+  "evo_root": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo",
+  "external_symlink_count": 3,
+  "generated_at_utc": "2026-08-26T03:04:14.722037+00:00",
+  "internal_symlink_count": 1,
+  "links": [
+    {
+      "detail": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.tmp/pytest-of-xin.w24/pytest-177/test_unsafe_image_references_f0/image.jpg",
+      "path": ".tmp/pytest-of-xin.w24/pytest-177/test_unsafe_image_references_f0/link.jpg",
+      "reason": "absolute_target",
+      "resolved_target": null,
+      "status": "unsafe",
+      "target": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.tmp/pytest-of-xin.w24/pytest-177/test_unsafe_image_references_f0/image.jpg"
+    },
+    {
+      "detail": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.tmp/pytest-of-xin.w24/pytest-178/test_regular_inside_rejects_sy0/project/target",
+      "path": ".tmp/pytest-of-xin.w24/pytest-178/test_regular_inside_rejects_sy0/project/link",
+      "reason": "absolute_target",
+      "resolved_target": null,
+      "status": "unsafe",
+      "target": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.tmp/pytest-of-xin.w24/pytest-178/test_regular_inside_rejects_sy0/project/target"
+    },
+    {
+      "detail": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.tmp/pytest-of-xin.w24/pytest-178/test_unsafe_image_references_f0/image.jpg",
+      "path": ".tmp/pytest-of-xin.w24/pytest-178/test_unsafe_image_references_f0/link.jpg",
+      "reason": "absolute_target",
+      "resolved_target": null,
+      "status": "unsafe",
+      "target": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.tmp/pytest-of-xin.w24/pytest-178/test_unsafe_image_references_f0/image.jpg"
+    },
+    {
+      "path": ".venv/lib64",
+      "reason": null,
+      "resolved_target": ".venv/lib",
+      "status": "internal",
+      "target": "lib"
+    }
+  ],
+  "loop_symlink_count": 0,
+  "reason_counts": {
+    "absolute_target": 3,
+    "broken": 0,
+    "escape": 0,
+    "loop": 0,
+    "not_directory": 0,
+    "raced": 0
+  },
+  "safe_symlink_count": 1,
+  "schema_version": 1,
+  "status": "fail",
+  "symlink_count": 4,
+  "unsafe_symlink_count": 3
+}

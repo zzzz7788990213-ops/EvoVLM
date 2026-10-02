@@ -1,0 +1,6 @@
+transformers>=4.37.0
+qwen-vl-utils
+torch>=2.0.0
+torchvision
+pillow
+accelerate

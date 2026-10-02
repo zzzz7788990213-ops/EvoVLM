@@ -1,0 +1,29 @@
+{
+  "attempt_id": "2a896a1d-2fc9-4e9d-b284-f41298061153",
+  "command": [
+    "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.venv/bin/python",
+    "-B",
+    "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/evaluate.py",
+    "best_accuracy",
+    "--limit",
+    "1",
+    "--data",
+    "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/data/final_fresh/descriptive_val.json",
+    "--images",
+    "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/data/final_fresh/images",
+    "--query-images-manifest",
+    "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/data/final_fresh/query_images_manifest.json",
+    "--output",
+    "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/.reproduce_runtime/fresh/20260826T083101Z.1aa9594f-47a3-4e87-b417-b3ef720adc1f/lane0/04.best_accuracy.single1.2a896a1d-2fc9-4e9d-b284-f41298061153.result.json"
+  ],
+  "event": "attempt_started",
+  "physical_gpu_index": 0,
+  "program": "best_accuracy",
+  "role": "single1",
+  "run_id": "1aa9594f-47a3-4e87-b417-b3ef720adc1f",
+  "source": {
+    "commit": "0354229d892d242bcdc303ee6494bc74f576d1a1",
+    "tree": "b748c76efa136323596d9cf03bd014eb58db9dd2"
+  },
+  "started_at_utc": "2026-08-26T10:19:52.515806Z"
+}

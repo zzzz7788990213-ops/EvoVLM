@@ -1,0 +1,16 @@
+{
+  "campaign_id": "campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed",
+  "campaign_version": "phase2-catalog-qwen-two-generation-v4",
+  "completion_version": "phase2-generation-completion-v1",
+  "export": {
+    "path": "evolved_thinking.py",
+    "sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6"
+  },
+  "final_summary": {
+    "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+    "sha256": "9a010c0f5cfd3693fa29aa21bc6c603d5b82e61f481c3e6ff56a81987f2c37d2"
+  },
+  "generation2_checkpoint": "phase2_local/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation2.json",
+  "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+  "status": "completed"
+}

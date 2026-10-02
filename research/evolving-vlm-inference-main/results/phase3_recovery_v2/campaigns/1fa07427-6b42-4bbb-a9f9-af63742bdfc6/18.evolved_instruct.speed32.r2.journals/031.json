@@ -1,0 +1,55 @@
+{
+  "attempt_id": "a1d6cbcc-d8d6-4022-938d-f109bf7960bb",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 18.811190211214125,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 4,
+    "generation_seconds": 18.780120198149234,
+    "input_token_count": 1009,
+    "peak_memory_bytes": 4499856896,
+    "preprocessing_seconds": 0.02762539777904749,
+    "termination_reason": "eos",
+    "total_seconds": 18.808094210922718
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "472",
+  "prediction_sha256": "b6cb293891dd62748d85aa2e00eb97e267870905edefdfe53a2ea0f3da49e88d",
+  "program": "evolved_instruct",
+  "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1258",
+    "image_sha256": "001b49f7a2fe3f5afc17c02ecbd3a47ca144b4a36bf71b9fce0da8ca85fedddb",
+    "index": 31,
+    "qid": "15",
+    "query_key": "1258_3",
+    "question": "For the current plot, what is the maximum value of the tick labels on the continuous legend (i.e., colorbar)?\n    * You should remove the percentage sign (if any) in your answer. \n    * If the plot does not have an explicit colorbar-based continuous legend or the legend is not considered relevant to this subplot, answer \"Not Applicable\".",
+    "subq_idx": 3
+  },
+  "run_id": "2f3f3b79-17cf-4c9d-a5a1-3cc97eeca9b0",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

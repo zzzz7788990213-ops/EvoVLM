@@ -1,0 +1,55 @@
+{
+  "attempt_id": "00d288b2-8435-41ea-83f2-4cce57724709",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 17.27856645034626,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 128,
+    "generation_seconds": 17.24885419709608,
+    "input_token_count": 892,
+    "peak_memory_bytes": 4474834432,
+    "preprocessing_seconds": 0.0293289041146636,
+    "termination_reason": "length",
+    "total_seconds": 17.27838519681245
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "The x-axis represents time in seconds, and the tick values are labeled at 1, 2, 3, 4, 5, and 6. The difference between consecutive numerical tick values is:\n\n- From 1 to 2: 2 - 1 = 1\n- From 2 to 3: 3 - 2 = 1\n- From 3 to 4: 4 - 3 = 1\n- From 4 to 5: 5 - 4 = 1\n- From 5 to 6: 6 - 5 = 1",
+  "prediction_sha256": "604d56e8a1166e5d770db45e81db5b9f37ff9443a34aabde2f5474d83011e04f",
+  "program": "baseline_instruct",
+  "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "14",
+    "image_sha256": "4f37f440fc29b6df04a21fdf85dd83a49ea98df4aa93b3ddf85d614d45b3c783",
+    "index": 34,
+    "qid": "8",
+    "query_key": "14_2",
+    "question": "For the current plot, what is difference between consecutive numerical tick values on the x-axis?\n    * Your final answer should be the difference between consecutive numerical tick values of the x-axis, including the case when x-axis is shared across multiple subplots. When the x-axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.\n    * If the plot does not have an explicit x-axis tick value, or if the tick values are not numerical, or if the difference is not constant between all consecutive tick values, answer \"Not Applicable\".",
+    "subq_idx": 2
+  },
+  "run_id": "266ce156-3b66-4c6c-96c8-93968a883c01",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

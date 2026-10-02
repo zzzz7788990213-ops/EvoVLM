@@ -1,0 +1,439 @@
+{
+  "created_at_utc": "2026-08-26T08:31:29.443484Z",
+  "evolution_executed": false,
+  "expected_dev128_correct": {
+    "baseline_instruct": 51,
+    "evolved_instruct": 78,
+    "evolved_thinking": 44,
+    "manual_instruct": 78,
+    "manual_thinking": 23
+  },
+  "formal_manifest": {
+    "path": "evaluation/recovery_v2/final_manifest.json",
+    "sha256": "3ca726afb199f1e2890855838f9949dfcf69dad743484e3d7067ae4380e5a65a",
+    "size_bytes": 478508
+  },
+  "formal_metrics_affected": false,
+  "input_manifest": {
+    "independent_regular_file_count": 128,
+    "path": "data/final_fresh/query_images_manifest.json",
+    "query_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sample_count": 128,
+    "sha256": "6bc2978f00226f7df5fc53480193067b26f592fa68c8e2bd99dafd874c9760de",
+    "size_bytes": 37272
+  },
+  "label": "FINAL_FRESH_REPRODUCTION_ONLY",
+  "lanes": {
+    "0": [
+      {
+        "program": "baseline_instruct",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "manual_instruct",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "evolved_instruct",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "best_accuracy",
+        "role": "single1",
+        "sample_count": 1
+      },
+      {
+        "program": "best_speed",
+        "role": "single1",
+        "sample_count": 1
+      },
+      {
+        "program": "best_overall",
+        "role": "single1",
+        "sample_count": 1
+      }
+    ],
+    "1": [
+      {
+        "program": "manual_thinking",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "evolved_thinking",
+        "role": "dev128",
+        "sample_count": 128
+      },
+      {
+        "program": "baseline_thinking",
+        "role": "single1",
+        "sample_count": 1
+      }
+    ]
+  },
+  "programs": {
+    "baseline_instruct": {
+      "dependencies": [
+        {
+          "path": "baseline_common.py",
+          "sha256": "d156ee3afa68ee4472e4d490bbd693dee9eddf74ae49e208f0e7041de897d2e8",
+          "size_bytes": 9969
+        },
+        {
+          "path": "baseline_instruct.py",
+          "sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+          "size_bytes": 603
+        },
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "d1446e2a949ad649d2d88f7698a7732718995123ff1057e5b0196725803cc38c",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_local_files_only": true,
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Instruct",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "baseline_instruct",
+      "program_source_sha256": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4"
+    },
+    "baseline_thinking": {
+      "dependencies": [
+        {
+          "path": "baseline_common.py",
+          "sha256": "d156ee3afa68ee4472e4d490bbd693dee9eddf74ae49e208f0e7041de897d2e8",
+          "size_bytes": 9969
+        },
+        {
+          "path": "baseline_thinking.py",
+          "sha256": "042c67af753daca27225db12cc48df9b509773f8a7b703dfef8384b9e9378fab",
+          "size_bytes": 603
+        },
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "6b876bf09566028348dc965269b3411cd5d9d2be4e6b4d8920d353bb8354421f",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_local_files_only": true,
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Thinking",
+      "model_weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "baseline_thinking",
+      "program_source_sha256": "042c67af753daca27225db12cc48df9b509773f8a7b703dfef8384b9e9378fab"
+    },
+    "best_accuracy": {
+      "dependencies": [
+        {
+          "path": "best_accuracy.py",
+          "sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+          "size_bytes": 1453
+        },
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "evolution/candidate_runtime.py",
+          "sha256": "36210da309b7459e75e0019b92f12ca67516b19f80c97c43c6717f7c2086c3ff",
+          "size_bytes": 16437
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "50220f9d08e698f63ee0731c8b659f357ef59b9143a75d8f8df0934d28ce8934",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_local_files_only": true,
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Instruct",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "best_accuracy",
+      "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984"
+    },
+    "best_overall": {
+      "dependencies": [
+        {
+          "path": "best_overall.py",
+          "sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+          "size_bytes": 1453
+        },
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "evolution/candidate_runtime.py",
+          "sha256": "36210da309b7459e75e0019b92f12ca67516b19f80c97c43c6717f7c2086c3ff",
+          "size_bytes": 16437
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "5cbdef6528cb41fa5bec93ff5a63f21c9b24f8e4b89660f9398675ac19ab6a3d",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_local_files_only": true,
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Instruct",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "best_overall",
+      "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984"
+    },
+    "best_speed": {
+      "dependencies": [
+        {
+          "path": "best_speed.py",
+          "sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+          "size_bytes": 1453
+        },
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "evolution/candidate_runtime.py",
+          "sha256": "36210da309b7459e75e0019b92f12ca67516b19f80c97c43c6717f7c2086c3ff",
+          "size_bytes": 16437
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "8bb0a4885f2fd4c2cff670ae9fefb687a1d4eb4b59f5f4559383129cea8f135f",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_local_files_only": true,
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Instruct",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "best_speed",
+      "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984"
+    },
+    "evolved_instruct": {
+      "dependencies": [
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "evolution/candidate_runtime.py",
+          "sha256": "36210da309b7459e75e0019b92f12ca67516b19f80c97c43c6717f7c2086c3ff",
+          "size_bytes": 16437
+        },
+        {
+          "path": "evolved_instruct.py",
+          "sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+          "size_bytes": 1453
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "7e61dc9b4a54c196475e09976ba8095c6e37ebfefe357f921990549215e47fda",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_local_files_only": true,
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Instruct",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "evolved_instruct",
+      "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984"
+    },
+    "evolved_thinking": {
+      "dependencies": [
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "evolution/candidate_runtime.py",
+          "sha256": "36210da309b7459e75e0019b92f12ca67516b19f80c97c43c6717f7c2086c3ff",
+          "size_bytes": 16437
+        },
+        {
+          "path": "evolved_thinking.py",
+          "sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+          "size_bytes": 1591
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "4ec077411ffb552d2c9a1c703efee114245cbebff0784cbdc0caeaccbbe65473",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_local_files_only": true,
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Thinking",
+      "model_weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "evolved_thinking",
+      "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6"
+    },
+    "manual_instruct": {
+      "dependencies": [
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "manual_common.py",
+          "sha256": "964c83a581fc4060b156ccec4699b79d5caf33fd894aeb5a8fcde22d7f27b6e4",
+          "size_bytes": 12103
+        },
+        {
+          "path": "manual_instruct.py",
+          "sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+          "size_bytes": 487
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "0e85fc07dfffa99edb65ff3416061bdc7beedf234ae25657d27b38e1e5e10827",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "model_local_files_only": true,
+      "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Instruct",
+      "model_weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "program": "manual_instruct",
+      "program_source_sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4"
+    },
+    "manual_thinking": {
+      "dependencies": [
+        {
+          "path": "charxiv/src/descriptive_utils.py",
+          "sha256": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+          "size_bytes": 7881
+        },
+        {
+          "path": "evaluate.py",
+          "sha256": "6a833257d3a9e4639fba201afc4cbc67bad63db6063312bc03814d86cd2a53c4",
+          "size_bytes": 18020
+        },
+        {
+          "path": "manual_common.py",
+          "sha256": "964c83a581fc4060b156ccec4699b79d5caf33fd894aeb5a8fcde22d7f27b6e4",
+          "size_bytes": 12103
+        },
+        {
+          "path": "manual_thinking.py",
+          "sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+          "size_bytes": 487
+        },
+        {
+          "path": "model_locator.py",
+          "sha256": "d0c2db3bf09ba63073468583e389365b2ffd945a969350757a203f73f1ec2584",
+          "size_bytes": 4440
+        }
+      ],
+      "dependency_closure_sha256": "846040fb528b6d9bc7bd21639b89884d49df1c2b05f247f05613a2a94616de9e",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "model_local_files_only": true,
+      "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "model_source": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/models/Qwen3-VL-2B-Thinking",
+      "model_weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+      "model_weight_size_bytes": 4255140312,
+      "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "program": "manual_thinking",
+      "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58"
+    }
+  },
+  "run_id": "1aa9594f-47a3-4e87-b417-b3ef720adc1f",
+  "schema_version": "final-fresh-reproduction-plan-v1",
+  "selection_affected": false,
+  "selection_executed": false,
+  "source": {
+    "commit": "0354229d892d242bcdc303ee6494bc74f576d1a1",
+    "tree": "b748c76efa136323596d9cf03bd014eb58db9dd2"
+  },
+  "speed32_executed": false
+}

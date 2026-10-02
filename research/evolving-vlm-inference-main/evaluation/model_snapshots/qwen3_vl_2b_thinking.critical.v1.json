@@ -1,0 +1,22 @@
+{
+  "files": [
+    {"relative_path": "chat_template.json", "role": "chat_template", "sha256": "efad756db13feb8e8c5fe1341713bf18b82e91916b978d36b7c043f2b1bedf5f", "size_bytes": 5410},
+    {"relative_path": "config.json", "role": "config", "sha256": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b", "size_bytes": 1505},
+    {"relative_path": "generation_config.json", "role": "config", "sha256": "fe72e86576da6dc6886b1083d9216296dcfa085e7a86feb3c8888a1faa52e656", "size_bytes": 270},
+    {"relative_path": "merges.txt", "role": "tokenizer", "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3", "size_bytes": 1671839},
+    {"relative_path": "model.safetensors", "role": "weight", "sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888", "size_bytes": 4255140312},
+    {"relative_path": "preprocessor_config.json", "role": "processor", "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516", "size_bytes": 390},
+    {"relative_path": "tokenizer.json", "role": "tokenizer", "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7", "size_bytes": 7032403},
+    {"relative_path": "tokenizer_config.json", "role": "tokenizer", "sha256": "7b501e639b4d107a23effbe30390ee33d553f722467f7ac8e2744d7ff5d3a7d5", "size_bytes": 10781},
+    {"relative_path": "video_preprocessor_config.json", "role": "processor", "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13", "size_bytes": 385},
+    {"relative_path": "vocab.json", "role": "tokenizer", "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910", "size_bytes": 2776833}
+  ],
+  "model_directory": "Qwen3-VL-2B-Thinking",
+  "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+  "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+  "remote_code_files": [],
+  "revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+  "runtime_files": ["chat_template.json", "config.json", "generation_config.json", "merges.txt", "model.safetensors", "preprocessor_config.json", "tokenizer.json", "tokenizer_config.json", "video_preprocessor_config.json", "vocab.json"],
+  "schema_version": "critical-model-snapshot-v1",
+  "weight_layout": "single_safetensors"
+}

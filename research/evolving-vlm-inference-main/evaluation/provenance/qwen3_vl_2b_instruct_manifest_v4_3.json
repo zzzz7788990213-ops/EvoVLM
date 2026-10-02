@@ -1,0 +1,194 @@
+{
+  "count": 37,
+  "entries": [
+    {
+      "relative_path": ".cache/huggingface/.gitignore",
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "size_bytes": 1
+    },
+    {
+      "relative_path": ".cache/huggingface/download/.gitattributes.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/.gitattributes.metadata",
+      "sha256": "2520ee5e155e7943099f84be818bece48649f6c02955e82f879a7f494fdcbe3c",
+      "size_bytes": 100
+    },
+    {
+      "relative_path": ".cache/huggingface/download/README.md.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/README.md.metadata",
+      "sha256": "cc3aee6033ffac67e68d3ea21333ab5a26880150b72bb54b21808c57636c7f80",
+      "size_bytes": 100
+    },
+    {
+      "relative_path": ".cache/huggingface/download/chat_template.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/chat_template.json.metadata",
+      "sha256": "97f27762a2de7915ad73f29eaf34a30014f4e871696ab2d83f4797d7e67923d4",
+      "size_bytes": 101
+    },
+    {
+      "relative_path": ".cache/huggingface/download/config.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/config.json.metadata",
+      "sha256": "0b2dc98a56e381d54b15a2825c6b44d6b6e3c2d817e7d537ec7f8f76382cdb20",
+      "size_bytes": 101
+    },
+    {
+      "relative_path": ".cache/huggingface/download/generation_config.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/generation_config.json.metadata",
+      "sha256": "492cab8d8c0ae442b2acf13a58a0df71ade9ce3cdcfffefc09d46d43878e1461",
+      "size_bytes": 101
+    },
+    {
+      "relative_path": ".cache/huggingface/download/merges.txt.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/merges.txt.metadata",
+      "sha256": "11f77735091dfb406a766c4a2580b76fb6036e1d0926c9c343a53e68fefc9420",
+      "size_bytes": 101
+    },
+    {
+      "relative_path": ".cache/huggingface/download/model.safetensors.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/model.safetensors.metadata",
+      "sha256": "5e8402d6db3b588c923cde78debf857048987e058f20f452d3f77d9e1c2154f4",
+      "size_bytes": 124
+    },
+    {
+      "relative_path": ".cache/huggingface/download/preprocessor_config.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/preprocessor_config.json.metadata",
+      "sha256": "3a56a26ed40fcb3016fd3daa01d2e9635e2ca1b3548722f421c75ea8c853d98e",
+      "size_bytes": 101
+    },
+    {
+      "relative_path": ".cache/huggingface/download/tokenizer.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/tokenizer.json.metadata",
+      "sha256": "9f27780f0580930ce1c75a98a87ffa24844ae9e947e4894603774a6b31b46665",
+      "size_bytes": 101
+    },
+    {
+      "relative_path": ".cache/huggingface/download/tokenizer_config.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/tokenizer_config.json.metadata",
+      "sha256": "a7534cb7d66c3919a8451a954266e5b8296426b1f87beb24827ad2ba17ad7580",
+      "size_bytes": 100
+    },
+    {
+      "relative_path": ".cache/huggingface/download/video_preprocessor_config.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/video_preprocessor_config.json.metadata",
+      "sha256": "06764a6f3b7b3476c7344b7e7ab0c19e7d212631b5514042f9a521fce0e0c09a",
+      "size_bytes": 101
+    },
+    {
+      "relative_path": ".cache/huggingface/download/vocab.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "relative_path": ".cache/huggingface/download/vocab.json.metadata",
+      "sha256": "c8d0f0f3f30f9336656011c70375f8840cb71bf2b4f24e32f758aa46a3ad54fb",
+      "size_bytes": 100
+    },
+    {
+      "relative_path": ".gitattributes",
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "size_bytes": 1519
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "4bcf87ecfbbb8e07a01b21415a970c8b53a5283bf6872b657040d3f45c9241f7",
+      "size_bytes": 31
+    },
+    {
+      "relative_path": "chat_template.json",
+      "sha256": "6f8a6a55027e3da5160105556cda5dd69f6423f1c32645f6730d32de7773d0c4",
+      "size_bytes": 5502
+    },
+    {
+      "relative_path": "config.json",
+      "sha256": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+      "size_bytes": 1505
+    },
+    {
+      "relative_path": "generation_config.json",
+      "sha256": "1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4",
+      "size_bytes": 269
+    },
+    {
+      "relative_path": "merges.txt",
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "size_bytes": 1671839
+    },
+    {
+      "relative_path": "model.safetensors",
+      "sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+      "size_bytes": 4255140312
+    },
+    {
+      "relative_path": "preprocessor_config.json",
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "size_bytes": 390
+    },
+    {
+      "relative_path": "tokenizer.json",
+      "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+      "size_bytes": 7032403
+    },
+    {
+      "relative_path": "tokenizer_config.json",
+      "sha256": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399",
+      "size_bytes": 10868
+    },
+    {
+      "relative_path": "video_preprocessor_config.json",
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "size_bytes": 385
+    },
+    {
+      "relative_path": "vocab.json",
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "size_bytes": 2776833
+    }
+  ],
+  "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+  "revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+  "schema_version": 1,
+  "snapshot_relative_to_evo": "models/Qwen3-VL-2B-Instruct"
+}

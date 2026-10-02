@@ -1,0 +1,10 @@
+{
+  "manifest_role": "single",
+  "num_samples": 1,
+  "protocol_version": "gate1-exact-match-v4.3",
+  "query_keys": [
+    "0_0"
+  ],
+  "query_keys_sha256": "d682c3be7e35f7c298e788f11183bda1f504339363d55b1de6f8368db6ea4dbc",
+  "selection": "first insertion-ordered descriptive validation queries, matching provided evaluate.py"
+}

@@ -1,0 +1,55 @@
+{
+  "attempt_id": "3a176ff6-4bc1-45c1-9609-4bc7e102d0a1",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "correct": true,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 15.81790214125067,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 4,
+    "generation_seconds": 15.78579116333276,
+    "input_token_count": 763,
+    "peak_memory_bytes": 4462233600,
+    "preprocessing_seconds": 0.031127379275858402,
+    "termination_reason": "eos",
+    "total_seconds": 15.817132308147848
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "Not Applicable",
+  "prediction_sha256": "6bb927e1b3bd586314d440668dae10c13b19148ee1936e159be31715afae7e01",
+  "program": "manual_instruct",
+  "program_source_sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "1520",
+    "image_sha256": "c4b70c0a15df0fac90c66fcac9e2e8aab5831b31881fdaff826c1d3b65e07e6e",
+    "index": 5,
+    "qid": "1",
+    "query_key": "1520_3",
+    "question": "For the current plot, what is its title?\n    * Your final answer should be the most relevant title of the plot that is explicitly written.\n    * If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\n    ",
+    "subq_idx": 3
+  },
+  "run_id": "66072c1c-c723-4851-b7f7-cf11d84ffb3d",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  }
+}

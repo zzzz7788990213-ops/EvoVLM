@@ -1,0 +1,9 @@
+{
+  "source_url": "https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip",
+  "source_zip_relative": "source/neurips2025_styles.zip",
+  "source_zip_sha256": "72032130232955b785cd622b7c52d893e3166f30a90e1e6279d0a28e8373beef",
+  "source_zip_size_bytes": 188273,
+  "style_relative": "report/neurips_2025.sty",
+  "style_sha256": "67a960f35da6fecb5a0ce0202fa400459f4c8bb6c294f1a3fdd82fbbd39244c2",
+  "usage": "official NeurIPS 2025 preprint style; fallback styles are forbidden"
+}

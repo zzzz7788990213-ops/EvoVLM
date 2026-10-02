@@ -1,0 +1,1183 @@
+{
+  "artifacts": [
+    {
+      "path": "data/phase3/manifests/dev128.json",
+      "scope": "phase3",
+      "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6",
+      "size_bytes": 5089
+    },
+    {
+      "path": "data/phase3/manifests/evolution_used.json",
+      "scope": "phase3",
+      "sha256": "bb5aad684e96cff55ff7c946925591562817acb12fd2c3ff1a3934a416bda418",
+      "size_bytes": 1909
+    },
+    {
+      "path": "data/phase3/manifests/single1.json",
+      "scope": "phase3",
+      "sha256": "87c2a5d1c6e96888deb99e4c35b78cdaf56ec46054eeb00c3ec1959492812da3",
+      "size_bytes": 740
+    },
+    {
+      "path": "data/phase3/manifests/speed32.json",
+      "scope": "phase3",
+      "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87",
+      "size_bytes": 1571
+    },
+    {
+      "path": "data/phase3/manifests/untouched_complement.json",
+      "scope": "phase3",
+      "sha256": "de3f091502db3f9c3635f9f442cdcbc4f18b05ae702cbbaf3c7592a80475c0b0",
+      "size_bytes": 96318
+    },
+    {
+      "path": "data/phase3/manifests/warmup1.json",
+      "scope": "phase3",
+      "sha256": "201bd90ecd2478682e67a422c061c8137db9fff81d8514dc329b7450555307ea",
+      "size_bytes": 779
+    },
+    {
+      "path": "evaluation/candidate_manifest.json",
+      "scope": "phase3",
+      "sha256": "bd0b465fb2df2426537da34a2a6b921633a5fe3f83f9c736aec4b5da931b397c",
+      "size_bytes": 8230
+    },
+    {
+      "path": "evaluation/phase3_protocol.json",
+      "scope": "phase3",
+      "sha256": "a87505597e8837dce341efd31c1ecf79798343ce0666ab4c7fbd680f10ff0d72",
+      "size_bytes": 4881
+    },
+    {
+      "path": "evaluation/selection_rules.json",
+      "scope": "phase3",
+      "sha256": "f0c6882726c49712656f1aa6c08842d89e542b6ce6dc7889439aa8c04ccec692",
+      "size_bytes": 1121
+    },
+    {
+      "path": "evolved_instruct.py",
+      "scope": "phase2",
+      "sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+      "size_bytes": 1453
+    },
+    {
+      "path": "evolved_thinking.py",
+      "scope": "phase2",
+      "sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+      "size_bytes": 1591
+    },
+    {
+      "path": "manual_instruct.py",
+      "scope": "phase2",
+      "sha256": "397f3a92d21f2dac64e5bf012ccdeca6e2c48fcfed54c11985268df48cf516f4",
+      "size_bytes": 487
+    },
+    {
+      "path": "manual_thinking.py",
+      "scope": "phase2",
+      "sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+      "size_bytes": 487
+    },
+    {
+      "path": "results/evolution/checkpoints/phase2_local/instruct/completed.json",
+      "scope": "phase2",
+      "sha256": "34efe4220a221042bb01faf5c2acfa11a8b2517ef6a270591862a22c1f1d19fc",
+      "size_bytes": 783
+    },
+    {
+      "path": "results/evolution/checkpoints/phase2_local/thinking/completed.json",
+      "scope": "phase2",
+      "sha256": "91b8bffcf967e68654a165145a12c3b7a8b93f1409521774174aa9c90407cdec",
+      "size_bytes": 783
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "scope": "phase2",
+      "sha256": "502996eccd7e103854a74eacc7e78f672356bb14404e3aa4689ee899a6c6c78f",
+      "size_bytes": 39586
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation1_mutations.json",
+      "scope": "phase2",
+      "sha256": "df8490829bfe2b24bb678b3dfd254952bed3f511649584323b510a01da73df4f",
+      "size_bytes": 53421
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation1_search12.json",
+      "scope": "phase2",
+      "sha256": "138a62ee0e103cc98f069d2c56084d51101996010af18db7ad32b54f94ebc51c",
+      "size_bytes": 55755
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation1_single.json",
+      "scope": "phase2",
+      "sha256": "40fbc2fb352eb12366fb7bd9741d06f7a947d5cc26d64139c615b13dea5180fe",
+      "size_bytes": 9656
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation1_summary.json",
+      "scope": "phase2",
+      "sha256": "bf6802cab6c5626383b45fce6ce2f2635567957dadcca5972582914171cb92e3",
+      "size_bytes": 15924
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation2_finalization_plan.json",
+      "scope": "phase2",
+      "sha256": "e9eae5ec117f76d6b431ef48a35951f472ee77a9c3dd972780ed668f601066e5",
+      "size_bytes": 82140
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation2_gpu_journal.json",
+      "scope": "phase2",
+      "sha256": "7bf63fde71b78699e3976103b76be0e707548ac86d9e8c404826a0a3a2d593ad",
+      "size_bytes": 637
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation2_mutations.json",
+      "scope": "phase2",
+      "sha256": "20b6c87e50214ef0cf1c17870a4a8625e292cfeaec6addd2d64c0fab5807fede",
+      "size_bytes": 103097
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation2_search12.json",
+      "scope": "phase2",
+      "sha256": "cd0471180ac57dd56d275c3d9aa4be87fcc6f35440bb61dfa66b63358270d3b6",
+      "size_bytes": 73934
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation2_single.json",
+      "scope": "phase2",
+      "sha256": "5e56c055029c62d3dcb119cd9ff8001567a0168f5612418d8215d568b08e3450",
+      "size_bytes": 12338
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/manual_seed_and_top2_selection32.json",
+      "scope": "phase2",
+      "sha256": "315b41e4bb6b31ae3cf04f6fc8d2687ba0be8f5291636761cbb5fefc94a0226b",
+      "size_bytes": 137085
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/run_manifest.json",
+      "scope": "phase2",
+      "sha256": "32323fa96dfbf50a6370fd870a78c4a677231f104ad0ee45d37a9e8497247aa3",
+      "size_bytes": 21271
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "scope": "phase2",
+      "sha256": "9a010c0f5cfd3693fa29aa21bc6c603d5b82e61f481c3e6ff56a81987f2c37d2",
+      "size_bytes": 39783
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation1_mutations.json",
+      "scope": "phase2",
+      "sha256": "4ec73257d38ab5c049e84c3d417454dff3767530026bd6ec2f94e3253f0fa4d9",
+      "size_bytes": 54258
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation1_search12.json",
+      "scope": "phase2",
+      "sha256": "497559cd9f9fc856dde41623e28a5b87c9c633a063d69d55464b81557018d0f6",
+      "size_bytes": 121149
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation1_single.json",
+      "scope": "phase2",
+      "sha256": "9d584b54ff533232a022029e59f332ce79c0c1508551be379ca56f944bc7b6a1",
+      "size_bytes": 13692
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation1_summary.json",
+      "scope": "phase2",
+      "sha256": "7b28aa04688433db2aacd2e37c5491231689c47ad8945946f6190a5429d84bf7",
+      "size_bytes": 15622
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation2_finalization_plan.json",
+      "scope": "phase2",
+      "sha256": "ead8ee1f2daefa20a8cfa651010228daa4473a8d1e7a14972b59a9d993e1859a",
+      "size_bytes": 82693
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation2_gpu_journal.json",
+      "scope": "phase2",
+      "sha256": "d5e5605db21fb13eb425b0c529b58df7ac596d6595575b0d48f8c9ece6ba9cd6",
+      "size_bytes": 637
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation2_mutations.json",
+      "scope": "phase2",
+      "sha256": "67f22ed823bad3c1cfa0c7828fab600eb53b2cc0a4b15cd12f6a99f6c0d3b002",
+      "size_bytes": 104302
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation2_search12.json",
+      "scope": "phase2",
+      "sha256": "4b79fc49d60ea0694a8bb007e6f2e45e549faee495e406a0ed41965de075de4f",
+      "size_bytes": 160877
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/generation2_single.json",
+      "scope": "phase2",
+      "sha256": "72c06b4395eb7624f25275473436ed299547b016061b9404c68346075a4985ff",
+      "size_bytes": 18325
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/manual_seed_and_top2_selection32.json",
+      "scope": "phase2",
+      "sha256": "93ee34ea8d0953ce2e3e48080b51300df031f776f398fae20e7b90f667b902c2",
+      "size_bytes": 293551
+    },
+    {
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/run_manifest.json",
+      "scope": "phase2",
+      "sha256": "ce3ee46af26211774d881cccbd39b0a137ab5322b06b3077e12201ece4de5e2a",
+      "size_bytes": 29207
+    },
+    {
+      "path": "results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/mutation.json",
+      "scope": "phase2",
+      "sha256": "7944bbd8a465efa3435a99b18d969a7282762a8410507a6dafb3b01fdc9f58d3",
+      "size_bytes": 26147
+    },
+    {
+      "path": "results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/run_manifest.json",
+      "scope": "phase2",
+      "sha256": "2f242f7b519cb81304632b05be7e91ae43a8aa9ec438f073fcdd5cfe756be9f5",
+      "size_bytes": 21281
+    },
+    {
+      "path": "results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/smoke_summary.json",
+      "scope": "phase2",
+      "sha256": "8d4ff6e8fc23a1fa7d6521098b4253342748ca2c0937c21dc08746521c7b0bec",
+      "size_bytes": 5395
+    },
+    {
+      "path": "results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/target_single.json",
+      "scope": "phase2",
+      "sha256": "d0e83d73dcc3b50a86fd6c294bab89bb6e8eb3dedecb78932048461531914f7b",
+      "size_bytes": 4489
+    },
+    {
+      "path": "results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/mutation.json",
+      "scope": "phase2",
+      "sha256": "d468c797cbf3df039becbc8cc40b2228f593c9ea4f1f73de8287f346b7d073da",
+      "size_bytes": 30117
+    },
+    {
+      "path": "results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/run_manifest.json",
+      "scope": "phase2",
+      "sha256": "d394395294fdbdd8fad539d3219fe522d91f40d3b794b8d9da0dd777b358218a",
+      "size_bytes": 29217
+    },
+    {
+      "path": "results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/smoke_summary.json",
+      "scope": "phase2",
+      "sha256": "e9bee82f89a6d19764f43ab4d018b1d862a5cf7f1febe54fe36b885cda35c82a",
+      "size_bytes": 5484
+    },
+    {
+      "path": "results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/target_single.json",
+      "scope": "phase2",
+      "sha256": "b07c0a7c76f81554debec5e28c2cef9c36b6a96ba3d6300a163b2d49325dc94d",
+      "size_bytes": 6063
+    },
+    {
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "scope": "phase2",
+      "sha256": "c6facea7530e7045c686956402ff9a14e4e9be6f9957adbb68496c20d81f602f",
+      "size_bytes": 4704
+    },
+    {
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "scope": "phase2",
+      "sha256": "930b034a8082740a8da546e38d29a65aa852aeb5246714131098e8a0fa922a74",
+      "size_bytes": 4945
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.console.log",
+      "scope": "phase3",
+      "sha256": "87feb7e1ec23cbee5f9e3f5c836bdb24df3f30157c0309a458ef6c369644a57c",
+      "size_bytes": 5679
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "scope": "phase3",
+      "sha256": "bc38274e11b333390596b48eb09403a8a0d816026e3c535ac11299c8d59eed11",
+      "size_bytes": 5237
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.console.log",
+      "scope": "phase3",
+      "sha256": "e2701c560dc60fd858913188f6514329daeb0c76c788aa1c4b217393d831b343",
+      "size_bytes": 5767
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "scope": "phase3",
+      "sha256": "b2290a2a68f15f0065fd138a65af29a60601d9f73616eb5dd91fca183cad8460",
+      "size_bytes": 5325
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.console.log",
+      "scope": "phase3",
+      "sha256": "71b39851852f4f371aa09cb2aa491900487a2fcb2c2f9b8f62c8d50fab467c56",
+      "size_bytes": 4384
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "scope": "phase3",
+      "sha256": "8c0f045d2b183203f81e9fc6dd1d857fd3404298a0b3d67a13d0f206fdf24217",
+      "size_bytes": 4888
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.console.log",
+      "scope": "phase3",
+      "sha256": "797aade594c643c0e70ee096292696f240cecb6041fcc454f04e7d703843b367",
+      "size_bytes": 4370
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "scope": "phase3",
+      "sha256": "853fadb75803c4f608749254f8174ac1a6a9a2a41789d919c668313505d5a188",
+      "size_bytes": 4889
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.console.log",
+      "scope": "phase3",
+      "sha256": "9a8b8b8cf8525541603a48d5daaed030a955280f8f4c823e337df7de20364a05",
+      "size_bytes": 4531
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.infra_failed.network_attestation_pre_measurement.2.console.log",
+      "scope": "phase3",
+      "sha256": "e915c25cefba27ca9e0e022957061307f60d3012baeef724c589e616a4ddd59c",
+      "size_bytes": 3146
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.infra_failed.offline_env_pre_measurement.1.console.log",
+      "scope": "phase3",
+      "sha256": "ef0383d94890a4b1615f0da1ff55cb75351311a05f4c342337ff55a9d8316d02",
+      "size_bytes": 3122
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "scope": "phase3",
+      "sha256": "4bb9aa7fd2d7a3cb33c4c4529ec0c449a33bf6164fbdd35ec38455dbe4600279",
+      "size_bytes": 5073
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.console.log",
+      "scope": "phase3",
+      "sha256": "727cb7e7dfc5e2ba91d888b57f937d05245c49da6eab919a2ea495d7d4fa1ae5",
+      "size_bytes": 4527
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "scope": "phase3",
+      "sha256": "cd36275392407d964dc2569fce042e66e2b520aac66a62c37e5e1dcd2a09c8f6",
+      "size_bytes": 5084
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.console.log",
+      "scope": "phase3",
+      "sha256": "8cbcac178f93e613b38c57f55e86ac996b84d2e07558223637827753c2d82c11",
+      "size_bytes": 171570
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "scope": "phase3",
+      "sha256": "6b910210a190ebcbf76a3dc17b0dbdce2f403170368b4cb0ecacd6062262b905",
+      "size_bytes": 197272
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/08.baseline_thinking.dev128.r1.console.log",
+      "scope": "phase3",
+      "sha256": "71ea1a347212c3ccf954d99435c0396df571a3608b6ca119d14f7f07266c9f3e",
+      "size_bytes": 1098
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "scope": "phase3",
+      "sha256": "effe1b6a1741885b2ab4c48c71efeedc1735825039d837ea0533b79f13258c79",
+      "size_bytes": 7755
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.05.network_attestation_pre_measurement.2.json",
+      "scope": "phase3",
+      "sha256": "1e5e3696122158347bf9de5524400836b30f12da04ae58ffad01179070436c5a",
+      "size_bytes": 1347
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.05.offline_env_pre_measurement.1.json",
+      "scope": "phase3",
+      "sha256": "f24094d819e0e543a7139fec70ccd313123ab07cfd1a140d355a3cad8e5ae4fe",
+      "size_bytes": 985
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "scope": "phase3",
+      "sha256": "30d2490971fe06f386ecd707da0e10ec03a8ea104c925dd45a8fca148dfef4c7",
+      "size_bytes": 3831
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/resume_guard.after_run05_network_failure.json",
+      "scope": "phase3",
+      "sha256": "bf745c9c1b6d386d7348adef6d19cef6af1c93dd513c70820a092776d7b0fbf8",
+      "size_bytes": 1686
+    },
+    {
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/resume_guard.after_run05_offline_failure.json",
+      "scope": "phase3",
+      "sha256": "ba41a8584508977938b036644af3f183eaf8878fc328b1780bc54974d35c8aeb",
+      "size_bytes": 1686
+    },
+    {
+      "path": "results/phase3/runner_logs/phase3_formal_586dd6d9-53d0-4b1a-a6c5-1290dde4ca36.console.log",
+      "scope": "phase3",
+      "sha256": "784cdad2a9bcd97762a43dfd6003383fbbf7e07303babc2cce9f2fc0bf0afdf3",
+      "size_bytes": 205
+    },
+    {
+      "path": "results/phase3/runner_logs/phase3_formal_6beb857c-ef2c-4e0a-a6e6-34abee7f4a13.console.log",
+      "scope": "phase3",
+      "sha256": "abdf0d682972dc9e3912cdb24dbe167005ed867acc9d790d5ad0df49218aff17",
+      "size_bytes": 264
+    },
+    {
+      "path": "results/phase3/runner_logs/phase3_resume1_6beb857c-ef2c-4e0a-a6e6-34abee7f4a13.console.log",
+      "scope": "phase3",
+      "sha256": "abdf0d682972dc9e3912cdb24dbe167005ed867acc9d790d5ad0df49218aff17",
+      "size_bytes": 264
+    },
+    {
+      "path": "results/phase3/runner_logs/phase3_resume2_6beb857c-ef2c-4e0a-a6e6-34abee7f4a13.console.log",
+      "scope": "phase3",
+      "sha256": "7a3e4eed62c99c415ed9d79c012a358cfa2bee8cb7adbfa39afd47a2ef7a6033",
+      "size_bytes": 232
+    },
+    {
+      "path": "results/phase3/runtime_events/0853f60b-b6a2-4884-9797-fb39cfd0020d/runtime_event.ed79273d-13cd-4fb2-b9c1-dfbd5c1e6ffe.json",
+      "scope": "phase3",
+      "sha256": "b2bf337a5e54d3c749af7c1c61e705b8d56a4f3e85551ed9d48c802416a3475a",
+      "size_bytes": 1188
+    },
+    {
+      "path": "results/phase3/runtime_events/14e6b652-3b60-4aac-97ac-a7576792c71b/runtime_event.3eb734f1-14e8-451c-a1ab-ba215182cc57.json",
+      "scope": "phase3",
+      "sha256": "2ee7d6b80e4c78c47c152f62d7de48f3d9d92606ca1464bfe821d26ca030163f",
+      "size_bytes": 1188
+    },
+    {
+      "path": "results/phase3/runtime_events/49e52578-b121-4d6c-93f1-cab78dcb2e41/runtime_event.7c57aa46-31e3-4334-bc6e-b94ae5243ace.json",
+      "scope": "phase3",
+      "sha256": "6b91b03b38d54f0f2bc976102dc64f0d597600b410c22779d3ec9c7a4e317c16",
+      "size_bytes": 651
+    },
+    {
+      "path": "results/phase3/runtime_events/57d54ebf-5a95-4875-8ac6-c3dae2c93bae/runtime_event.c7bcc5f1-9e23-4407-a0f4-6227de6fd51f.json",
+      "scope": "phase3",
+      "sha256": "56835ce47971bd50de5ccd2122110e5c495be2637d95e46fded984e125d9dbaa",
+      "size_bytes": 650
+    },
+    {
+      "path": "results/phase3/runtime_events/5bd495d1-b55d-4f5b-a27a-53580617ae46/runtime_event.766d733c-bb03-4a27-88d3-b3c205d5c348.json",
+      "scope": "phase3",
+      "sha256": "9865453c60ec7f440d1925b4729ff526e640ba21eeb94a0e7857acfe28d52590",
+      "size_bytes": 1188
+    },
+    {
+      "path": "results/phase3/runtime_events/bbcc92cb-9f98-4be6-8ef3-e10329b0f961/runtime_event.f1e8a9a1-7796-4b79-a76c-7776c1a0ff06.json",
+      "scope": "phase3",
+      "sha256": "1282d0079e9454d01f20b070344cd1c324ba35f30901bf1728507aec5e0d0ef3",
+      "size_bytes": 651
+    },
+    {
+      "path": "results/phase3/runtime_events/bf5589a4-1ff8-4cf6-a5a6-bbe9b7e821fb/runtime_event.1bc6fce5-d630-44bd-8e75-c780f03a69b2.json",
+      "scope": "phase3",
+      "sha256": "bd05387818c1d274a3fd83ddb9c1476af9fffa64636f3c0edce54949f2f4d466",
+      "size_bytes": 1188
+    },
+    {
+      "path": "results/phase3/runtime_events/db4992cf-cb59-4d35-a459-0e3c71780455/runtime_event.3c27ecbd-ce58-4a9e-8814-176becf667fa.json",
+      "scope": "phase3",
+      "sha256": "37f32952a64de629a7f5fb40768b15fdb32871159a78fa704f931ced2a89b222",
+      "size_bytes": 652
+    }
+  ],
+  "formal_complete": false,
+  "json_assertions": [
+    {
+      "expected": "completed",
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/status"
+    },
+    {
+      "expected": 6,
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/child_attempts"
+    },
+    {
+      "expected": 4,
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/generation2_attempts"
+    },
+    {
+      "expected": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/best_program_sha256"
+    },
+    {
+      "expected": 0.0,
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/accuracy_delta_vs_manual_seed"
+    },
+    {
+      "expected": -0.02491991412534844,
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/latency_delta_seconds_vs_manual_seed"
+    },
+    {
+      "expected": 3603.57585393358,
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/gpu_elapsed_seconds"
+    },
+    {
+      "expected": 4500.0,
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/gpu_budget_seconds"
+    },
+    {
+      "expected": 32,
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/selection32_query_count"
+    },
+    {
+      "expected": true,
+      "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+      "pointer": "/best_is_real_mutation_child"
+    },
+    {
+      "expected": "completed",
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/status"
+    },
+    {
+      "expected": 6,
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/child_attempts"
+    },
+    {
+      "expected": 4,
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/generation2_attempts"
+    },
+    {
+      "expected": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/best_program_sha256"
+    },
+    {
+      "expected": 0.15625,
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/accuracy_delta_vs_manual_seed"
+    },
+    {
+      "expected": 0.0170653541572392,
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/latency_delta_seconds_vs_manual_seed"
+    },
+    {
+      "expected": 4015.3776066591963,
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/gpu_elapsed_seconds"
+    },
+    {
+      "expected": 4500.0,
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/gpu_budget_seconds"
+    },
+    {
+      "expected": 32,
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/selection32_query_count"
+    },
+    {
+      "expected": true,
+      "path": "results/evolution/local_qwen/campaign-thinking-20260824T175947Z-994770fc7fea4009b2e1269ec78d33ed/final_summary.json",
+      "pointer": "/best_is_real_mutation_child"
+    },
+    {
+      "expected": "phase2-valid-child-receipt-v3",
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "pointer": "/receipt_version"
+    },
+    {
+      "expected": "Qwen/Qwen3-VL-2B-Instruct",
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "pointer": "/model/model_id"
+    },
+    {
+      "expected": "0",
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "pointer": "/network_attempts/provider"
+    },
+    {
+      "expected": 0,
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "pointer": "/network_attempts/target"
+    },
+    {
+      "expected": 0,
+      "path": "results/evolution/valid_child_receipts/instruct.json",
+      "pointer": "/child_validation/single/error_count"
+    },
+    {
+      "expected": "completed",
+      "path": "results/evolution/checkpoints/phase2_local/instruct/completed.json",
+      "pointer": "/status"
+    },
+    {
+      "expected": "phase2-valid-child-receipt-v3",
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "pointer": "/receipt_version"
+    },
+    {
+      "expected": "Qwen/Qwen3-VL-2B-Thinking",
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "pointer": "/model/model_id"
+    },
+    {
+      "expected": "0",
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "pointer": "/network_attempts/provider"
+    },
+    {
+      "expected": 0,
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "pointer": "/network_attempts/target"
+    },
+    {
+      "expected": 0,
+      "path": "results/evolution/valid_child_receipts/thinking.json",
+      "pointer": "/child_validation/single/error_count"
+    },
+    {
+      "expected": "completed",
+      "path": "results/evolution/checkpoints/phase2_local/thinking/completed.json",
+      "pointer": "/status"
+    },
+    {
+      "expected": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "pointer": "/campaign_id"
+    },
+    {
+      "expected": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "pointer": "/source_identity/commit"
+    },
+    {
+      "expected": "61d5613b227952a177c49e9d638c974c9416681d",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "pointer": "/source_identity/tree"
+    },
+    {
+      "expected": "0",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "pointer": "/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "pointer": "/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "pointer": "/visible_device_count"
+    },
+    {
+      "expected": 30,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "pointer": "/schedule/29/index"
+    },
+    {
+      "expected": "baseline_thinking",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/campaign_plan.json",
+      "pointer": "/schedule/7/program"
+    },
+    {
+      "expected": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/campaign_id"
+    },
+    {
+      "expected": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/source_identity/commit"
+    },
+    {
+      "expected": "0",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": "baseline_instruct",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/evaluation/program"
+    },
+    {
+      "expected": "single1",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/evaluation/manifest"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/evaluation/sample_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/evaluation/correct_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/01.baseline_instruct.single1.r1.json",
+      "pointer": "/evaluation/error_count"
+    },
+    {
+      "expected": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/campaign_id"
+    },
+    {
+      "expected": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/source_identity/commit"
+    },
+    {
+      "expected": "0",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": "baseline_thinking",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/evaluation/program"
+    },
+    {
+      "expected": "single1",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/evaluation/manifest"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/evaluation/sample_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/evaluation/correct_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/02.baseline_thinking.single1.r1.json",
+      "pointer": "/evaluation/error_count"
+    },
+    {
+      "expected": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/campaign_id"
+    },
+    {
+      "expected": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/source_identity/commit"
+    },
+    {
+      "expected": "0",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": "manual_instruct",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/evaluation/program"
+    },
+    {
+      "expected": "single1",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/evaluation/manifest"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/evaluation/sample_count"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/evaluation/correct_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/03.manual_instruct.single1.r1.json",
+      "pointer": "/evaluation/error_count"
+    },
+    {
+      "expected": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/campaign_id"
+    },
+    {
+      "expected": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/source_identity/commit"
+    },
+    {
+      "expected": "0",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": "manual_thinking",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/evaluation/program"
+    },
+    {
+      "expected": "single1",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/evaluation/manifest"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/evaluation/sample_count"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/evaluation/correct_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/04.manual_thinking.single1.r1.json",
+      "pointer": "/evaluation/error_count"
+    },
+    {
+      "expected": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/campaign_id"
+    },
+    {
+      "expected": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/source_identity/commit"
+    },
+    {
+      "expected": "0",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": "evolved_instruct",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/evaluation/program"
+    },
+    {
+      "expected": "single1",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/evaluation/manifest"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/evaluation/sample_count"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/evaluation/correct_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/05.evolved_instruct.single1.r1.json",
+      "pointer": "/evaluation/error_count"
+    },
+    {
+      "expected": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/campaign_id"
+    },
+    {
+      "expected": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/source_identity/commit"
+    },
+    {
+      "expected": "0",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": "evolved_thinking",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/evaluation/program"
+    },
+    {
+      "expected": "single1",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/evaluation/manifest"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/evaluation/sample_count"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/evaluation/correct_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/06.evolved_thinking.single1.r1.json",
+      "pointer": "/evaluation/error_count"
+    },
+    {
+      "expected": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/campaign_id"
+    },
+    {
+      "expected": "ea8b7dc064a218499a812eedf69e7f99c480beca",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/source_identity/commit"
+    },
+    {
+      "expected": "0",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/gpu_scope/cuda_visible_devices"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/gpu_scope/physical_gpu_index"
+    },
+    {
+      "expected": 1,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/gpu_scope/visible_device_count"
+    },
+    {
+      "expected": "baseline_instruct",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/evaluation/program"
+    },
+    {
+      "expected": "dev128",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/evaluation/manifest"
+    },
+    {
+      "expected": 128,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/evaluation/sample_count"
+    },
+    {
+      "expected": 51,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/evaluation/correct_count"
+    },
+    {
+      "expected": 0,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/07.baseline_instruct.dev128.r1.json",
+      "pointer": "/evaluation/error_count"
+    },
+    {
+      "expected": "formal run timed out",
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/failure"
+    },
+    {
+      "expected": 7200,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/configured_timeout_seconds"
+    },
+    {
+      "expected": 8,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/failed_run_index"
+    },
+    {
+      "expected": false,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/artifact_presence/result_json"
+    },
+    {
+      "expected": false,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/artifact_presence/campaign_summary"
+    },
+    {
+      "expected": false,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/artifact_presence/completed_marker"
+    },
+    {
+      "expected": false,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/artifact_presence/run09_console"
+    },
+    {
+      "expected": false,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/artifact_presence/run09_result"
+    },
+    {
+      "expected": true,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/termination_evidence/child_process_absent"
+    },
+    {
+      "expected": true,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/termination_evidence/tmux_session_absent"
+    },
+    {
+      "expected": true,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/termination_evidence/gpu0_released"
+    },
+    {
+      "expected": false,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/policy/automatic_retry_performed"
+    },
+    {
+      "expected": false,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/policy/resume_performed_after_timeout"
+    },
+    {
+      "expected": false,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/policy/gpu1_queried_or_used"
+    },
+    {
+      "expected": true,
+      "path": "results/phase3/campaigns/6beb857c-ef2c-4e0a-a6e6-34abee7f4a13/incident.08.baseline_thinking.dev128.timeout_7200s.1.json",
+      "pointer": "/policy/hard_stop"
+    }
+  ],
+  "notes": [
+    "Phase 2 catalog campaigns completed and exported two real children.",
+    "Phase 3 formal comparison is incomplete; run 08 timed out at the frozen limit.",
+    "No best_accuracy.py, best_speed.py, or best_overall.py is selected."
+  ],
+  "phase2_complete": true,
+  "phase3": {
+    "automatic_retry": false,
+    "campaign_id": "6beb857c-ef2c-4e0a-a6e6-34abee7f4a13",
+    "completed_runs": 7,
+    "failed_run_index": 8,
+    "gpu1_queried_or_used": false,
+    "planned_runs": 30,
+    "timeout_seconds": 7200
+  },
+  "schema_version": 1,
+  "status": "BLOCKED_PHASE3_TIMEOUT"
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_role": "smoke",
+  "num_samples": 4,
+  "protocol_version": "gate1-exact-match-v4.2",
+  "query_keys": [
+    "0_0",
+    "0_1",
+    "0_2",
+    "0_3"
+  ],
+  "query_keys_sha256": "5e575564283efb2c7066e53fd8eb3da8952f7b1b7e1515e4404011195724923c",
+  "selection": "first insertion-ordered descriptive validation queries, matching provided evaluate.py"
+}

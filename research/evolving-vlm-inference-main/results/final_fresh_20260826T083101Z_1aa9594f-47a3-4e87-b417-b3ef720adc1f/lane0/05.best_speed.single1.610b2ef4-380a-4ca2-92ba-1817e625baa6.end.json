@@ -1,0 +1,22 @@
+{
+  "attempt_id": "610b2ef4-380a-4ca2-92ba-1817e625baa6",
+  "completed_at_utc": "2026-08-26T10:20:57.426027Z",
+  "console": {
+    "path": "lane0/05.best_speed.single1.610b2ef4-380a-4ca2-92ba-1817e625baa6.console.log",
+    "sha256": "89a7a044ccb4240efde5b572528822d3cec4fead2188cf98a21223895b4552e9",
+    "size_bytes": 1365
+  },
+  "elapsed_seconds": 30.607105493545532,
+  "event": "attempt_ended",
+  "outcome": "COMPLETED",
+  "physical_gpu_index": 0,
+  "program": "best_speed",
+  "result": {
+    "path": "lane0/05.best_speed.single1.610b2ef4-380a-4ca2-92ba-1817e625baa6.result.json",
+    "sha256": "2c5b21c3eca29ec8a8de0c449e5b08776bbd142c3db1cdb044661608ffa785d0",
+    "size_bytes": 2282
+  },
+  "returncode": 0,
+  "role": "single1",
+  "run_id": "1aa9594f-47a3-4e87-b417-b3ef720adc1f"
+}

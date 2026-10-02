@@ -1,0 +1,55 @@
+{
+  "attempt_id": "f39348f8-1f22-494d-b07c-fbb194af04c1",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 22.189610523637384,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 22.163076512049884,
+    "input_token_count": 919,
+    "peak_memory_bytes": 4481700352,
+    "preprocessing_seconds": 0.02487159986048937,
+    "termination_reason": "length",
+    "total_seconds": 22.18842810485512
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the legend in the figure. The legend has four entries. Let's check each one. The first is \"PD-HDDPG, proposed\" (blue triangles), then \"PD-DDPG, plain\" (red triangles), then \"LO-CU\" (green triangles), and \"RCU\" (orange squares). Wait, the legend is on the right side. Let's list them from top to bottom as per the legend's order. The legend entries are:\n\n1. PD-HDDPG, proposed (blue triangles)\n2. PD-DDPG, plain (red triangles)\n3. LO-CU (green triangles)\n4. RCU (orange squares)\n\nWait, the question says \"from top to bottom, then from left to right\". Wait, the legend is a box with four labels. Let's check the order. The legend in the image: the first label is \"PD-HDDPG, proposed\" (blue), then \"PD-DDPG, plain\" (red), then \"LO-CU\" (green), then \"RCU\" (orange). So the order in the legend is top to bottom as these four. Now, the question asks for the labels from top to bottom, then from left to right. Wait, the legend is a list of labels. Let's list them as they appear in the legend. The legend is:\n\n- PD-HDDPG, proposed\n- PD-DDPG, plain\n- LO-CU\n- RCU\n\nWait, but the legend's order is top to bottom. Let's check the image. The legend is a box with four entries. The first entry (top) is \"PD-HDDPG, proposed\", then \"PD-DDPG, plain\", then \"LO-CU\", then \"RCU\". So the labels from top to bottom are:\n\nPD-HDDPG, proposed, PD-DD",
+  "prediction_sha256": "d9827242a9b13e6815a55bc9f546cd8f217166c7580f30b20f149bf6189e986f",
+  "program": "evolved_thinking",
+  "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "42",
+    "image_sha256": "9a43b4890a205a4418e439a332c64be687b695769b93880ef64c9d2e6821f72a",
+    "index": 81,
+    "qid": "13",
+    "query_key": "42_1",
+    "question": "For the current plot, what are the names of the labels in the legend?\n    * You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot.\n    * If the plot does not have a legend or no legend is not considered relevant to this plot, answer \"Not Applicable\".",
+    "subq_idx": 1
+  },
+  "run_id": "9440bec0-bd7d-447e-9206-1f6848aeee18",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

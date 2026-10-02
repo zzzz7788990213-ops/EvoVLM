@@ -1,0 +1,18 @@
+{
+  "attempt": 1,
+  "attempt_id": "764973be-891e-4baf-8b06-de81af2bdf30",
+  "attempt_version": "phase3-recovery-attempt-v2",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "completed_unix": 1787628807.5872183,
+  "console_path": "results/phase3_recovery_v2/campaigns/1fa07427-6b42-4bbb-a9f9-af63742bdfc6/02.baseline_thinking.single1.r1.attempt.1.console.log",
+  "console_sha256": "2ee12d882fab9b2536055b526f4fc2d1398e076857c8ca704c2e0046fea8bac4",
+  "elapsed_seconds": 46.98751353472471,
+  "entry_index": 2,
+  "journal_count_after": 1,
+  "manifest": "single1",
+  "outcome": "COMPLETED",
+  "program": "baseline_thinking",
+  "protocol_id": "phase3-recovery-v2",
+  "repeat": 1,
+  "returncode": 0
+}

@@ -1,0 +1,12 @@
+{
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "campaign_plan_sha256": "8d329631caea13add8bb8bfb39a847affc3c5377b4605e703eac7f41ab4fb118",
+  "campaign_summary_sha256": "ca2866b66da4c37426849117d3fea02940522a6a6c389528967bc21372e21d3c",
+  "completed_at": "2026-08-25T08:43:44.816183Z",
+  "completed_version": "phase3-recovery-completed-v2",
+  "protocol_id": "phase3-recovery-v2",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

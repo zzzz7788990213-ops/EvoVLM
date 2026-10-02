@@ -1,0 +1,55 @@
+{
+  "attempt_id": "1ff08178-e00a-4275-bc51-8d1baac36190",
+  "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 21.476903709117323,
+  "manifest": {
+    "name": "dev128",
+    "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+    "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+  },
+  "measurement": {
+    "generated_token_count": 384,
+    "generation_seconds": 21.447000479325652,
+    "input_token_count": 870,
+    "peak_memory_bytes": 4468523008,
+    "preprocessing_seconds": 0.028545410837978125,
+    "termination_reason": "length",
+    "total_seconds": 21.475975702051073
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the legend in the chart. The legend has two entries: \"Class pair: 3 and 8\" and \"Class pair: 1 and 9\". The question asks for the labels from top to bottom, then left to right. So first, the top one is \"Class pair: 3 and 8\", then the next is \"Class pair: 1 and 9\". Wait, the legend is in the bottom left, so the order in the legend is top to bottom. Let me check the image. The legend has two lines: first line is \"Class pair: 3 and 8\" (with a blue dot), then \"Class pair: 1 and 9\" (with an orange triangle). So the labels are \"Class pair: 3 and 8\", \"Class pair: 1 and 9\". Now, the question says \"from top to bottom, then from left to right\". Wait, the legend is a box, so the order in the legend is top to bottom. So the first label in the legend (top) is \"Class pair: 3 and 8\", then the next (bottom) is \"Class pair: 1 and 9\". But the question says \"from top to bottom, then from left to right\". Wait, maybe the legend is arranged as top to bottom, so the first label is the top one, then the second. So the labels are \"Class pair: 3 and 8\", \"Class pair: 1 and 9\". Let me confirm. The legend in the image: the blue line is labeled \"Class pair: 3 and 8\" (top), and the orange line is \"Class pair: 1 and 9\" (bottom). So the labels are \"Class pair: 3 and 8\", \"Class pair: 1",
+  "prediction_sha256": "4775bcb1ff5e70c7a5f9fc4dc3ba480296f2b2a29f0b111c44e18dde3ac3e6e1",
+  "program": "manual_thinking",
+  "program_source_sha256": "60db13925030b2e346f363ab4a96eb6317641e0e964e4dd7519f7b2f4073fb58",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "61",
+    "image_sha256": "baf0f84a7f657facee976311530d51995ca4b175d5c7ec9de99988c0b0f8a623",
+    "index": 114,
+    "qid": "13",
+    "query_key": "61_2",
+    "question": "For the current plot, what are the names of the labels in the legend?\n    * You should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot.\n    * If the plot does not have a legend or no legend is not considered relevant to this plot, answer \"Not Applicable\".",
+    "subq_idx": 2
+  },
+  "run_id": "af18bd5e-fcf5-4853-a714-22326d0905d4",
+  "source_identity": {
+    "commit": "4a0a8dfba4ff531477dee76cf8e1c1e1ce8799b7",
+    "tree": "59077309b95c7752446242cbbf7f42ee5c7af2ab"
+  }
+}

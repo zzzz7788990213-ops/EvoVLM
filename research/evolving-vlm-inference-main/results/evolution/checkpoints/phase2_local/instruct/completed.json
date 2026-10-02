@@ -1,0 +1,16 @@
+{
+  "campaign_id": "campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860",
+  "campaign_version": "phase2-catalog-qwen-two-generation-v4",
+  "completion_version": "phase2-generation-completion-v1",
+  "export": {
+    "path": "evolved_instruct.py",
+    "sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984"
+  },
+  "final_summary": {
+    "path": "results/evolution/local_qwen/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/final_summary.json",
+    "sha256": "502996eccd7e103854a74eacc7e78f672356bb14404e3aa4689ee899a6c6c78f"
+  },
+  "generation2_checkpoint": "phase2_local/campaign-instruct-20260824T164152Z-f1848776c78b4ec787867e6c471da860/generation2.json",
+  "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+  "status": "completed"
+}

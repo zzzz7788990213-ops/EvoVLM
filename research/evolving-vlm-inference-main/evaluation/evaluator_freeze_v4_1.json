@@ -1,0 +1,99 @@
+{
+  "dataset": {
+    "ground_truth_path": "charxiv/data/descriptive_val.json",
+    "ground_truth_sha256": "5dc144dd043b77b32feeae2875c6112b1d7cc45e05790cf025859c21e9b40a68",
+    "image_count": 2323,
+    "image_manifest_path": "evaluation/provenance/charxiv_images_manifest_v4_1.json",
+    "image_manifest_sha256": "e5360ab3de32aa42c255cfe6d2f86268d0abeb47e0d10691bac2b7e340e1981f",
+    "image_zip_path_relative_to_evo": "data/charxiv/images.zip",
+    "image_zip_sha256": "c4b151cef2aba35523764dd1091d719d64acf81a16904d72f31da2723efbd855"
+  },
+  "evaluator_dependency_sha256": {
+    "charxiv/src/constants.py": "3858589acf65ec2f3f34db9b084563f52b3591ee778aa63066ee3893222e11fd",
+    "charxiv/src/descriptive_utils.py": "cd381a63847ab212112f18b5d6f8f238f13922d300ca682f17878628d1deeb83",
+    "evaluate.py": "1e0e78c8132956bba505414c080d942c05f2f972dde94d41ea221c0ae76e8c48",
+    "evaluation/atomic_artifacts.py": "654c91c0315d833ed7a78e1835ff9e201ec0328c9ca1c156aaf692e939fbdcdf",
+    "evaluation/build_freeze_v4.py": "e142c6db4cc46f407aa1e8e452623fe24b7388f161f5a9af3a746dd8c97a423f",
+    "evaluation/check_existing_v4.py": "61933e1fc08f5ca7a0bd38fa554a9f2f62d831fb8e362ba1bb27a5f9bdc3b0c8",
+    "evaluation/gpu_scope.py": "58cd59f300fd6f0067cf6fc4284047a8a956db42f7b9ddf762b494b666f10841",
+    "evaluation/metrics.py": "49dba40c6f06222c5ba6ef4863e194a322c16e5bec0b847c7724348d4ec00b20",
+    "evaluation/provenance.py": "10e3b4d0c65f3b0a2a0474d7dd44e971f6cacf68dea2f3aa6cf90d3d56b918d7",
+    "evaluation/reproduce_v4.py": "062957fc9f60dc47c4c0e192e8abc55b448156c60e6ea4dec02d6428fc909ed6",
+    "evaluation/schema_validator.py": "962f3a6e5d007548b96c67e727acee7ffdb76640405b5077c859700e80ce38dc",
+    "evaluation/verify_results.py": "adc32d6d1ddcadb1a5e3ddbfa5a9bad950c056fde25346f93fd831653b6da8bd",
+    "reproduce.sh": "6a11d2fbfbdfc7e70f913846e646ae27fd95469b42abc5dd622bc98b3554554d"
+  },
+  "freeze_id": "6d606e8f4ec5b305154f213800bf733e7ea0de12b5d060ab97959dcb676f670e",
+  "manifests": {
+    "dev_128": {
+      "path": "evaluation/manifests/v4_1/dev_128.json",
+      "sha256": "ff3f0fc68c8b6b8a91be98c56702c7da739e6964b9b5211a86dfaf938e884e55"
+    },
+    "single_1": {
+      "path": "evaluation/manifests/v4_1/single_1.json",
+      "sha256": "1fdd0efb83c516581facc219c06ca334d6c879ecdf5ed1c868e442c9e5721659"
+    },
+    "smoke_4": {
+      "path": "evaluation/manifests/v4_1/smoke_4.json",
+      "sha256": "5f0277d1ec0db222c5d8e504f44fe34f8260e649aa8aad5738227889c5c1d5ee"
+    },
+    "warmup_1": {
+      "path": "evaluation/manifests/v4_1/warmup_1.json",
+      "sha256": "a026bfca2aed288b9762d387dcc69b322034b01c2ae64a58383ff9f246c52b22"
+    }
+  },
+  "models": {
+    "Qwen/Qwen3-VL-2B-Instruct": {
+      "manifest_path": "evaluation/provenance/qwen3_vl_2b_instruct_manifest_v4_1.json",
+      "manifest_sha256": "eb26c807cd9cde10b00336a4a71b1a741a4a6cfafba7c4ecd7699306676feaa1",
+      "required_file_sha256": {
+        "chat_template.json": "6f8a6a55027e3da5160105556cda5dd69f6423f1c32645f6730d32de7773d0c4",
+        "config.json": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+        "generation_config.json": "1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4",
+        "model.safetensors": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+        "preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+        "tokenizer.json": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+        "tokenizer_config.json": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399"
+      },
+      "revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+      "snapshot_relative_to_evo": "models/Qwen3-VL-2B-Instruct"
+    },
+    "Qwen/Qwen3-VL-2B-Thinking": {
+      "manifest_path": "evaluation/provenance/qwen3_vl_2b_thinking_manifest_v4_1.json",
+      "manifest_sha256": "4e7453a51ceacdc59653a7cf7b34a076b33300961aa36286649d71515b078e15",
+      "required_file_sha256": {
+        "chat_template.json": "efad756db13feb8e8c5fe1341713bf18b82e91916b978d36b7c043f2b1bedf5f",
+        "config.json": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+        "generation_config.json": "fe72e86576da6dc6886b1083d9216296dcfa085e7a86feb3c8888a1faa52e656",
+        "model.safetensors": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888",
+        "preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+        "tokenizer.json": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+        "tokenizer_config.json": "7b501e639b4d107a23effbe30390ee33d553f722467f7ac8e2744d7ff5d3a7d5"
+      },
+      "revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+      "snapshot_relative_to_evo": "models/Qwen3-VL-2B-Thinking"
+    }
+  },
+  "program_dependency_sha256": {
+    "baseline_instruct": {
+      "baseline_common.py": "b6e8e20e281c28d5cfb80eb44cf7ac72f8d2465c8874f5e2293b3f14da72a724",
+      "baseline_instruct.py": "5d8e635e28ea5cc6c1458daecbc6c5aa80ab84ad1ce1ad021f9a2c4a2775a8d4",
+      "evaluation/atomic_artifacts.py": "654c91c0315d833ed7a78e1835ff9e201ec0328c9ca1c156aaf692e939fbdcdf",
+      "evaluation/gpu_scope.py": "58cd59f300fd6f0067cf6fc4284047a8a956db42f7b9ddf762b494b666f10841"
+    },
+    "baseline_thinking": {
+      "baseline_common.py": "b6e8e20e281c28d5cfb80eb44cf7ac72f8d2465c8874f5e2293b3f14da72a724",
+      "baseline_thinking.py": "042c67af753daca27225db12cc48df9b509773f8a7b703dfef8384b9e9378fab",
+      "evaluation/atomic_artifacts.py": "654c91c0315d833ed7a78e1835ff9e201ec0328c9ca1c156aaf692e939fbdcdf",
+      "evaluation/gpu_scope.py": "58cd59f300fd6f0067cf6fc4284047a8a956db42f7b9ddf762b494b666f10841"
+    }
+  },
+  "protocol_path": "evaluation/protocol_v4_1.json",
+  "protocol_sha256": "76303f35904b6fb1f39565cf13b8b0bbf4915d1da9c906a8e412d4f4edcb485f",
+  "protocol_version": "gate1-exact-match-v4.1",
+  "requirements_lock_path": "requirements.lock.txt",
+  "requirements_lock_sha256": "3955e4785fc650f44c98cf479386ac07b32ca0469c96b97bfccb3b31609ca52f",
+  "result_schema_path": "evaluation/result_schema_v4_1.json",
+  "result_schema_sha256": "79f5fdf4fcd0183aabcd75e7cb8455d153e316b61279ac9dd7d424d03ffdde19",
+  "schema_version": 4
+}

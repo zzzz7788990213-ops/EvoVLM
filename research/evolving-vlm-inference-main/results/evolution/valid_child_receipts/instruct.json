@@ -1,0 +1,108 @@
+{
+  "artifacts": {
+    "provider": {
+      "path": "workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/mutation.json",
+      "sha256": "7944bbd8a465efa3435a99b18d969a7282762a8410507a6dafb3b01fdc9f58d3",
+      "size_bytes": 26147
+    },
+    "run_manifest": {
+      "path": "workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/run_manifest.json",
+      "sha256": "2f242f7b519cb81304632b05be7e91ae43a8aa9ec438f073fcdd5cfe756be9f5",
+      "size_bytes": 21281
+    },
+    "smoke_summary": {
+      "path": "workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/smoke_summary.json",
+      "sha256": "8d4ff6e8fc23a1fa7d6521098b4253342748ca2c0937c21dc08746521c7b0bec",
+      "size_bytes": 5395
+    },
+    "target_single": {
+      "path": "workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7/target_single.json",
+      "sha256": "d0e83d73dcc3b50a86fd6c294bab89bb6e8eb3dedecb78932048461531914f7b",
+      "size_bytes": 4489
+    }
+  },
+  "campaign_id": "provider-smoke-instruct-20260824T163740Z-195eb698261a48db8e130026cda21ef7",
+  "child_validation": {
+    "candidate_id": "d5ad5f210c4143cda0bf7d4e",
+    "canonical_dsl_sha256": "41f1779097fb6cf685d91769af16dd9cf252f9cad43ebae0fc96c0c224da66c5",
+    "child_program_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+    "focus_field_differences": {
+      "extraction_strategy": {
+        "child": "boxed_or_final",
+        "parent": "final_tag"
+      },
+      "max_new_tokens": {
+        "child": 64,
+        "parent": 48
+      }
+    },
+    "mutation_focus": "token_budget_and_extraction",
+    "mutation_focus_fields": [
+      "max_new_tokens",
+      "extraction_strategy"
+    ],
+    "parent_child_diff_sha256": "7faea609643ba216f134f9e8f9d2c1686778efb47f7d1157ce3aade96fbb8ea7",
+    "parent_id": "seed-instruct",
+    "parent_program_sha256": "cec2687a170df540ceb878c18c99a6fdee45b4d95c19fd5354d9de948160e130",
+    "provider_call_count": 1,
+    "request_id": "g1_child1",
+    "run_manifest_sha256": "2f242f7b519cb81304632b05be7e91ae43a8aa9ec438f073fcdd5cfe756be9f5",
+    "selected_choice_id": "I_TE_03",
+    "semantic_retry_calls": 0,
+    "single": {
+      "accuracy": 1.0,
+      "correct_count": 1,
+      "error_count": 0,
+      "sample_count": 1
+    },
+    "static_import_receipt": {
+      "interface": "vlm_inference(image_path, question)",
+      "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+      "program_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+      "renderer_version": "phase2-local-renderer-v2",
+      "torch_imported": false
+    },
+    "winning_attempt": "catalog_ranking"
+  },
+  "created_at_utc": "2026-08-24T16:39:01.485605+00:00",
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "mutation_model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "network_attempts": {
+    "provider": 0,
+    "target": 0
+  },
+  "provider_name": "CatalogConstrainedQwenMutationProvider/Qwen3-VL-2B-Instruct@78448d793a7eb2f7a987a1da76d464384aa1becd/single-token-argmax-bfloat16-sdpa-offline",
+  "receipt_id": "8a868beaa15c88db3c6af6c3f4810fbb52bf12fc1c7f44dc0daa56e58018903a",
+  "receipt_version": "phase2-valid-child-receipt-v3",
+  "run_manifest_sha256": "2f242f7b519cb81304632b05be7e91ae43a8aa9ec438f073fcdd5cfe756be9f5",
+  "source": {
+    "commit": "7e032fb112bfd116c8dca1e4df4ef5b795c54770",
+    "project_relative_path": "workspace/evolving-vlm-inference-main",
+    "tree": "8ae74c5efb3d5c1e83f47580b099cc54d3ef042a"
+  },
+  "versions": {
+    "campaign": "phase2-catalog-qwen-two-generation-v4",
+    "candidate_runtime": "phase2-trusted-target-runtime-v2",
+    "catalog": "phase2-mutation-catalog-v1",
+    "dsl": "phase2-declarative-v2",
+    "provider": "phase2-local-qwen-mutation-v4",
+    "receipt": "phase2-valid-child-receipt-v3",
+    "renderer": "phase2-local-renderer-v2",
+    "run_manifest": "phase2-production-run-manifest-v1",
+    "target_worker": "phase2-restricted-target-v3"
+  }
+}

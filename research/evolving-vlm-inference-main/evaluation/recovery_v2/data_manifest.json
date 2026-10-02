@@ -1,0 +1,36 @@
+{
+  "manifest_version": "phase3-recovery-data-manifest-v2",
+  "roles": {
+    "dev128": {
+      "figure_order_sha256": "b1122c055549beb5eaca5bdf758bab85c967c74251df09bc61ec03b53d968230",
+      "path": "data/phase3/manifests/dev128.json",
+      "query_key_order_sha256": "089ca589574bad7ae22dc3540a4a5b63cb09da7e5e37a20e9fbb5877feb14aa6",
+      "sample_count": 128,
+      "sha256": "11dc0376996104e243c06b6dafd73fe6ecb7b164e2103eb7e57abbe1af9d60c6"
+    },
+    "single1": {
+      "figure_order_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "path": "data/phase3/manifests/single1.json",
+      "query_key_order_sha256": "87194e11340606118b69fc87e10a5d80edfeec6ece04969366bc291262706c97",
+      "sample_count": 1,
+      "sha256": "87c2a5d1c6e96888deb99e4c35b78cdaf56ec46054eeb00c3ec1959492812da3"
+    },
+    "speed32": {
+      "figure_order_sha256": "d7b61f05ec790ca8fb6c95aebdeabc84ecc85887b8ff36e5c2911f59866d34d9",
+      "path": "data/phase3/manifests/speed32.json",
+      "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+      "sample_count": 32,
+      "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+    },
+    "warmup1": {
+      "figure_order_sha256": "98144d79af44407273f26589afc01901b7b296deada61a4740b0d404c5043c53",
+      "path": "data/phase3/manifests/warmup1.json",
+      "query_key_order_sha256": "9b792daf1440ea00fb7353b7dde4202a1f7c69d10c12f580a693827d2cf9046a",
+      "sample_count": 1,
+      "sha256": "201bd90ecd2478682e67a422c061c8137db9fff81d8514dc329b7450555307ea"
+    }
+  },
+  "same_dev128_as_v1": true,
+  "same_ground_truth_and_images": true,
+  "same_speed32_as_v1": true
+}

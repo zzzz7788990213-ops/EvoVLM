@@ -1,0 +1,220 @@
+{
+  "accuracy": {
+    "definition": "prediction.strip().casefold()==expected.strip().casefold()",
+    "errors_remain_in_denominator": true,
+    "manifest": "dev128",
+    "repeats": 1
+  },
+  "complement": {
+    "cannot_change_selection": true,
+    "definition": "Dev128 queries whose figure was never used in Phase2",
+    "report_only": true
+  },
+  "cuda_visible_devices": "0",
+  "generation": {
+    "attention": "sdpa",
+    "batch_size": 1,
+    "do_sample": false,
+    "dtype": "bfloat16",
+    "greedy": true,
+    "num_beams": 1,
+    "quantization": "none"
+  },
+  "logical_device": "cuda:0",
+  "paired_inference": {
+    "bootstrap": "paired accuracy difference with replacement",
+    "bootstrap_interval": "Type-7 percentile 2.5% and 97.5%",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260824,
+    "cannot_change_selection": true,
+    "comparisons": "each optimized program versus its family baseline",
+    "mcnemar": "exact two-sided test on paired Dev128 correctness"
+  },
+  "physical_gpu_index": 0,
+  "program_order": [
+    "baseline_instruct",
+    "baseline_thinking",
+    "manual_instruct",
+    "manual_thinking",
+    "evolved_instruct",
+    "evolved_thinking"
+  ],
+  "protocol_id": "phase3-dev128-speed32-v1",
+  "schedule": [
+    {
+      "manifest": "single1",
+      "program": "baseline_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "single1",
+      "program": "baseline_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "single1",
+      "program": "manual_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "single1",
+      "program": "manual_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "single1",
+      "program": "evolved_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "single1",
+      "program": "evolved_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "dev128",
+      "program": "baseline_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "dev128",
+      "program": "baseline_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "dev128",
+      "program": "manual_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "dev128",
+      "program": "manual_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "dev128",
+      "program": "evolved_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "dev128",
+      "program": "evolved_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "speed32",
+      "program": "baseline_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 1
+    },
+    {
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 1
+    },
+    {
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 2
+    },
+    {
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 2
+    },
+    {
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 2
+    },
+    {
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 2
+    },
+    {
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 2
+    },
+    {
+      "manifest": "speed32",
+      "program": "baseline_thinking",
+      "repeat": 2
+    },
+    {
+      "manifest": "speed32",
+      "program": "evolved_instruct",
+      "repeat": 3
+    },
+    {
+      "manifest": "speed32",
+      "program": "evolved_thinking",
+      "repeat": 3
+    },
+    {
+      "manifest": "speed32",
+      "program": "baseline_instruct",
+      "repeat": 3
+    },
+    {
+      "manifest": "speed32",
+      "program": "baseline_thinking",
+      "repeat": 3
+    },
+    {
+      "manifest": "speed32",
+      "program": "manual_instruct",
+      "repeat": 3
+    },
+    {
+      "manifest": "speed32",
+      "program": "manual_thinking",
+      "repeat": 3
+    }
+  ],
+  "speed": {
+    "aggregate": [
+      "mean",
+      "median",
+      "type7_p95",
+      "qps"
+    ],
+    "fixed_excluded_warmup": "warmup1 before each run",
+    "load_time_excluded": true,
+    "manifest": "speed32",
+    "repeat_results_never_selected_or_discarded": true,
+    "repeats": 3,
+    "selection_latency": "per-query median across 3 repeats; aggregate median"
+  },
+  "timing": {
+    "components": [
+      "preprocessing_seconds",
+      "generation_seconds",
+      "total_seconds"
+    ],
+    "components_are_diagnostic": true,
+    "latency_seconds": "outer wall clock with CUDA pre-sync and post-sync",
+    "peak_memory_bytes": "torch.cuda.max_memory_allocated after per-query reset"
+  },
+  "visible_device_count": 1
+}

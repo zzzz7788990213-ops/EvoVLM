@@ -1,0 +1,55 @@
+{
+  "campaign_id": "provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201",
+  "campaign_version": "phase2-catalog-qwen-two-generation-v4",
+  "child": {
+    "candidate_id": "21408a648a00e0736d7f4691",
+    "canonical_dsl": "CANDIDATE = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking', 'system_instruction': '', 'prompt_template': \"Use only evidence visible in the scientific figure; do not invent missing or inapplicable chart elements. Use the model's native reasoning, then return only the concise final answer enclosed in <final> and </final>. Question: {question}\", 'reasoning_mode': 'thinking', 'max_new_tokens': 384, 'min_pixels': 200704, 'max_pixels': 1003520, 'preprocessing_option': 'qwen_default', 'extraction_strategy': 'final_tag', 'postprocessing_strategy': 'strip', 'dtype': 'bfloat16', 'attention': 'sdpa', 'batch_size': 1, 'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'use_cache': True}\n",
+    "generation": 1,
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "parent_id": "seed-thinking",
+    "rendered_sha256": "3dbd70c2d0aa32996286d2c7b7f42d61ec73db77a14ac4d56e2dfa1795767d84",
+    "rendered_source": "\"\"\"Deterministic renderer-generated VLM inference program.\"\"\"\n\nfrom evolution.candidate_runtime import CandidateRuntime\n\nRENDERER_VERSION = 'phase2-local-renderer-v2'\nCANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n 'system_instruction': '',\n 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n                    \"missing or inapplicable chart elements. Use the model's native \"\n                    'reasoning, then return only the concise final answer enclosed in '\n                    '<final> and </final>. Question: {question}',\n 'reasoning_mode': 'thinking',\n 'max_new_tokens': 384,\n 'min_pixels': 200704,\n 'max_pixels': 1003520,\n 'preprocessing_option': 'qwen_default',\n 'extraction_strategy': 'final_tag',\n 'postprocessing_strategy': 'strip',\n 'dtype': 'bfloat16',\n 'attention': 'sdpa',\n 'batch_size': 1,\n 'do_sample': False,\n 'num_beams': 1,\n 'num_return_sequences': 1,\n 'use_cache': True}\nMODEL_ID = 'Qwen/Qwen3-VL-2B-Thinking'\nMODEL_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nPROCESSOR_REVISION = 'd4f1d9f1b0107e12699c3c83d7baacd07fd0abd3'\nMODEL_WEIGHT_SHA256 = 'd889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888'\nDTYPE = 'bfloat16'\nATTENTION_IMPLEMENTATION = 'sdpa'\nQUANTIZATION = 'none'\nEFFECTIVE_GENERATION_CONFIG = {'do_sample': False, 'num_beams': 1, 'num_return_sequences': 1, 'max_new_tokens': 384, 'use_cache': True}\n\n_RUNTIME = CandidateRuntime(CANDIDATE_SPEC)\n\ndef vlm_inference(image_path: str, question: str) -> str:\n    return _RUNTIME.vlm_inference(image_path, question)\n",
+    "repair_used": false,
+    "request_id": "g1_child0",
+    "scores": {
+      "single": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "errors": 0,
+        "fixed_warmup_included_in_score": false,
+        "mean_generation_seconds": 14.476082267705351,
+        "mean_latency_seconds": 14.586816310882568,
+        "mean_preprocessing_seconds": 0.10994879063218832,
+        "peak_memory_bytes": 4433340416,
+        "samples": 1,
+        "stage": "single",
+        "termination_counts": {
+          "eos": 1
+        },
+        "timing_load_included": false,
+        "total_generated_tokens": 146,
+        "total_generation_seconds": 14.476082267705351,
+        "total_preprocessing_seconds": 0.10994879063218832,
+        "total_seconds": 14.586816310882568
+      }
+    },
+    "static_receipt": {
+      "interface": "vlm_inference(image_path, question)",
+      "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+      "program_sha256": "3dbd70c2d0aa32996286d2c7b7f42d61ec73db77a14ac4d56e2dfa1795767d84",
+      "renderer_version": "phase2-local-renderer-v2",
+      "torch_imported": false
+    },
+    "unified_diff": "--- parent_program.py\n+++ child_program.py\n@@ -5,9 +5,10 @@\n RENDERER_VERSION = 'phase2-local-renderer-v2'\n CANDIDATE_SPEC = {'model_id': 'Qwen/Qwen3-VL-2B-Thinking',\n  'system_instruction': '',\n- 'prompt_template': \"Analyze the chart carefully using the model's native reasoning. \"\n-                    'Finish with the concise answer enclosed in <final> and </final>. '\n-                    'Question: {question}',\n+ 'prompt_template': 'Use only evidence visible in the scientific figure; do not invent '\n+                    \"missing or inapplicable chart elements. Use the model's native \"\n+                    'reasoning, then return only the concise final answer enclosed in '\n+                    '<final> and </final>. Question: {question}',\n  'reasoning_mode': 'thinking',\n  'max_new_tokens': 384,\n  'min_pixels': 200704,\n"
+  },
+  "exported": false,
+  "gpu_budget_seconds": 2700.0,
+  "gpu_elapsed_seconds": 63.21991055319086,
+  "kind": "provider_smoke",
+  "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+  "provider": "CatalogConstrainedQwenMutationProvider/Qwen3-VL-2B-Instruct@78448d793a7eb2f7a987a1da76d464384aa1becd/single-token-argmax-bfloat16-sdpa-offline",
+  "qualification_focus": "prompt_template",
+  "qualification_ordinal": 1,
+  "run_manifest_path": "/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/workspace/evolving-vlm-inference-main/results/evolution/local_qwen/provider-smoke-thinking-20260824T175441Z-7c20693d3ec24205a4b4bdbc439bc201/run_manifest.json",
+  "run_manifest_sha256": "d394395294fdbdd8fad539d3219fe522d91f40d3b794b8d9da0dd777b358218a"
+}

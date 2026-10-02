@@ -1,0 +1,55 @@
+{
+  "attempt_id": "00e2198b-0d5e-4e45-9d22-8ef29da7f0bb",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "correct": false,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 10.897624723613262,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 79,
+    "generation_seconds": 10.821182736195624,
+    "input_token_count": 597,
+    "peak_memory_bytes": 4412696064,
+    "preprocessing_seconds": 0.07395228836685419,
+    "termination_reason": "eos",
+    "total_seconds": 10.89551080018282
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Thinking",
+    "model_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "processor_revision": "d4f1d9f1b0107e12699c3c83d7baacd07fd0abd3",
+    "weight_sha256": "d889ae8b5bffcfce115bc64e47601b1e90ce44b1d9f40ed78e620fd22417d888"
+  },
+  "prediction": "So, let's look at the figure. The y-axis is labeled \"Val. Acc. (%)\" as seen on the left side of the graph. The question asks for the explicit label of the y-axis. In the plot, the y-axis has the text \"Val. Acc. (%)\" written there. So the answer should be that label.\n</think>\n\nVal. Acc. (%)",
+  "prediction_sha256": "8004efc3e541efb1d575872f87b688cd905d41265140a3d3224a8a8b01ef4c19",
+  "program": "evolved_thinking",
+  "program_source_sha256": "81bedc0e16a3954bc55aea73120ed47f661534a79f01ff9dfd66069c2af1efe6",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "132",
+    "image_sha256": "b8385885e20e7144298b381530e87c6083769305b954f2d5995584820cb25f49",
+    "index": 15,
+    "qid": "3",
+    "query_key": "132_1",
+    "question": "For the current plot, what is the label of the y-axis?\n    * Your final answer should be the label of the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, answer the label of the y-axis at the left.\n    * If the plot does not have an explicit y-axis label, answer 'Not Applicable'.",
+    "subq_idx": 1
+  },
+  "run_id": "0c82210b-cc42-471c-b24e-3917e7bdcbae",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  }
+}

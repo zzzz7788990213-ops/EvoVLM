@@ -1,0 +1,17 @@
+/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/charxiv/src/constants.py:255: SyntaxWarning: invalid escape sequence '\g'
+  Response 3: \alpha, \beta, \gamma^t_v
+/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/charxiv/src/constants.py:339: SyntaxWarning: invalid escape sequence '\l'
+  * Question: What is the name of the curve that intersects y=\lambda exactly three times?
+/scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.venv/lib/python3.13/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{
+  "program": "manual_thinking",
+  "num_evaluated": 128,
+  "correct": 23,
+  "accuracy": 0.1796875,
+  "num_errors": 0,
+  "total_time": 2950.4168768608943,
+  "avg_time_per_query": 23.050131850475736
+}
+saved: /scratch/Projects/CFP-04/CFP04-SF-122/xin.w24/fmwc/zinuo/Evo/.runtime/final_strict_archive_0354229/project/.reproduce_runtime/fresh/20260826T083101Z.1aa9594f-47a3-4e87-b417-b3ef720adc1f/lane1/01.manual_thinking.dev128.2febfd16-9161-4631-b4d2-72aa5dc1678b.result.json

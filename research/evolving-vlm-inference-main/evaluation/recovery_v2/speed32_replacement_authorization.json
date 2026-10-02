@@ -1,0 +1,75 @@
+{
+  "authorization_version": "phase3-speed32-replacement-v1",
+  "authorized_by": "user",
+  "authorized_at_utc": "2026-08-25T09:00:00Z",
+  "reason": "external GPU0 workload overlapped the third Speed32 rotation of the completed Recovery-v2 campaign",
+  "old_campaign": {
+    "campaign_id": "1fa07427-6b42-4bbb-a9f9-af63742bdfc6",
+    "campaign_plan_sha256": "8d329631caea13add8bb8bfb39a847affc3c5377b4605e703eac7f41ab4fb118",
+    "campaign_summary_sha256": "ca2866b66da4c37426849117d3fea02940522a6a6c389528967bc21372e21d3c",
+    "completed_sha256": "0651a6751c450b7747397a984a52e479a0e90198fb647835ce8547a743a4658e",
+    "result_count": 26,
+    "speed32_status": "NON_QUALIFYING_EXTERNAL_GPU0_CONTENTION",
+    "single_and_dev128_status": "VALID_AND_RETAINED",
+    "bytes_must_remain_unchanged": true
+  },
+  "replacement_scope": {
+    "new_campaign_uuid_required": true,
+    "authorized_schedule_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "manifest": "speed32",
+    "programs": [
+      "baseline_instruct",
+      "manual_instruct",
+      "manual_thinking",
+      "evolved_instruct",
+      "evolved_thinking"
+    ],
+    "repeats": 3,
+    "full_replacement_required": true,
+    "partial_replacement_forbidden": true,
+    "old_and_new_speed_results_must_not_mix": true,
+    "old_single_and_dev128_results_are_retained": true
+  },
+  "frozen_inputs": {
+    "phase3_recovery_sha256": "5b13f1f6c8543b48192bd0210e8bb1e4446fec531e415707f46b4a7dd5d4afd8",
+    "protocol_sha256": "a251e703c94167df9ff19dd4ff21f9c66297e1caa80d1519a0e0721e711b79dd",
+    "candidate_manifest_sha256": "7e1f0416cc327d6257e1d235a31f7b48e384b44a8e28eed9a75245d1bbe238f9",
+    "data_manifest_sha256": "d9beee3fa956313c9c7d0691c03fdadeba031937b1fc8b25eaf5a29b4bb03cbd",
+    "selection_rules_sha256": "fb3a634fa042f3e473053cfa03463b045aaec8a96989627ffebf9d9b55bc52d7",
+    "recovery_authorization_sha256": "c787e2077f54b421e65211871c54e9bdd2d2bc724451b4566f4465731281871c",
+    "speed32_manifest_sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87",
+    "warmup1_manifest_sha256": "201bd90ecd2478682e67a422c061c8137db9fff81d8514dc329b7450555307ea",
+    "runtime_evaluator_and_selection_must_be_byte_identical": true
+  },
+  "gpu_policy": {
+    "host": "hopper-25",
+    "physical_gpu_index": 0,
+    "cuda_visible_devices": "0",
+    "visible_device_count": 1,
+    "logical_device": "cuda:0",
+    "gpu1_must_not_be_queried_or_used": true,
+    "strictly_serial": true,
+    "continuous_idle_gate_seconds": 120,
+    "idle_poll_seconds": 15,
+    "active_telemetry_seconds": 5,
+    "foreign_pid_action": "STOP_OWN_REPLACEMENT_ONLY_AND_DO_NOT_START_A_THIRD_SPEED_CAMPAIGN"
+  },
+  "metric_conditioned_retry": false,
+  "best_report_and_package_forbidden_until_full_replacement_validates": true
+}

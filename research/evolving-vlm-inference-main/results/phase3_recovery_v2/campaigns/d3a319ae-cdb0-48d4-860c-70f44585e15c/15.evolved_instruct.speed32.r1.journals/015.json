@@ -1,0 +1,55 @@
+{
+  "attempt_id": "10c59afa-8d8d-4deb-af5c-4b17a986ffc1",
+  "campaign_id": "d3a319ae-cdb0-48d4-860c-70f44585e15c",
+  "correct": true,
+  "error_message": null,
+  "error_type": null,
+  "gpu_scope": {
+    "cuda_visible_devices": "0",
+    "device_name": "NVIDIA H200",
+    "logical_device": "cuda:0",
+    "physical_gpu_index": 0,
+    "visible_device_count": 1
+  },
+  "journal_version": "phase3-recovery-query-journal-v2",
+  "latency_seconds": 10.215342063456774,
+  "manifest": {
+    "name": "speed32",
+    "query_key_order_sha256": "1cc20ceda88e579f848cf6bcedd36a7a9734459bcc018534bbdf81ea72fe57ec",
+    "sha256": "29c3c972089731c12c89c2df2ed5eb81723bf82feda9a77999e255ee10147f87"
+  },
+  "measurement": {
+    "generated_token_count": 6,
+    "generation_seconds": 10.161889168433845,
+    "input_token_count": 579,
+    "peak_memory_bytes": 4409479680,
+    "preprocessing_seconds": 0.049725000746548176,
+    "termination_reason": "eos",
+    "total_seconds": 10.212029754184186
+  },
+  "model": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "processor_revision": "78448d793a7eb2f7a987a1da76d464384aa1becd",
+    "weight_sha256": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0"
+  },
+  "prediction": "Val. Acc. (%)",
+  "prediction_sha256": "b7b7bda626c29f63d0d32cdada055abbaecd5a551bc4484b261798f4ecf13f3d",
+  "program": "evolved_instruct",
+  "program_source_sha256": "1c58d489733b7031c7bed3d7a27a9840cf364a9c916cd6eab54febd4b43bb984",
+  "protocol_id": "phase3-recovery-v2",
+  "query": {
+    "figure_id": "132",
+    "image_sha256": "b8385885e20e7144298b381530e87c6083769305b954f2d5995584820cb25f49",
+    "index": 15,
+    "qid": "3",
+    "query_key": "132_1",
+    "question": "For the current plot, what is the label of the y-axis?\n    * Your final answer should be the label of the y-axis that is explicitly written, including the case when y-axis is shared across multiple subplots. When the y-axis is present on both the left and right of the plot, answer the label of the y-axis at the left.\n    * If the plot does not have an explicit y-axis label, answer 'Not Applicable'.",
+    "subq_idx": 1
+  },
+  "run_id": "35e0a193-6ac7-4e32-844d-32643246ebdb",
+  "source_identity": {
+    "commit": "34270de76a497d9b465f5f07ceb0e12e478da276",
+    "tree": "48f3331b2cfb83fb24e97ec77b06e68118e02ff4"
+  }
+}
